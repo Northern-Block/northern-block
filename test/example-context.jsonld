@@ -1,0 +1,36 @@
+{
+    "@context": {
+      "@version": 1.1,
+      "id": "@id",
+      "type": "@type",
+      
+      "EvidenceCredential": "https://adarshnb-19.github.io/driving-license-contex/vocab.jsonld#Evidence",
+      
+      "givenName": {
+        "@id": "https://adarshnb-19.github.io/driving-license-contex/vocab.jsonld#givenName",
+        "@type": "http://www.w3.org/2001/XMLSchema#string"
+      },
+      "familyName": {
+        "@id": "https://adarshnb-19.github.io/driving-license-contex/vocab.jsonld#familyName",
+        "@type": "http://www.w3.org/2001/XMLSchema#string"
+      },
+      "birthdate_dateint": {
+        "@id": "https://adarshnb-19.github.io/driving-license-contex/vocab.jsonld#birthdate_dateint",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      },
+      "licence_number": {
+        "@id": "https://adarshnb-19.github.io/driving-license-contex/vocab.jsonld#licence_number",
+        "@type": "http://www.w3.org/2001/XMLSchema#string"
+      },
+      "licence_status": {
+        "@id": "https://adarshnb-19.github.io/driving-license-contex/vocab.jsonld#licence_status",
+        "@type": "http://www.w3.org/2001/XMLSchema#string"
+      },
+      "address": {
+        "@id": "https://adarshnb-19.github.io/driving-license-contex/vocab.jsonld#address",
+        "@type": "@id"
+      },
+      "Address": "https://adarshnb-19.github.io/driving-license-contex/vocab.jsonld#Address"
+    }
+  }
+  

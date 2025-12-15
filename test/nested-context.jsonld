@@ -1,7 +1,6 @@
 {
   "@context": {
     "@version": 1.1,
-    "@protected": true,
     
     "DrivingLicenseCredential": "https://adarshnb-19.github.io/driving-license-contex/vocab.jsonld#DrivingLicense",
     

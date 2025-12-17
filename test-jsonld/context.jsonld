@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "vocab": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld",
+    "id": "@id",
+    "type": "@type",
+    "PersonIdentityCredential": {
+      "@id": "https://Northern-Block.github.io/northern-block/test-jsonld/context.jsonld#PersonIdentityCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "credentialType": "vocab:credentialType",
+        "givenName": "vocab:givenName",
+        "familyName": "vocab:familyName",
+        "birthDate": "vocab:birthDate",
+        "email": "vocab:email",
+        "phoneNumber": "vocab:phoneNumber",
+        "address": {
+          "@id": "vocab:address",
+          "@type": "https://Northern-Block.github.io/northern-block/test-jsonld/context.jsonld#PostalAddress"
+        },
+        "document": {
+          "@id": "vocab:document",
+          "@type": "https://Northern-Block.github.io/northern-block/test-jsonld/context.jsonld#IdentityDocument"
+        },
+        "isOver18": "vocab:isOver18",
+        "isOver21": "vocab:isOver21",
+        "isOver65": "vocab:isOver65"
+      }
+    },
+    "PostalAddress": {
+      "@id": "https://Northern-Block.github.io/northern-block/test-jsonld/context.jsonld#PostalAddress",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "streetAddress": "vocab:streetAddress",
+        "locality": "vocab:locality",
+        "region": "vocab:region",
+        "postalCode": "vocab:postalCode",
+        "country": "vocab:country"
+      }
+    },
+    "IdentityDocument": {
+      "@id": "https://Northern-Block.github.io/northern-block/test-jsonld/context.jsonld#IdentityDocument",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "@type": "@type",
+        "type": "vocab:documentType",
+        "documentNumber": "vocab:documentNumber",
+        "issuerCountry": "vocab:issuerCountry",
+        "expiryDate": "vocab:expiryDate"
+      }
+    }
+  }
+}

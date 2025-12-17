@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "ext": "http://example.org/jsonld"
+  },
+  "credentialType": {
+    "id": "ext:credentialType",
+    "label": "Canonical Verifiable Credential Type identifier"
+  },
+  "givenName": {
+    "id": "ext:givenName",
+    "label": "The given name of the person"
+  },
+  "familyName": {
+    "id": "ext:familyName",
+    "label": "The family name of the person"
+  },
+  "birthDate": {
+    "id": "ext:birthDate",
+    "label": "Date of birth in ISO 8601 format",
+    "type": "xsd:date"
+  },
+  "email": {
+    "id": "ext:email",
+    "label": "Email address of the subject"
+  },
+  "phoneNumber": {
+    "id": "ext:phoneNumber",
+    "label": "Telephone number in international format"
+  },
+  "isOver18": {
+    "id": "ext:isOver18",
+    "label": "True if the subject is over 18 years old",
+    "type": "xsd:boolean"
+  },
+  "isOver21": {
+    "id": "ext:isOver21",
+    "label": "True if the subject is over 21 years old",
+    "type": "xsd:boolean"
+  },
+  "isOver65": {
+    "id": "ext:isOver65",
+    "label": "True if the subject is over 65 years old",
+    "type": "xsd:boolean"
+  },
+
+  "streetAddress": {
+    "id": "ext:streetAddress",
+    "label": "Street address"
+  },
+  "locality": {
+    "id": "ext:locality",
+    "label": "City or locality"
+  },
+  "region": {
+    "id": "ext:region",
+    "label": "State or region"
+  },
+  "postalCode": {
+    "id": "ext:postalCode",
+    "label": "Postal or ZIP code"
+  },
+  "country": {
+    "id": "ext:country",
+    "label": "ISO 3166-1 alpha-2 country code"
+  },
+
+  "documentType": {
+    "id": "ext:documentType",
+    "label": "Type of identity document (PASSPORT, DRIVER_LICENSE, NATIONAL_ID)"
+  },
+  "documentNumber": {
+    "id": "ext:documentNumber",
+    "label": "Document number of the identity document"
+  },
+  "issuerCountry": {
+    "id": "ext:issuerCountry",
+    "label": "Country that issued the identity document"
+  },
+  "expiryDate": {
+    "id": "ext:expiryDate",
+    "label": "Expiry date of the identity document",
+    "type": "xsd:date"
+  }
+}

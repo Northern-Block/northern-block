@@ -10,8 +10,6 @@
       "@context": {
         "@version": 1.1,
         "@protected": true,
-        "id": "@id",
-        "type": "@type",
         "credentialType": "vocab:credentialType",
         "givenName": "vocab:givenName",
         "familyName": "vocab:familyName",
@@ -36,8 +34,6 @@
       "@context": {
         "@version": 1.1,
         "@protected": true,
-        "id": "@id",
-        "type": "@type",
         "streetAddress": "vocab:streetAddress",
         "locality": "vocab:locality",
         "region": "vocab:region",
@@ -50,8 +46,6 @@
       "@context": {
         "@version": 1.1,
         "@protected": true,
-        "id": "@id",
-        "@type": "@type",
         "documentType": "vocab:documentType",
         "documentNumber": "vocab:documentNumber",
         "issuerCountry": "vocab:issuerCountry",

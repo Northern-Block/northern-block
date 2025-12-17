@@ -52,7 +52,7 @@
         "@protected": true,
         "id": "@id",
         "@type": "@type",
-        "type": "vocab:documentType",
+        "documentType": "vocab:documentType",
         "documentNumber": "vocab:documentNumber",
         "issuerCountry": "vocab:issuerCountry",
         "expiryDate": "vocab:expiryDate"

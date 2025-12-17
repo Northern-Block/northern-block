@@ -9,7 +9,8 @@
       "@id": "https://Northern-Block.github.io/northern-block/test-jsonld/context.jsonld#PersonIdentityCredential",
       "@context": {
         "@version": 1.1,
-        "@protected": true,
+        "id": "@id",
+        "type": "@type",
         "credentialType": "vocab:credentialType",
         "givenName": "vocab:givenName",
         "familyName": "vocab:familyName",
@@ -33,7 +34,8 @@
       "@id": "https://Northern-Block.github.io/northern-block/test-jsonld/context.jsonld#PostalAddress",
       "@context": {
         "@version": 1.1,
-        "@protected": true,
+        "id": "@id",
+        "type": "@type",
         "streetAddress": "vocab:streetAddress",
         "locality": "vocab:locality",
         "region": "vocab:region",
@@ -45,7 +47,8 @@
       "@id": "https://Northern-Block.github.io/northern-block/test-jsonld/context.jsonld#IdentityDocument",
       "@context": {
         "@version": 1.1,
-        "@protected": true,
+        "id": "@id",
+        "type": "@type",
         "documentType": "vocab:documentType",
         "documentNumber": "vocab:documentNumber",
         "issuerCountry": "vocab:issuerCountry",

@@ -1,0 +1,115 @@
+{
+  "id": "https://Northern-Block.github.io/northern-block/issuer-agent/real-estate/schema/driving-license-test-1.0.1.json",
+  "name": "Driving_license_test",
+  "version": "1.0.1",
+  "credentialFormat": "JSON_LD",
+  "attributes": {
+    "HomeownerProfessionalCredential": {
+      "type": "object",
+      "properties": {
+        "homeowner": {
+          "type": "object",
+          "properties": {
+            "property_id": {
+              "type": "text"
+            },
+            "mortgage_flag": {
+              "type": "text"
+            },
+            "ownership_type": {
+              "type": "text"
+            },
+            "occupancy_status": {
+              "type": "text"
+            },
+            "property_address": {
+              "type": "text"
+            }
+          }
+        },
+        "profession": {
+          "type": "object",
+          "properties": {
+            "jurisdiction": {
+              "type": "text"
+            },
+            "business_name": {
+              "type": "text"
+            },
+            "licence_number": {
+              "type": "text"
+            },
+            "licence_status": {
+              "type": "text"
+            },
+            "business_address": {
+              "type": "text"
+            },
+            "insurance_coverage": {
+              "type": "text"
+            },
+            "profession_category": {
+              "type": "text"
+            }
+          }
+        },
+        "family_name": {
+          "type": "text"
+        },
+        "given_names": {
+          "type": "text"
+        },
+        "verified_email": {
+          "type": "text"
+        },
+        "birthdate_dateint": {
+          "type": "text"
+        },
+        "evidence_governance": {
+          "type": "object",
+          "properties": {
+            "issuer": {
+              "type": "text"
+            },
+            "evidence": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "text"
+                },
+                "source": {
+                  "type": "text"
+                },
+                "verifier": {
+                  "type": "text"
+                },
+                "timestamp": {
+                  "type": "text"
+                }
+              }
+            },
+            "proof_level": {
+              "type": "text"
+            },
+            "terms_of_use": {
+              "type": "text"
+            },
+            "issuance_date": {
+              "type": "text"
+            },
+            "self_onboarded": {
+              "type": "text"
+            },
+            "expiration_date": {
+              "type": "text"
+            },
+            "credential_schema": {
+              "type": "text"
+            }
+          }
+        }
+      }
+    }
+  },
+  "governanceUrl": "https://mining.ca.governance"
+}

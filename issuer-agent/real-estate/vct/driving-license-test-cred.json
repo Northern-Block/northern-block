@@ -1,8 +1,0 @@
-{
-  "id": "https://Northern-Block.github.io/northern-block/issuer-agent/real-estate/vct/driving-license-test-cred.json",
-  "type": "VerifiableCredentialTypeDefinition",
-  "name": "Driving_License_test_cred",
-  "schema": {},
-  "jsonLdContext": {},
-  "propertyBindings": {}
-}

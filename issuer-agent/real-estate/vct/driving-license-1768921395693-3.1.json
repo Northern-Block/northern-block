@@ -1,8 +1,0 @@
-{
-  "id": "https://Northern-Block.github.io/northern-block/issuer-agent/real-estate/vct/driving-license-1768921395693-3.1.json",
-  "type": "VerifiableCredentialTypeDefinition",
-  "name": "Driving_License",
-  "schema": {},
-  "jsonLdContext": {},
-  "propertyBindings": {}
-}

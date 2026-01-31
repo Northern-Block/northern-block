@@ -1,1 +1,10 @@
-{"id":"https://Northern-Block.github.io/northern-block/real-estate/issuer-agent/vct/person-details-1769093115042-1.0.json","type":"VerifiableCredentialTypeDefinition","name":"Person_details","schema":{},"jsonLdContext":{},"propertyBindings":{}}
+{
+    "id": "https://Northern-Block.github.io/northern-block/real-estate/issuer-agent/vct/person-details-1769093115042-1.0.json",
+    "type": "VerifiableCredentialTypeDefinition",
+    "name": "Person_details",
+    "schema": {
+        "id": "https://Northern-Block.github.io/northern-block/real-estate/issuer-agent/schema/person-detials-1.0.json"
+    },
+    "jsonLdContext": {},
+    "propertyBindings": {}
+}

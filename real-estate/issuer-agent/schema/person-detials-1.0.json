@@ -25,6 +25,9 @@
             "postalCode": {
               "type": "text"
             },
+            "postalAddress": {
+              "type": "text"
+            },
             "streetAddress": {
               "type": "text"
             }

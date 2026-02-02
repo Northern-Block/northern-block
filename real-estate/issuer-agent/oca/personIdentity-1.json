@@ -5,12 +5,14 @@
     "attributes": {
       "givenName": "Text",
       "familyName": "Text",
+      "gender": "Text",
       "birthDate": "DateTime",
       "address.streetAddress": "Text",
       "address.locality": "Text",
       "address.region": "Text",
       "address.postalCode": "Text",
-      "address.country": "Text"
+      "address.country": "Text",
+      "address.postalAddress": "Text"
     },
     "flagged_attributes": [
       "givenName",
@@ -25,11 +27,13 @@
         "givenName": "utf-8",
         "familyName": "utf-8",
         "birthDate": "utf-8",
+        "gender": "utf-8",
         "address.streetAddress": "utf-8",
         "address.locality": "utf-8",
         "address.region": "utf-8",
         "address.postalCode": "utf-8",
-        "address.country": "utf-8"
+        "address.country": "utf-8",
+        "address.postalAddress": "utf-8"
       }
     },
     {
@@ -38,11 +42,13 @@
         "givenName",
         "familyName",
         "birthDate",
+        "gender",
         "address.streetAddress",
         "address.locality",
         "address.region",
         "address.postalCode",
-        "address.country"
+        "address.country",
+        "address.postalAddress"
       ]
     },
     {
@@ -50,14 +56,16 @@
       "summary": [
         "givenName",
         "familyName",
-        "birthDate"
+        "birthDate",
+        "gender"
       ],
       "details": [
         "address.streetAddress",
         "address.locality",
         "address.region",
         "address.postalCode",
-        "address.country"
+        "address.country",
+        "address.postalAddress"
       ]
     },
     {
@@ -67,11 +75,13 @@
         "givenName": "Given Name",
         "familyName": "Family Name",
         "birthDate": "Date of Birth",
+        "gender": "Gender",
         "address.streetAddress": "Street Address",
         "address.locality": "City",
         "address.region": "State / Region",
         "address.postalCode": "Postal Code",
-        "address.country": "Country"
+        "address.country": "Country",
+        "address.postalAddress": "Postal Address"
       }
     },
     {
@@ -81,11 +91,13 @@
         "givenName": "Prénom",
         "familyName": "Nom de famille",
         "birthDate": "Date de naissance",
+        "gender": "gender",
         "address.streetAddress": "Adresse",
         "address.locality": "Ville",
         "address.region": "Région",
         "address.postalCode": "Code postal",
-        "address.country": "Pays"
+        "address.country": "Pays",
+        "address.postalAddress": "Postal Address"
       }
     },
     {
@@ -99,11 +111,13 @@
         "givenName": "personal",
         "familyName": "personal",
         "birthDate": "personal",
+        "gender": "personal",
         "address.streetAddress": "address",
         "address.locality": "address",
         "address.region": "address",
         "address.postalCode": "address",
-        "address.country": "address"
+        "address.country": "address",
+        "address.postalAddress": "address"
       }
     },
     {
@@ -113,11 +127,13 @@
         "givenName": "The person’s given name as it appears on official identity documents.",
         "familyName": "The person’s family name as recorded in government registries.",
         "birthDate": "The individual’s date of birth.",
+        "gender": "The person's gender",
         "address.streetAddress": "Street name and number of residence.",
         "address.locality": "City or locality of residence.",
         "address.region": "Administrative region or state.",
         "address.postalCode": "Postal or ZIP code.",
-        "address.country": "Country of residence."
+        "address.country": "Country of residence.",
+        "address.postalAddress": "Postal Address"
       }
     },
     {
@@ -127,11 +143,13 @@
         "givenName": "Prénom figurant sur les documents officiels.",
         "familyName": "Nom de famille enregistré.",
         "birthDate": "Date de naissance officielle.",
+        "gender": "Gender",
         "address.streetAddress": "Nom et numéro de la rue.",
         "address.locality": "Ville de résidence.",
         "address.region": "Région administrative.",
         "address.postalCode": "Code postal.",
-        "address.country": "Pays de résidence."
+        "address.country": "Pays de résidence.",
+        "address.postalAddress": "Postal Address"
       }
     },
     {
@@ -174,7 +192,8 @@
           "fields": [
             "givenName",
             "familyName",
-            "birthDate"
+            "birthDate",
+            "gender"
           ]
         },
         "back": {
@@ -183,7 +202,8 @@
             "address.locality",
             "address.region",
             "address.postalCode",
-            "address.country"
+            "address.country",
+            "address.postalAddress"
           ]
         }
       },

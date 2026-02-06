@@ -1,5 +1,5 @@
 {
-  "id": "https://Northern-Block.github.io/northern-block/real-estate/issuer-agent/schema/home-owner-1.0.json",
+  "id": "https://Northern-Block.github.io/northern-block/real-estate/issuer-agent/schema/importSchema1.json",
   "name": "HomeOwner",
   "version": "1.0",
   "credentialFormat": "JSON_LD",

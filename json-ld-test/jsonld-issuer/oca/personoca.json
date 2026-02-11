@@ -1,5 +1,5 @@
 {
-  "id": "https://Northern-Block.github.io/northern-block/real-estate/issuer-agent/oca/personoca.json",
+  "id": "https://Northern-Block.github.io/northern-block/json-ld-test/jsonld-issuer/oca/personoca.json",
   "capture_base": {
     "type": "spec/capture_base/1.0",
     "attributes": {

@@ -1,0 +1,154 @@
+{
+  "id": "https://Northern-Block.github.io/northern-block/real-estate/issuer-agent/oca/personoca.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "name": "Text",
+      "jobTitle": "Text",
+      "dob": "DateTime",
+      "worksFor.name": "Text"
+    },
+    "flagged_attributes": [
+      "jobTitle"
+    ]
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {
+        "name": "utf-8",
+        "jobTitle": "utf-8",
+      "dob": "utf-8",
+        "worksFor.name": "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "name",
+        "jobTitle",
+        "dob",
+        "worksFor.name"
+      ]
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "name",
+        "jobTitle",
+        "dob"
+      ],
+      "details": [
+        "worksFor.name"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "name": "Name",
+        "jobTitle": "Job Title",
+        "dob": "Date Of Birth",
+        "worksFor.name": "Name of Organization"
+      }
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "fr",
+      "attribute_labels": {
+        "name": "Prénom",
+        "dob": "Date Of Birth",
+        "jobTitle": "Nom de famille",
+        "worksFor.name": "Date de naissance"
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        "person": "Personal Information",
+        "organization": "Organization"
+      },
+      "attribute_categories": {
+        "name": "person",
+        "jobTitle": "person",
+        "dob": "person",
+        "worksFor.name": "organization"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "name": "The person’s given name as it appears on official identity documents.",
+        "jobTitle": "The person’s family name as recorded in government registries.",
+        "dob": "person",
+        "worksFor.name": "The individual’s date of birth."
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "fr",
+      "attribute_information": {
+        "name": "Prénom figurant sur les documents officiels.",
+        "dob": "person",
+        "jobTitle": "Nom de famille enregistré.",
+        "worksFor.name": "Date de naissance officielle."
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {
+        "dob": "YYYY-MM-DD"
+      }
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {
+        "dob": "urn:iso:std:iso:8601"
+      }
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Person Identity Credential",
+      "description": "A verifiable credential representing a person’s core legal identity attributes.",
+      "issuer": "Example Identity Authority",
+      "issuer_url": "https://example.org",
+      "credential_support_url": "https://example.org/support"
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#003366",
+      "secondary_background_color": "#E6F0FA",
+      "logo": "https://example.org/logo/person-identity.png",
+      "primary_attribute": "name",
+      "secondary_attribute": "jobTitle"
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Person Identity",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": [
+            "name",
+            "jobTitle",
+            "dob"
+          ]
+        },
+        "back": {
+          "fields": [
+            "worksFor.name"
+          ]
+        }
+      },
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
+    }
+  ]
+}

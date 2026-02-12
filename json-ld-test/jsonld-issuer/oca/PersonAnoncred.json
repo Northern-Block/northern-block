@@ -86,7 +86,8 @@
       "background_image_slice": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/CityOfVancouver/dev-property-rental-business-licence/cov-background-slice.jpg",
       "background_image": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/CityOfVancouver/dev-property-rental-business-licence/cov-background-image.jpg",
       "primary_background_color": "#015982",
-      "secondary_background_color": "#4b8516"
+      "secondary_background_color": "#4b8516",
+      "primary_attribute": "first_name"
     }
   ]
 }

@@ -1,0 +1,87 @@
+{
+  "capture_base": {
+    "attributes": {
+      "first_name": "Text",
+      "last_name": "Text",
+      "dob_dateint": "DateTime"
+    },
+    "classification": "",
+    "digest": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+    "flagged_attributes": [
+      "first_name",
+      "last_name"
+    ],
+    "type": "spec/capture_base/1.0"
+  },
+  "overlays": [
+    {
+      "attribute_character_encoding": {
+        "first_name": "utf-8",
+        "last_name": "utf-8",
+        "dob_dateint": "utf-8"
+      },
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "default_character_encoding": "utf-8",
+      "digest": "EggyBX7giHwyps3AX9ubYZnjfVspL0KqxFV4eFOPm5gE",
+      "type": "spec/overlays/character_encoding/1.0"
+    },
+    {
+      "attribute_categories": [],
+      "attribute_labels": {
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "dob_dateint": "Date Of Birth"
+      },
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "category_labels": {},
+      "digest": "ESJNm1_sybFWaY263eHkyeOVp79aKd2v7LgVcBfF-_OY",
+      "language": "en",
+      "type": "spec/overlays/label/1.0"
+    },
+    {
+      "attribute_information": {
+        "first_name": "Person First Name",
+        "last_name": "Person Last Name",
+        "dob_dateint": "Person Date Of Birth"
+      },
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "digest": "Eybxa0t_Z04GnHkWyYNqjBV5zuRkmLTrfgRtAnHsDP0g",
+      "language": "en",
+      "type": "spec/overlays/information/1.0"
+    },
+    {
+      "attribute_formats": {
+        "dob_dateint": "YYYYMMDD"
+        
+      },
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "digest": "EEfZ7EXB9VIVO2rmHU2TEg-12SMiM2RH5o-ADePYDJvI",
+      "type": "spec/overlays/format/1.0"
+    },
+    {
+      "attribute_standards": {
+        "dob_dateint": "urn:iso:std:iso:1989"
+      },
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "digest": "EKDaCg0RiGNDfigqAvpeoYbug6doKrmS1M-a0eWVkh4M",
+      "type": "spec/overlays/standard/1.0"
+    },
+    {
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "credential_support_url": "https://example.ca/",
+      "description": "A Test Person Credential",
+      "digest": "EH-csJIS8NWowtDx-AH9R8wANPIIT9doKGdF1cikm9VE",
+      "issuer": "",
+      "issuer_description": "JsonLd Test issuer",
+      "issuer_url": "https://example.ca/",
+      "language": "en",
+      "name": "Person Credential",
+      "type": "spec/overlays/meta/1.0",
+      "watermark": "DEMONSTRATION"
+    },
+    {
+      "secondary_attribute": "dob_dateint",
+      "type": "aries/overlays/branding/1.0"
+    }
+  ]
+}

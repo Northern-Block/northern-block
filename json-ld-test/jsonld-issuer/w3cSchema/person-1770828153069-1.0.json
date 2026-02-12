@@ -1,1 +1,54 @@
-{"$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://Northern-Block.github.io/northern-block/json-ld-test/jsonld-issuer/w3cSchema/person-1770828153069-1.0.json","title":"Person","type":"object","properties":{"name":{"type":"string","title":"Name","description":"The person’s given name as it appears on official identity documents.","minLength":5,"maxLength":10},"jobTitle":{"type":"string","title":"Job Title","description":"The person’s family name as recorded in government registries.","minLength":1,"maxLength":10},"dob":{"type":"string","format":"date","title":"Date Of Birth","description":"person","pattern":"YYYY-MM-DD"},"worksFor":{"$ref":"#/$defs/WorksFor"}},"required":["id","name","jobTitle","dob"],"additionalProperties":false,"$defs":{"WorksFor":{"type":"object","properties":{"name":{"type":"string","title":"Name of Organization","description":"The individual’s date of birth.","minLength":1,"maxLength":10}},"required":[],"additionalProperties":false}}}
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://Northern-Block.github.io/northern-block/json-ld-test/jsonld-issuer/w3cSchema/person-1770828153069-1.0.json",
+    "title": "Person",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "title": "Name",
+            "description": "The person’s given name as it appears on official identity documents.",
+            "minLength": 5,
+            "maxLength": 10
+        },
+        "jobTitle": {
+            "type": "string",
+            "title": "Job Title",
+            "description": "The person’s family name as recorded in government registries.",
+            "minLength": 1,
+            "maxLength": 10
+        },
+        "dob": {
+            "type": "string",
+            "format": "date",
+            "title": "Date Of Birth",
+            "description": "person",
+            "pattern": "YYYY-MM-DD"
+        },
+        "worksFor": {
+            "$ref": "#/$defs/WorksFor"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "jobTitle"
+    ],
+    "additionalProperties": false,
+    "$defs": {
+        "WorksFor": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "title": "Name of Organization",
+                    "description": "The individual’s date of birth.",
+                    "minLength": 1,
+                    "maxLength": 10
+                }
+            },
+            "required": ["name"],
+            "additionalProperties": false
+        }
+    }
+}

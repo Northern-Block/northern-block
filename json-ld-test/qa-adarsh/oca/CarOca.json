@@ -60,10 +60,12 @@
       "type": "spec/overlays/category/1.0",
       "language": "en",
       "category_labels": {
-        
+        "name":"Car Name ",
+        "brand" :"Car Brand"
       },
       "attribute_categories": {
-        
+        "name" : "name",
+        "brand" :"brand","price" :"brand"
       }
     },
     {

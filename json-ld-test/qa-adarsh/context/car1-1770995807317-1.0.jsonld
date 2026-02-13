@@ -1,0 +1,1 @@
+{"@context":{"@version":1.1,"@protected":true,"id":"@id","type":"@type","Car1":{"@id":"https://Northern-Block.github.io/northern-block/json-ld-test/qa-adarsh/context/car1-1770995807317-1.0.jsonld#Car1","@context":{"@version":1.1,"@protected":true,"id":"@id","type":"@type","name":"https://schema.org/name","brand":"https://schema.org/brand","price":"https://schema.org/price"}}}}

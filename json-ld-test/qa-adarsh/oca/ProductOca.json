@@ -129,7 +129,7 @@
       "secondary_background_color": "#E6F0FA",
       "logo": "https://example.org/logo/person-identity.png",
       "primary_attribute": "name",
-      "secondary_attribute": "jobTitle"
+      "secondary_attribute": "sku"
     },
     {
       "type": "spec/overlays/card/1.0",

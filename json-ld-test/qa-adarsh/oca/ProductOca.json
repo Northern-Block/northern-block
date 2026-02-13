@@ -1,0 +1,161 @@
+{
+  "id": "https://Northern-Block.github.io/northern-block/json-ld-test/qa-adarsh/oca/ProductOca.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "name": "Text",
+      "brand.name": "Text",
+      "offers.price": "Text",
+      "offers.priceCurrency": "Text",
+      "sku": "Text"
+    },
+    "flagged_attributes": [
+      "sku"
+    ]
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {
+        "name": "utf-8",
+        "brand.name": "utf-8",
+        "offers.price": "utf-8",
+        "offers.priceCurrency": "utf-8",
+        "sku": "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "brand.name",
+        "name",
+        "sku",
+        "offers.price",
+        "offers.priceCurrency"
+      ]
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "brand.name",
+        "offers.price",
+        "offers.priceCurrency",
+        "sku"
+      ],
+      "details": [
+        "name"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "name": "Product Name",
+        "brand.name": "Prodcut Brand",
+        "offers.price": "Product Price",
+        "offers.priceCurrency": "Currency",
+        "sku": "SKU"
+      }
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "fr",
+      "attribute_labels": {
+        "name": "Product Name",
+        "brand.name": "Prodcut Brand",
+        "offers.price": "Product Price",
+        "offers.priceCurrency": "Currency",
+        "sku": "SKU"
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        "brand": "Brand Information",
+        "offer": "Offers"
+      },
+      "attribute_categories": {
+        "name": "brand",
+        "brand.name": "brand",
+        "offers.price": "offer",
+        "offers.priceCurrency": "offer"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "name": "This is Product Name",
+        "brand.name": "This is Brand Name",
+        "offers.price": "This is Offerd Price",
+        "offers.priceCurrency": "This is the product curreny"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "fr",
+      "attribute_information": {
+        "name": "This is Product Name",
+        "brand.name": "This is Brand Name",
+        "offers.price": "This is Offerd Price",
+        "offers.priceCurrency": "This is the product curreny"
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {
+       
+      }
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {
+     
+      }
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Product Credential",
+      "description": "A verifiable credential representing a person’s core legal identity attributes.",
+      "issuer": "QA-adarsh",
+      "issuer_url": "https://example.org",
+      "credential_support_url": "https://example.org/support"
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#003366",
+      "secondary_background_color": "#E6F0FA",
+      "logo": "https://example.org/logo/person-identity.png",
+      "primary_attribute": "name",
+      "secondary_attribute": "jobTitle"
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Product",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": [
+            "brand.name",
+            "name",
+            "offers.price",
+            "offers.priceCurrency"
+          ]
+        },
+        "back": {
+          "fields": [
+            "sku"
+          ]
+        }
+      },
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
+    }
+  ]
+}

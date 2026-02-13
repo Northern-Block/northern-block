@@ -1,0 +1,141 @@
+{
+  "id": "https://Northern-Block.github.io/northern-block/json-ld-test/qa-adarsh/oca/CarOca.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "name": "Text",
+      "brand": "Text",
+      "price": "Text"
+    },
+    "flagged_attributes": [
+      "brand"
+    ]
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {
+        "name": "utf-8",
+        "brand": "utf-8",
+        "price": "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "brand",
+        "name",
+        "price"
+      ]
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "brand",
+        "price"
+      ],
+      "details": [
+        "name"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "name": "Car Name",
+        "brand": "Car Brand",
+        "price": "Car Price"
+      }
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "fr",
+      "attribute_labels": {
+        "name": "Car Name",
+        "brand": "Car Brand",
+        "price": "Car Price"
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        
+      },
+      "attribute_categories": {
+        
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "name": "This is Car Name",
+        "brand": "This is Brand Name",
+        "price": "This is Offerd Price"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "fr",
+      "attribute_information": {
+        "name": "This is Car Name",
+        "brand": "This is Brand Name",
+        "price": "This is Offerd Price"
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {
+       
+      }
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {
+     
+      }
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Car Credential",
+      "description": "A verifiable credential representing a person’s core legal identity attributes.",
+      "issuer": "QA-adarsh",
+      "issuer_url": "https://example.org",
+      "credential_support_url": "https://example.org/support"
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#003366",
+      "secondary_background_color": "#E6F0FA",
+      "logo": "https://example.org/logo/person-identity.png",
+      "primary_attribute": "name",
+      "secondary_attribute": "brand"
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Car",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": [
+            "brand",
+            "name"
+          ]
+        },
+        "back": {
+          "fields": [
+            "price"
+          ]
+        }
+      },
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
+    }
+  ]
+}

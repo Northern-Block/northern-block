@@ -1,0 +1,1 @@
+{"id":"https://Northern-Block.github.io/northern-block/json-ld-test/qa-adarsh/schema/car-1.0.json","name":"Car","version":"1.0","credentialFormat":"JSON_LD","attributes":{"Car":{"type":"object","properties":{"name":{"type":"text"},"price":{"type":"text"},"brancd":{"type":"text"}}}},"governanceUrl":"https://mining.ca.governance"}

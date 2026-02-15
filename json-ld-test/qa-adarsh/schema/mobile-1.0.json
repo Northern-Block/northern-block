@@ -1,0 +1,1 @@
+{"id":"https://Northern-Block.github.io/northern-block/json-ld-test/qa-adarsh/schema/mobile-1.0.json","name":"mobile","version":"1.0","credentialFormat":"JSON_LD","attributes":{"mobile":{"type":"object","properties":{"name":{"type":"text"},"brand":{"type":"text"},"price":{"type":"text"}}}},"governanceUrl":"https://mining.ca.governance"}

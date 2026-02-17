@@ -1,0 +1,177 @@
+{
+  "id": "https://northern-block.github.io/northern-block/test-eco-system/qa-amarjeet/oca/Student_Identity.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "givenName": "Text",
+      "gender": "Text",
+      "birthDate": "DateTime",
+      "address.locality": "Text",
+      "address.region": "Text",
+      "address.country": "Text"
+    },
+    "flagged_attributes": [
+      "givenName",
+      "birthDate"
+    ]
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {
+        "givenName": "utf-8",
+        "birthDate": "utf-8",
+        "gender": "utf-8",
+        "address.locality": "utf-8",
+        "address.region": "utf-8",
+        "address.country": "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "givenName",
+        "birthDate",
+        "gender",
+        "address.locality",
+        "address.region",
+        "address.country"
+      ]
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "givenName",
+        "birthDate",
+        "gender"
+      ],
+      "details": [
+        "address.locality",
+        "address.region",
+        "address.country"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "givenName": "Given Name",
+        "birthDate": "Date of Birth",
+        "gender": "Gender",
+        "address.locality": "City",
+        "address.region": "State / Region",
+        "address.country": "Country"
+      }
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "fr",
+      "attribute_labels": {
+        "givenName": "Prénom",
+        "birthDate": "Date de naissance",
+        "gender": "gender",
+        "address.locality": "Ville",
+        "address.region": "Région",
+        "address.country": "Pays"
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        "personal": "Personal Information",
+        "address": "Address"
+      },
+      "attribute_categories": {
+        "givenName": "personal",
+        "birthDate": "personal",
+        "gender": "personal",
+        "address.locality": "address",
+        "address.region": "address",
+        "address.country": "address"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "givenName": "The person's given name as it appears on official identity documents.",
+        "birthDate": "The individual's date of birth.",
+        "gender": "The person's gender",
+        "address.locality": "City or locality of residence.",
+        "address.region": "Administrative region or state.",
+        "address.country": "Country of residence."
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "fr",
+      "attribute_information": {
+        "givenName": "Prénom figurant sur les documents officiels.",
+        "birthDate": "Date de naissance officielle.",
+        "gender": "Gender",
+        "address.locality": "Ville de résidence.",
+        "address.region": "Région administrative.",
+        "address.country": "Pays de résidence."
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {
+        "birthDate": "YYYY-MM-DD",
+        "gender": ["MALE", "FEMALE", "NOT SAY"]
+      }
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {
+        "birthDate": "urn:iso:std:iso:8601",
+        "address.country": "urn:iso:std:iso:3166"
+      }
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Student Identity",
+      "description": "A verifiable credential representing a Student Identity Credential Attrbiutes.",
+      "issuer": "QA-Amarjeet",
+      "issuer_url": "https://example.org",
+      "credential_support_url": "https://example.org/support"
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#003366",
+      "secondary_background_color": "#E6F0FA",
+      "logo": "https://example.org/logo/person-identity.png",
+      "primary_attribute": "givenName",
+      "secondary_attribute": "birthDate"
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Student Identity",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": [
+            "givenName",
+            "birthDate",
+            "gender"
+          ]
+        },
+        "back": {
+          "fields": [
+            "address.locality",
+            "address.region",
+            "address.country"
+          ]
+        }
+      },
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
+    }
+  ]
+}

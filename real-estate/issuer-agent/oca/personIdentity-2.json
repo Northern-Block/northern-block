@@ -1,0 +1,218 @@
+{
+  "id": "https://northern-block.github.io/northern-block/real-estate/issuer-agent/oca/personIdentity-2.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "givenName": "Text",
+      "familyName": "Text",
+      "gender": "Text",
+      "birthDate": "DateTime",
+      "address.streetAddress": "Text",
+      "address.locality": "Text",
+      "address.region": "Text",
+      "address.postalCode": "Text",
+      "address.country": "Text",
+      "address.postalAddress": "Text"
+    },
+    "flagged_attributes": [
+      "givenName",
+      "familyName",
+      "birthDate"
+    ]
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {
+        "givenName": "utf-8",
+        "familyName": "utf-8",
+        "birthDate": "utf-8",
+        "gender": "utf-8",
+        "address.streetAddress": "utf-8",
+        "address.locality": "utf-8",
+        "address.region": "utf-8",
+        "address.postalCode": "utf-8",
+        "address.country": "utf-8",
+        "address.postalAddress": "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "givenName",
+        "familyName",
+        "birthDate",
+        "gender",
+        "address.streetAddress",
+        "address.locality",
+        "address.region",
+        "address.postalCode",
+        "address.country",
+        "address.postalAddress"
+      ]
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "givenName",
+        "familyName",
+        "birthDate",
+        "gender"
+      ],
+      "details": [
+        "address.streetAddress",
+        "address.locality",
+        "address.region",
+        "address.postalCode",
+        "address.country",
+        "address.postalAddress"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "givenName": "Given Name",
+        "familyName": "Family Name",
+        "birthDate": "Date of Birth",
+        "gender": "Gender",
+        "address.streetAddress": "Street Address",
+        "address.locality": "City",
+        "address.region": "State / Region",
+        "address.postalCode": "Postal Code",
+        "address.country": "Country",
+        "address.postalAddress": "Postal Address"
+      }
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "fr",
+      "attribute_labels": {
+        "givenName": "Prénom",
+        "familyName": "Nom de famille",
+        "birthDate": "Date de naissance",
+        "gender": "gender",
+        "address.streetAddress": "Adresse",
+        "address.locality": "Ville",
+        "address.region": "Région",
+        "address.postalCode": "Code postal",
+        "address.country": "Pays",
+        "address.postalAddress": "Postal Address"
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        "personal": "Personal Information",
+        "address": "Address"
+      },
+      "attribute_categories": {
+        "givenName": "personal",
+        "familyName": "personal",
+        "birthDate": "personal",
+        "gender": "personal",
+        "address.streetAddress": "address",
+        "address.locality": "address",
+        "address.region": "address",
+        "address.postalCode": "address",
+        "address.country": "address",
+        "address.postalAddress": "address"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "givenName": "The person’s given name as it appears on official identity documents.",
+        "familyName": "The person’s family name as recorded in government registries.",
+        "birthDate": "The individual’s date of birth.",
+        "gender": "The person's gender",
+        "address.streetAddress": "Street name and number of residence.",
+        "address.locality": "City or locality of residence.",
+        "address.region": "Administrative region or state.",
+        "address.postalCode": "Postal or ZIP code.",
+        "address.country": "Country of residence.",
+        "address.postalAddress": "Postal Address"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "fr",
+      "attribute_information": {
+        "givenName": "Prénom figurant sur les documents officiels.",
+        "familyName": "Nom de famille enregistré.",
+        "birthDate": "Date de naissance officielle.",
+        "gender": "Gender",
+        "address.streetAddress": "Nom et numéro de la rue.",
+        "address.locality": "Ville de résidence.",
+        "address.region": "Région administrative.",
+        "address.postalCode": "Code postal.",
+        "address.country": "Pays de résidence.",
+        "address.postalAddress": "Postal Address"
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {
+        "birthDate": "YYYY-MM-DD",
+        "gender": ["male", "female"]
+      }
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {
+        "birthDate": "urn:iso:std:iso:8601",
+        "address.country": "urn:iso:std:iso:3166"
+      }
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Person Identity Credential",
+      "description": "A verifiable credential representing a person’s core legal identity attributes.",
+      "issuer": "Example Identity Authority",
+      "issuer_url": "https://example.org",
+      "credential_support_url": "https://example.org/support"
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#003366",
+      "secondary_background_color": "#E6F0FA",
+      "logo": "https://example.org/logo/person-identity.png",
+      "primary_attribute": "givenName",
+      "secondary_attribute": "familyName"
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Person Identity",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": [
+            "givenName",
+            "familyName",
+            "birthDate",
+            "gender"
+          ]
+        },
+        "back": {
+          "fields": [
+            "address.streetAddress",
+            "address.locality",
+            "address.region",
+            "address.postalCode",
+            "address.country",
+            "address.postalAddress"
+          ]
+        }
+      },
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
+    }
+  ]
+}

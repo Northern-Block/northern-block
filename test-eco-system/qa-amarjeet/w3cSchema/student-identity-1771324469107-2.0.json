@@ -1,1 +1,75 @@
-{"$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://Northern-Block.github.io/northern-block/test-eco-system/qa-amarjeet/w3cSchema/student-identity-1771324469107-2.0.json","title":"Student_Identity","type":"object","properties":{"gender":{"type":"string","title":"Gender","description":"The person's gender","pattern":["MALE","FEMALE","NOT SAY"]},"birthDate":{"type":"string","format":"date","title":"Date of Birth","description":"The individual's date of birth.","pattern":"YYYY-MM-DD"},"givenName":{"type":"string","title":"Given Name","description":"The person's given name as it appears on official identity documents.","minLength":5,"maxLength":10},"address":{"$ref":"#/$defs/Address"}},"required":["id","gender","birthDate","givenName"],"additionalProperties":false,"$defs":{"Address":{"type":"object","properties":{"region":{"type":"string","title":"State / Region","description":"Administrative region or state.","minLength":1,"maxLength":10},"country":{"type":"string","title":"Country","description":"Country of residence.","minLength":1,"maxLength":10},"locality":{"type":"string","title":"City","description":"City or locality of residence.","minLength":1,"maxLength":10}},"required":["region","country","locality"],"additionalProperties":false}}}
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://Northern-Block.github.io/northern-block/test-eco-system/qa-amarjeet/w3cSchema/student-identity-1771324469107-2.0.json",
+    "title": "Student_Identity",
+    "type": "object",
+    "properties": {
+        "gender": {
+            "type": "string",
+            "title": "Gender",
+            "description": "The person's gender",
+            "pattern": [
+                "MALE",
+                "FEMALE",
+                "NOT SAY"
+            ]
+        },
+        "birthDate": {
+            "type": "string",
+            "format": "date",
+            "title": "Date of Birth",
+            "description": "The individual's date of birth.",
+            "pattern": "YYYY-MM-DD"
+        },
+        "givenName": {
+            "type": "string",
+            "title": "Given Name",
+            "description": "The person's given name as it appears on official identity documents.",
+            "minLength": 5,
+            "maxLength": 10
+        },
+        "address": {
+            "$ref": "#/$defs/Address"
+        }
+    },
+    "required": [
+        "id",
+        "gender",
+        "givenName"
+    ],
+    "additionalProperties": false,
+    "$defs": {
+        "Address": {
+            "type": "object",
+            "properties": {
+                "region": {
+                    "type": "string",
+                    "title": "State / Region",
+                    "description": "Administrative region or state.",
+                    "minLength": 1,
+                    "maxLength": 10
+                },
+                "country": {
+                    "type": "string",
+                    "title": "Country",
+                    "description": "Country of residence.",
+                    "minLength": 1,
+                    "maxLength": 10
+                },
+                "locality": {
+                    "type": "string",
+                    "title": "City",
+                    "description": "City or locality of residence.",
+                    "minLength": 1,
+                    "maxLength": 10
+                }
+            },
+            "required": [
+                "region",
+                "country",
+                "locality"
+            ],
+            "additionalProperties": false
+        }
+    }
+}

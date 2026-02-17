@@ -1,0 +1,174 @@
+{
+    "id": "https://northern-block.github.io/northern-block/test-eco-system/qa-amarjeet/oca/DrivingLicense.json",
+    "capture_base": {
+        "type": "spec/capture_base/1.0",
+        "attributes": {
+            "givenName": "Text",
+            "familyName": "Text",
+            "birthDate": "DateTime",
+            "vehicalInfo.bodyType": "Text",
+            "vehicalInfo.fuelType": "Text",
+            "vehicalInfo.seatingCapacity": "Text"
+        },
+        "flagged_attributes": [
+            "givenName",
+            "birthDate"
+        ]
+    },
+    "overlays": [
+        {
+            "type": "spec/overlays/character_encoding/1.0",
+            "attribute_character_encoding": {
+                "givenName": "utf-8",
+                "familyName": "utf-8",
+                "birthDate": "utf-8",
+                "vehicalInfo.bodyType": "utf-8",
+                "vehicalInfo.fuelType": "utf-8",
+                "vehicalInfo.seatingCapacity": "utf-8"
+            }
+        },
+        {
+            "type": "spec/overlays/attribute_order/1.0",
+            "order": [
+                "givenName",
+                "familyName",
+                "birthDate",
+                "vehicalInfo.bodyType",
+                "vehicalInfo.fuelType",
+                "vehicalInfo.seatingCapacity"
+            ]
+        },
+        {
+            "type": "spec/overlays/visibility/1.0",
+            "summary": [
+                "givenName",
+                "familyName",
+                "birthDate"
+            ],
+            "details": [
+                "vehicalInfo.bodyType",
+                "vehicalInfo.fuelType",
+                "vehicalInfo.seatingCapacity"
+            ]
+        },
+        {
+            "type": "spec/overlays/label/1.0",
+            "language": "en",
+            "attribute_labels": {
+                "givenName": "Given Name",
+                "familyName": "Family Name",
+                "birthDate": "Date of Birth",
+                "vehicalInfo.bodyType": "Vehicle Body Type",
+                "vehicalInfo.fuelType": "Fuel Type",
+                "vehicalInfo.seatingCapacity": "Seating Capacity"
+            }
+        },
+        {
+            "type": "spec/overlays/label/1.0",
+            "language": "fr",
+            "attribute_labels": {
+                "givenName": "Prénom",
+                "familyName": "Nom de famille",
+                "birthDate": "Date de naissance",
+                "vehicalInfo.bodyType": "Type de carrosserie",
+                "vehicalInfo.fuelType": "Type de carburant",
+                "vehicalInfo.seatingCapacity": "Capacité de sièges"
+            }
+        },
+        {
+            "type": "spec/overlays/category/1.0",
+            "language": "en",
+            "category_labels": {
+                "personal": "Personal Information",
+                "vehical": "Vehical Information"
+            },
+            "attribute_categories": {
+                "givenName": "personal",
+                "birthDate": "personal",
+                "familyName": "personal",
+                "vehicalInfo.bodyType": "vehical",
+                "vehicalInfo.fuelType": "vehical",
+                "vehicalInfo.seatingCapacity": "vehical"
+            }
+        },
+        {
+            "type": "spec/overlays/information/1.0",
+            "language": "en",
+            "attribute_information": {
+                "givenName": "The person's given name as it appears on official identity documents.",
+                "familyName": "The person's family name as it appears on official identity documents.",
+                "birthDate": "The individual's date of birth.",
+                "vehicalInfo.bodyType": "The type of the vehicle's body, e.g., Sedan, SUV, Truck.",
+                "vehicalInfo.fuelType": "The fuel type the vehicle uses, e.g., Petrol, Diesel, Electric.",
+                "vehicalInfo.seatingCapacity": "The number of seats available in the vehicle."
+            }
+        },
+        {
+            "type": "spec/overlays/information/1.0",
+            "language": "fr",
+            "attribute_information": {
+                "givenName": "Prénom figurant sur les documents officiels.",
+                "familyName": "Nom de famille figurant sur les documents officiels.",
+                "birthDate": "Date de naissance officielle.",
+                "vehicalInfo.bodyType": "Type de la carrosserie du véhicule, par ex. berline, SUV, camion.",
+                "vehicalInfo.fuelType": "Type de carburant utilisé par le véhicule, par ex. essence, diesel, électrique.",
+                "vehicalInfo.seatingCapacity": "Nombre de sièges disponibles dans le véhicule."
+            }
+        },
+        {
+            "type": "spec/overlays/format/1.0",
+            "attribute_formats": {
+                "birthDate": "YYYY-MM-DD"
+            }
+        },
+        {
+            "type": "spec/overlays/standard/1.0",
+            "attribute_standards": {
+                "birthDate": "urn:iso:std:iso:8601"
+            }
+        },
+        {
+            "type": "spec/overlays/meta/1.0",
+            "language": "en",
+            "name": "DrivingLicense",
+            "description": "A verifiable credential representing a Driving license Credential Attrbiutes.",
+            "issuer": "QA-Amarjeet",
+            "issuer_url": "https://example.org",
+            "credential_support_url": "https://example.org/support"
+        },
+        {
+            "type": "spec/overlays/branding/1.0",
+            "primary_background_color": "#003366",
+            "secondary_background_color": "#E6F0FA",
+            "logo": "https://example.org/logo/person-identity.png",
+            "primary_attribute": "givenName",
+            "secondary_attribute": "birthDate"
+        },
+        {
+            "type": "spec/overlays/card/1.0",
+            "language": "en",
+            "title": "DrivingLicense",
+            "subtitle": "Verifiable Credential",
+            "layout": {
+                "front": {
+                    "fields": [
+                        "givenName",
+                        "birthDate"
+                    ]
+                },
+                "back": {
+                    "fields": [
+                        "vehicalInfo.bodyType",
+                        "vehicalInfo.fuelType",
+                        "vehicalInfo.seatingCapacity"
+                    ]
+                }
+            },
+            "style": {
+                "primary_color": "#003366",
+                "secondary_color": "#E6F0FA",
+                "accent_color": "#0066CC"
+            }
+        }
+    ]
+}

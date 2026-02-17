@@ -1,0 +1,13 @@
+{
+    "id": "https://Northern-Block.github.io/northern-block/test-eco-system/qa-amarjeet/vct/student-identity-1771323133420-3.0.json",
+    "type": "VerifiableCredentialTypeDefinition",
+    "name": "Student_Identity",
+    "description": "Driving license issued by Northern Block",
+    "supportRevocation": false,
+    "revocationRegistrySize": 100,
+    "schema": {
+        "jsonSchema": "https://Northern-Block.github.io/northern-block/test-eco-system/qa-amarjeet/schema/student-identity-2.0.json"
+    },
+    "jsonLdContext": {},
+    "propertyBindings": {}
+}

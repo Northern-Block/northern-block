@@ -1,13 +1,1 @@
-{
-    "id": "https://Northern-Block.github.io/northern-block/test-eco-system/qa-amarjeet/vct/student-identity-1771323133420-2.0.json",
-    "type": "VerifiableCredentialTypeDefinition",
-    "name": "Student_Identity",
-    "description": "Driving license issued by Northern Block",
-    "supportRevocation": false,
-    "revocationRegistrySize": 100,
-    "schema": {
-        "jsonSchema": "https://Northern-Block.github.io/northern-block/test-eco-system/qa-amarjeet/schema/student-identity-2.0.json"
-    },
-    "jsonLdContext": {},
-    "propertyBindings": {}
-}
+{"id":"https://Northern-Block.github.io/northern-block/test-eco-system/qa-amarjeet/vct/student-identity-1771323133420-2.0.json","type":"VerifiableCredentialTypeDefinition","name":"Student_Identity","description":"Driving license issued by Northern Block","supportRevocation":false,"revocationRegistrySize":100,"schema":{"id":"https://Northern-Block.github.io/northern-block/test-eco-system/qa-amarjeet/w3cSchema/student-identity-1771324469107-2.0.json","jsonSchema":"https://Northern-Block.github.io/northern-block/test-eco-system/qa-amarjeet/schema/student-identity-2.0.json"},"jsonLdContext":{"id":"https://Northern-Block.github.io/northern-block/test-eco-system/qa-amarjeet/context/student-identity-1771324469107-2.0.jsonld"},"propertyBindings":{"gender":{"schemaPointer":"#/properties/gender","jsonLdTerm":"gender","iri":"https://schema.org/gender"},"birthDate":{"schemaPointer":"#/properties/birthDate","jsonLdTerm":"birthDate","iri":"https://schema.org/birthDate"},"givenName":{"schemaPointer":"#/properties/givenName","jsonLdTerm":"givenName","iri":"https://schema.org/givenName"},"address.region":{"schemaPointer":"#/properties/address/properties/region","jsonLdTerm":"region","iri":"https://northern-block.github.io/northern-block/test-jsonld/vocab.jsonld#region"},"address.country":{"schemaPointer":"#/properties/address/properties/country","jsonLdTerm":"country","iri":"https://northern-block.github.io/northern-block/test-jsonld/vocab.jsonld#country"},"address.locality":{"schemaPointer":"#/properties/address/properties/locality","jsonLdTerm":"locality","iri":"https://northern-block.github.io/northern-block/test-jsonld/vocab.jsonld#locality"}},"credentialTypes":["VerifiableCredential","Student_Identity"]}

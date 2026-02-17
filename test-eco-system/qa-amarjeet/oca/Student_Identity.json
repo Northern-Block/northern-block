@@ -118,8 +118,7 @@
     {
       "type": "spec/overlays/format/1.0",
       "attribute_formats": {
-        "birthDate": "YYYY-MM-DD",
-        "gender": ["MALE", "FEMALE", "NOT SAY"]
+        "birthDate": "YYYY-MM-DD"
       }
     },
     {

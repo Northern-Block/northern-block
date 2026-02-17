@@ -1,59 +1,59 @@
 {
-  "id": "https://Northern-Block.github.io/northern-block/json-ld-test/qa-adarsh/oca/PenOca.json",
+  "id": "https://Northern-Block.github.io/northern-block/json-ld-test/qa-adarsh/oca/Pen2Oca.json",
   "capture_base": {
     "type": "spec/capture_base/1.0",
     "attributes": {
-      "first_name": "Text",
-      "last_name": "Text",
-      "dob_dateint": "Text"
+      "name": "Text",
+      "brand": "Text",
+      "price": "Text"
     },
     "flagged_attributes": [
-      "last_name"
+      "brand"
     ]
   },
   "overlays": [
     {
       "type": "spec/overlays/character_encoding/1.0",
       "attribute_character_encoding": {
-        "first_name": "utf-8",
-        "last_name": "utf-8",
-        "dob_dateint": "utf-8"
+        "name": "utf-8",
+        "brand": "utf-8",
+        "price": "utf-8"
       }
     },
     {
       "type": "spec/overlays/attribute_order/1.0",
       "order": [
-        "first_name",
-        "last_name",
-        "dob_dateint"
+        "brand",
+        "name",
+        "price"
       ]
     },
     {
       "type": "spec/overlays/visibility/1.0",
       "summary": [
-        "first_name",
-        "last_name"
+        "brand",
+        "price"
       ],
       "details": [
-        "dob_dateint"
+        "name"
       ]
     },
     {
       "type": "spec/overlays/label/1.0",
       "language": "en",
       "attribute_labels": {
-        "first_name": "Pen Name",
-        "last_name": "Pen Brand",
-        "dob_dateint": "Pen Price"
+        "name": "Pen Name",
+        "brand": "Pen Brand",
+        "price": "Pen Price"
       }
     },
     {
       "type": "spec/overlays/label/1.0",
       "language": "fr",
       "attribute_labels": {
-        "first_name": "Pen Name",
-        "last_name": "Pen Brand",
-        "dob_dateint": "Pen Price"
+        "name": "Pen Name",
+        "brand": "Pen Brand",
+        "price": "Pen Price"
       }
     },
     {
@@ -64,26 +64,26 @@
         "brand" :"Pen Brand"
       },
       "attribute_categories": {
-        "first_name" : "name",
-        "last_name" :"brand","dob_dateint" :"brand"
+        "name" : "name",
+        "brand" :"brand","price" :"brand"
       }
     },
     {
       "type": "spec/overlays/information/1.0",
       "language": "en",
       "attribute_information": {
-        "first_name": "This is Pen Name",
-        "last_name": "This is Brand Name",
-        "dob_dateint": "This is Offerd Price"
+        "name": "This is Pen Name",
+        "brand": "This is Brand Name",
+        "price": "This is Offerd Price"
       }
     },
     {
       "type": "spec/overlays/information/1.0",
       "language": "fr",
       "attribute_information": {
-        "first_name": "This is Pen Name",
-        "last_name": "This is Brand Name",
-        "dob_dateint": "This is Offerd Price"
+        "name": "This is Pen Name",
+        "brand": "This is Brand Name",
+        "price": "This is Offerd Price"
       }
     },
     {
@@ -123,13 +123,13 @@
       "layout": {
         "front": {
           "fields": [
-            "first_name",
-            "last_name"
+            "brand",
+            "name"
           ]
         },
         "back": {
           "fields": [
-            "dob_dateint"
+            "price"
           ]
         }
       },

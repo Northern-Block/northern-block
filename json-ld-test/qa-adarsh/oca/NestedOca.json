@@ -1,0 +1,134 @@
+{
+  "id": "https://Northern-Block.github.io/northern-block/json-ld-test/qa-adarsh/oca/NestedOca.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "name": "Text",
+      "brand.price": "Text"
+    }
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {
+        "name": "utf-8",
+        "brand.price": "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "brand.price",
+        "name"
+      ]
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+  
+        "brand.price"
+    
+      ],
+      "details": [
+        "name"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "name": "Product Name",
+        "brand.price": "Prodcut Brand"
+      }
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "fr",
+      "attribute_labels": {
+        "name": "Product Name",
+        "brand.price": "Prodcut Brand"
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        "brand": "Brand Information",
+        "offer": "Offers"
+      },
+      "attribute_categories": {
+        "name": "brand",
+        "brand.price": "offer"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "name": "This is Product Name",
+        "brand.price": "This is Brand Name"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "fr",
+      "attribute_information": {
+        "name": "This is Product Name",
+        "brand.price": "This is Brand Name"
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {
+       
+      }
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {
+     
+      }
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Product Credential",
+      "description": "A verifiable credential representing a person’s core legal identity attributes.",
+      "issuer": "QA-adarsh",
+      "issuer_url": "https://example.org",
+      "credential_support_url": "https://example.org/support"
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#003366",
+      "secondary_background_color": "#E6F0FA",
+      "logo": "https://example.org/logo/person-identity.png",
+      "primary_attribute": "name",
+      "secondary_attribute": "brand.price"
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Nested",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": [
+            "brand.price",
+            "name"
+          ]
+        },
+        "back": {
+          "fields": [
+            "name"
+          ]
+        }
+      },
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
+    }
+  ]
+}

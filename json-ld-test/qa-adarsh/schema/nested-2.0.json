@@ -1,0 +1,1 @@
+{"id":"https://Northern-Block.github.io/northern-block/json-ld-test/qa-adarsh/schema/nested-2.0.json","name":"nested","version":"2.0","credentialFormat":"JSON_LD","attributes":{"nested":{"type":"object","properties":{"box":{"type":"object","properties":{"price":{"type":"text"}}},"name":{"type":"text"}}}},"governanceUrl":"https://mining.ca.governance"}

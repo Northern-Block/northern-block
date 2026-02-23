@@ -1,0 +1,155 @@
+{
+  "id": "https://Northern-Block.github.io/northern-block/json-ld/test-jsonld/oca/localBusinessOca.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "name": "Text",
+      "birthDate": "DateTime",
+      "address.addressRegion": "Text",
+      "address.streetAddress": "Text"
+    },
+    "flagged_attributes": [
+      "name",
+      "birthDate"
+    ]
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {
+         "name": "utf-8",
+         "birthDate": "utf-8",
+         "address.addressRegion": "utf-8",
+         "address.streetAddress": "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "name",
+        "birthDate",
+        "address.streetAddress",
+        "address.addressRegion"
+      ]
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "name",
+        "birthDate"
+      ],
+      "details": [
+        "address.streetAddress",
+        "address.addressRegion"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "name": "Name",
+        "birthDate": "Date Of Birth",
+        "address.streetAddress": "Street Address",
+        "address.addressRegion": "Region"
+      }
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "fr",
+      "attribute_labels": {
+        "name": "Prénom",
+        "birthDate": "Date Of Birth",
+        "address.streetAddress": "Nom de famille",
+        "address.addressRegion": "Date de naissance"
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        "business": "Business Info",
+        "adress": "Address"
+      },
+      "attribute_categories": {
+        "name": "business",
+        "birthDate": "business",
+        "address.streetAddress": "adress",
+        "address.addressRegion": "adress"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "name": "The person’s given name as it appears on official identity documents.",
+        "birthDate": "The person’s family name as recorded in government registries.",
+        "address.streetAddress": "person",
+        "address.addressRegion": "The individual’s date of birth."
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "fr",
+      "attribute_information": {
+        "name": "Prénom figurant sur les documents officiels.",
+        "birthDate": "person",
+        "address.streetAddress": "Nom de famille enregistré.",
+        "address.addressRegion": "Date de naissance officielle."
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {
+        "birthDate": "DD-MM-YYYY"
+      }
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {
+        "birthDate": "urn:iso:std:iso:8601"
+      }
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Local Business Credential",
+      "description": "A verifiable credential representing a Local Business Credential attributes.",
+      "issuer": "Example Identity Authority",
+      "issuer_url": "https://example.org",
+      "credential_support_url": "https://example.org/support"
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#003366",
+      "secondary_background_color": "#E6F0FA",
+      "logo": "https://example.org/logo/person-identity.png",
+      "primary_attribute": "name",
+      "secondary_attribute": "birthDate"
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Person Identity",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": [
+            "name",
+            "birthDate"
+          ]
+        },
+        "back": {
+          "fields": [
+            "address.streetAddress",
+            "address.addressRegion"
+          ]
+        }
+      },
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
+    }
+  ]
+}

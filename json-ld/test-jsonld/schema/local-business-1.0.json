@@ -1,1 +1,31 @@
-{"id":"https://Northern-Block.github.io/northern-block/json-ld/test-jsonld/schema/local-business-1.0.json","name":"LocalBusiness","version":"1.0","credentialFormat":"JSON_LD","attributes":{"LocalBusiness":{"type":"object","properties":{"name":{"type":"text"},"address":{"type":"object","properties":{"addressRegion":{"type":"text"},"streetAddress":{"type":"text"}}},"birthDate":{"type":"text"}}}},"governanceUrl":"https://mining.ca.governance"}
+{
+    "id": "https://Northern-Block.github.io/northern-block/json-ld/test-jsonld/schema/local-business-1.0.json",
+    "name": "LocalBusiness",
+    "version": "1.0",
+    "credentialFormat": "JSON_LD",
+    "attributes": {
+        "LocalBusiness": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "text"
+                },
+                "address": {
+                    "type": "object",
+                    "properties": {
+                        "addressRegion": {
+                            "type": "text"
+                        },
+                        "streetAddress": {
+                            "type": "text"
+                        }
+                    }
+                },
+                "birthDate": {
+                    "type": "text"
+                }
+            }
+        }
+    },
+    "governanceUrl": "https://mining.ca.governance"
+}

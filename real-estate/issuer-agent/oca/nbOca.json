@@ -1,0 +1,59 @@
+{
+  "id": "https://northern-block.github.io/northern-block/real-estate/issuer-agent/oca/nbOca.json",
+  "external_url": "https://northern-block.github.io/northern-block/real-estate/issuer-agent/oca/externalOca.json",
+  "overlays": [
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "givenName",
+        "familyName",
+        "birthDate",
+        "gender",
+        "address.streetAddress",
+        "address.locality",
+        "address.region",
+        "address.postalCode",
+        "address.country",
+        "address.postalAddress"
+      ]
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": ["givenName", "familyName", "birthDate", "gender"],
+      "details": [
+        "address.streetAddress",
+        "address.locality",
+        "address.region",
+        "address.postalCode",
+        "address.country",
+        "address.postalAddress"
+      ]
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Person Identity",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": ["givenName", "familyName", "birthDate", "gender"]
+        },
+        "back": {
+          "fields": [
+            "address.streetAddress",
+            "address.locality",
+            "address.region",
+            "address.postalCode",
+            "address.country",
+            "address.postalAddress"
+          ]
+        }
+      },
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
+    }
+  ]
+}

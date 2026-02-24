@@ -1,6 +1,6 @@
 {
   "id": "https://northern-block.github.io/northern-block/real-estate/issuer-agent/oca/nbOcaDummy.json",
-  "external_url": "https://northern-block.github.io/northern-block/real-estate/issuer-agent/oca/externalOcaDummy.json",
+  "external_url": "",
   "overlays": [
     {
       "type": "spec/overlays/attribute_order/1.0",

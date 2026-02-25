@@ -2,84 +2,49 @@
   "external_url": "https://northern-block.github.io/northern-block/real-estate/issuer-agent/oca/anoncredExternalOca.json",
   "overlays": [
     {
-      "attribute_character_encoding": {
-        "GIS_coordinates": "utf-8",
-        "PID": "utf-8",
-        "authorized_verification_proof": "utf-8",
-        "licence_expiry_dateint": "utf-8"
-      },
-      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
-      "default_character_encoding": "utf-8",
-      "digest": "EggyBX7giHwyps3AX9ubYZnjfVspL0KqxFV4eFOPm5gE",
-      "type": "spec/overlays/character_encoding/1.0"
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "PID",
+        "GIS_coordinates",
+        "authorized_verification_proof",
+        "licence_expiry_dateint"
+      ]
     },
     {
-      "attribute_categories": [],
-      "attribute_labels": {
-        "GIS_coordinates": "GIS Coordinates",
-        "PID": "Parcel Identifier (PID)",
-        "authorized_verification_proof": "Authorized Verification Proof",
-        "licence_expiry_dateint": "Expiry Date"
-      },
-      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
-      "category_labels": {},
-      "digest": "ESJNm1_sybFWaY263eHkyeOVp79aKd2v7LgVcBfF-_OY",
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "PID",
+        "GIS_coordinates"
+      ],
+      "details": [
+        "authorized_verification_proof",
+        "licence_expiry_dateint"
+      ]
+    },
+    {
+      "type": "spec/overlays/card/1.0",
       "language": "en",
-      "type": "spec/overlays/label/1.0"
-    },
-    {
-      "attribute_information": {
-        "GIS_coordinates": "The geographic coordinates of the licensed location.",
-        "PID": "The nine digit parcel identifier.",
-        "authorized_verification_proof": "Specifies the evidence used to confirm that the applicant is authorized by the property owner to apply for or hold the business licence.",
-        "licence_expiry_dateint": "The expiry date of the business licence."
+      "title": "Person Identity",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": [
+            "PID",
+            "GIS_coordinates"
+          ]
+        },
+        "back": {
+          "fields": [
+            "authorized_verification_proof",
+            "licence_expiry_dateint"
+          ]
+        }
       },
-      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
-      "digest": "Eybxa0t_Z04GnHkWyYNqjBV5zuRkmLTrfgRtAnHsDP0g",
-      "language": "en",
-      "type": "spec/overlays/information/1.0"
-    },
-    {
-      "attribute_formats": {
-        "licence_expiry_dateint": "YYYYMMDD"
-      },
-      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
-      "digest": "EEfZ7EXB9VIVO2rmHU2TEg-12SMiM2RH5o-ADePYDJvI",
-      "type": "spec/overlays/format/1.0"
-    },
-    {
-      "attribute_standards": {
-        "licence_expiry_dateint": "urn:iso:std:iso:1989"
-      },
-      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
-      "digest": "EKDaCg0RiGNDfigqAvpeoYbug6doKrmS1M-a0eWVkh4M",
-      "type": "spec/overlays/standard/1.0"
-    },
-    {
-      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
-      "credential_support_url": "https://vancouver.ca/",
-      "description": "A City of Vancouver digital credential that represents a valid municipal business licence for operating a rental property.",
-      "digest": "EH-csJIS8NWowtDx-AH9R8wANPIIT9doKGdF1cikm9VE",
-      "issuer": "City of Vancouver (DEV)",
-      "issuer_description": "City of Vancouver",
-      "issuer_url": "https://vancouver.ca/",
-      "language": "en",
-      "name": "Rental Property Business Licence",
-      "type": "spec/overlays/meta/1.0",
-      "watermark": "DEMONSTRATION"
-    },
-    {
-      "logo": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/CityOfVancouver/dev-property-rental-business-licence/cov-logo.jpg",
-      "background_image_slice": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/CityOfVancouver/dev-property-rental-business-licence/cov-background-slice.jpg",
-      "background_image": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/CityOfVancouver/dev-property-rental-business-licence/cov-background-image.jpg",
-      "primary_background_color": "#015982",
-      "secondary_background_color": "#4b8516",
-      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
-      "digest": "EBQbQEV6qSEGDzGLj1CqT4e6yzESjPimF-Swmyltw5jU",
-      "expiry_date_attribute": "licence_expiry_dateint",
-      "primary_attribute": "GIS_coordinates",
-      "secondary_attribute": "authorized_verification_proof",
-      "type": "spec/overlays/branding/1.0"
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
     }
   ]
 }

@@ -1,19 +1,5 @@
 {
-  "capture_base": {
-    "attributes": {
-      "GIS_coordinates": "Text",
-      "PID": "Text",
-      "authorized_verification_proof": "Text",
-      "licence_expiry_dateint": "DateTime"
-    },
-    "classification": "",
-    "digest": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
-    "flagged_attributes": [
-      "GIS_coordinates",
-      "authorized_verification_proof"
-    ],
-    "type": "spec/capture_base/1.0"
-  },
+  "external_url": "https://northern-block.github.io/northern-block/real-estate/issuer-agent/oca/anoncredExternalOca.json",
   "overlays": [
     {
       "attribute_character_encoding": {

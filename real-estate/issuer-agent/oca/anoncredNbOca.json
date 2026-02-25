@@ -1,4 +1,5 @@
 {
+  "external_url": "https://northern-block.github.io/northern-block/real-estate/issuer-agent/oca/anoncredExternalOca.json",
   "overlays": [
     {
       "type": "spec/overlays/attribute_order/1.0",

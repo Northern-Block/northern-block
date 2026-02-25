@@ -1,0 +1,125 @@
+{
+    "capture_base": {
+        "attributes": {
+            "birthdate_dateint": "DateTime",
+            "country": "Text",
+            "expiry_date_dateint": "DateTime",
+            "family_name": "Text",
+            "given_names": "Text",
+            "locality": "Text",
+            "picture": "Text",
+            "postal_code": "Text",
+            "region": "Text",
+            "street_address": "Text"
+        },
+        "classification": "",
+        "digest": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+        "flagged_attributes": [
+            "family_name",
+            "given_names"
+        ],
+        "type": "spec/capture_base/1.0"
+    },
+    "overlays": [
+        {
+            "attribute_character_encoding": {
+                "birthdate_dateint": "utf-8",
+                "country": "utf-8",
+                "expiry_date_dateint": "utf-8",
+                "family_name": "utf-8",
+                "given_names": "utf-8",
+                "locality": "utf-8",
+                "picture": "utf-8",
+                "postal_code": "utf-8",
+                "region": "utf-8",
+                "street_address": "utf-8"
+            },
+            "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+            "default_character_encoding": "utf-8",
+            "digest": "EggyBX7giHwyps3AX9ubYZnjfVspL0KqxFV4eFOPm5gE",
+            "type": "spec/overlays/character_encoding/1.0"
+        },
+        {
+            "attribute_categories": [],
+            "attribute_labels": {
+                "birthdate_dateint": "GIS Coordinates",
+                "country": "Parcel Identifier (PID)",
+                "expiry_date_dateint": "Authorized Verification Proof",
+                "family_name": "Business Licence Type",
+                "given_names": "Business Sub-Type",
+                "locality": "Business / Trade Name",
+                "picture": "Country",
+                "postal_code": "Full Licence Address",
+                "region": "Identity Verification Proof",
+                "street_address": "Expiry Date"
+            },
+            "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+            "category_labels": {},
+            "digest": "ESJNm1_sybFWaY263eHkyeOVp79aKd2v7LgVcBfF-_OY",
+            "language": "en",
+            "type": "spec/overlays/label/1.0"
+        },
+        {
+            "attribute_information": {
+                "birthdate_dateint": "The geographic coordinates of the licensed location.",
+                "country": "The nine digit parcel identifier.",
+                "expiry_date_dateint": "Specifies the evidence used to confirm that the applicant is authorized by the property owner to apply for or hold the business licence.",
+                "family_name": "The category of licence issued.",
+                "given_names": "The sub type of business licence being issued.",
+                "locality": "The business name of the operator of the business licence.",
+                "picture": "The country of the business licence.",
+                "postal_code": "Combination of individual address attributes.",
+                "region": "Specifies the method and proofs used to confirm the applicant’s identity.",
+                "street_address": "The expiry date of the business licence."
+            },
+            "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+            "digest": "Eybxa0t_Z04GnHkWyYNqjBV5zuRkmLTrfgRtAnHsDP0g",
+            "language": "en",
+            "type": "spec/overlays/information/1.0"
+        },
+        {
+            "attribute_formats": {
+                "birthdate_dateint": "YYYYMMDD",
+                "expiry_date_dateint": "YYYYMMDD"
+            },
+            "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+            "digest": "EEfZ7EXB9VIVO2rmHU2TEg-12SMiM2RH5o-ADePYDJvI",
+            "type": "spec/overlays/format/1.0"
+        },
+        {
+            "attribute_standards": {
+                "birthdate_dateint": "urn:iso:std:iso:1989",
+                "expiry_date_dateint": "urn:iso:std:iso:1989"
+            },
+            "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+            "digest": "EKDaCg0RiGNDfigqAvpeoYbug6doKrmS1M-a0eWVkh4M",
+            "type": "spec/overlays/standard/1.0"
+        },
+        {
+            "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+            "credential_support_url": "https://vancouver.ca/",
+            "description": "A BC Person digital credential that represents a valid credential.",
+            "digest": "EH-csJIS8NWowtDx-AH9R8wANPIIT9doKGdF1cikm9VE",
+            "issuer": "BC Person",
+            "issuer_description": "BC Person",
+            "issuer_url": "https://vancouver.ca/",
+            "language": "en",
+            "name": "BC Person Credential",
+            "type": "spec/overlays/meta/1.0",
+            "watermark": "DEMONSTRATION"
+        },
+        {
+            "logo": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/CityOfVancouver/dev-property-rental-business-licence/cov-logo.jpg",
+            "background_image_slice": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/CityOfVancouver/dev-property-rental-business-licence/cov-background-slice.jpg",
+            "background_image": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/CityOfVancouver/dev-property-rental-business-licence/cov-background-image.jpg",
+            "primary_background_color": "#015982",
+            "secondary_background_color": "#4b8516",
+            "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+            "digest": "EBQbQEV6qSEGDzGLj1CqT4e6yzESjPimF-Swmyltw5jU",
+            "expiry_date_attribute": "expiry_date_dateint",
+            "primary_attribute": "family_name",
+            "secondary_attribute": "given_names",
+            "type": "spec/overlays/branding/1.0"
+        }
+    ]
+}

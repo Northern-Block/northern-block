@@ -93,7 +93,7 @@
       "expiry_date_attribute": "licence_expiry_dateint",
       "primary_attribute": "GIS_coordinates",
       "secondary_attribute": "authorized_verification_proof",
-      "type": "aries/overlays/branding/1.0"
+      "type": "spec/overlays/branding/1.0"
     }
   ]
 }

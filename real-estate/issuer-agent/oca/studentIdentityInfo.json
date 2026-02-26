@@ -1,0 +1,209 @@
+{
+  "id": "https://northern-block.github.io/northern-block/real-estate/issuer-agent/oca/studentIdentityInfo.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "givenName": "Text",
+      "familyName": "Text",
+      "birthDate": "DateTime",
+      "address.streetAddress": "Text",
+      "address.locality": "Text",
+      "address.region": "Text",
+      "address.postalCode": "Text",
+      "address.country": "Text",
+      "address.personal.name": "Text",
+      "address.personal.mo": "Text",
+      "address.personal.other.married": "Text",
+      "address.personal.other.resident": "Text",
+      "info.gender": "Text"
+    },
+    "flagged_attributes": [
+      "givenName",
+      "familyName"
+    ]
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {
+        "givenName": "utf-8",
+        "familyName": "utf-8",
+        "birthDate": "utf-8",
+        "address.streetAddress": "utf-8",
+        "address.locality": "utf-8",
+        "address.region": "utf-8",
+        "address.postalCode": "utf-8",
+        "address.country": "utf-8",
+        "address.personal.name": "utf-8",
+        "address.personal.mo": "utf-8",
+        "address.personal.other.married": "utf-8",
+        "address.personal.other.resident": "utf-8",
+        "info.gender": "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "givenName",
+        "familyName",
+        "birthDate",
+        "address.streetAddress",
+        "address.locality",
+        "address.region",
+        "address.postalCode",
+        "address.country",
+        "address.personal.name",
+        "address.personal.mo",
+        "address.personal.other.married",
+        "address.personal.other.resident",
+        "info.gender"
+      ]
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "givenName",
+        "familyName",
+        "birthDate"
+      ],
+      "details": [
+        "address.streetAddress",
+        "address.locality",
+        "address.region",
+        "address.postalCode",
+        "address.country",
+        "address.personal.name",
+        "address.personal.mo",
+        "address.personal.other.married",
+        "address.personal.other.resident",
+        "info.gender"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "givenName": "Given Names",
+        "familyName": "Family Name",
+        "birthDate": "Verified Email",
+        "address.streetAddress": "Birth Date",
+        "address.locality": "Profession Jurisdiction",
+        "address.region": "Business Name",
+        "address.postalCode": "Licence Number",
+        "address.country": "Licence Status",
+        "address.personal.name": "Business Address",
+        "address.personal.mo": "Insurance Coverage",
+        "address.personal.other.married": "Profession Category",
+        "address.personal.other.resident": "Issuer",
+        "info.gender": "Proof Level"
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        "personal": "Personal Information",
+        "address": "Profession Details",
+        "info": "Evidence Governance"
+      },
+      "attribute_categories": {
+        "givenName": "personal",
+        "familyName": "personal",
+        "birthDate": "personal",
+        "birthdate_dateint": "personal",
+        "address.streetAddress": "address",
+        "address.locality": "address",
+        "address.region": "address",
+        "address.postalCode": "address",
+        "address.country": "address",
+        "address.personal.name": "address",
+        "address.personal.mo": "address",
+        "address.personal.other.married": "address",
+        "address.personal.other.resident": "address",
+        "info.gender": "info"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "givenName": "The persons given names.",
+        "familyName": "The persons family name.",
+        "birthDate": "The persons verified email address.",
+        "address.streetAddress": "The persons birth date.",
+        "address.locality": "Jurisdiction of the profession.",
+        "address.region": "Name of the business.",
+        "address.postalCode": "Licence number of the professional.",
+        "address.country": "Current licence status.",
+        "address.personal.name": "Address of the business.",
+        "address.personal.mo": "Insurance coverage of the business.",
+        "address.personal.other.married": "Category of the profession.",
+        "address.personal.other.resident": "The issuer of this credential.",
+        "info.gender": "Level of proof required."
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {
+        "birthDate": "YYYY-MM-DD"
+      }
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {
+        "birthDate": "urn:iso:std:iso:8601"
+      }
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Student Identity Info Credential",
+      "description": "A verifiable credential representing a persons core legal identity attributes.",
+      "issuer": "Example Identity Authority",
+      "issuer_url": "https://example.org",
+      "credential_support_url": "https://example.org/support"
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#003366",
+      "secondary_background_color": "#E6F0FA",
+      "logo": "https://example.org/logo/person-identity.png",
+      "primary_attribute": "givenName",
+      "secondary_attribute": "familyName"
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Student Identity Info",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": [
+            "givenName",
+            "familyName",
+            "birthDate"
+          ]
+        },
+        "back": {
+          "fields": [
+            "address.streetAddress",
+            "address.locality",
+            "address.region",
+            "address.postalCode",
+            "address.country",
+            "address.personal.name",
+            "address.personal.mo",
+            "address.personal.other.married",
+            "address.personal.other.resident",
+            "info.gender"
+          ]
+        }
+      },
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
+    }
+  ]
+}

@@ -110,7 +110,6 @@
         "givenName": "personal",
         "familyName": "personal",
         "birthDate": "personal",
-        "birthdate_dateint": "personal",
         "address.streetAddress": "address",
         "address.locality": "address",
         "address.region": "address",

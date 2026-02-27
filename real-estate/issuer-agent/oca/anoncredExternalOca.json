@@ -3,7 +3,7 @@
     "attributes": {
       "GIS_coordinates": "Text",
       "PID": "Text",
-      "authorized_verification_proof": "Text",
+      "authorized_verification_proof": "Numeric",
       "licence_expiry_dateint": "DateTime"
     },
     "classification": "",

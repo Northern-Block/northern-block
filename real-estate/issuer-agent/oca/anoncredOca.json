@@ -217,7 +217,7 @@
       "expiry_date_attribute": "licence_expiry_dateint",
       "primary_attribute": "licence_summary",
       "secondary_attribute": "short_address",
-      "type": "aries/overlays/branding/1.0"
+      "type": "spec/overlays/branding/1.0"
     }
   ]
 }

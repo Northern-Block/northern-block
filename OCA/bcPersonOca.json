@@ -119,7 +119,7 @@
             "expiry_date_attribute": "expiry_date_dateint",
             "primary_attribute": "family_name",
             "secondary_attribute": "given_names",
-            "type": "aries/overlays/branding/1.0"
+            "type": "spec/overlays/branding/1.0"
         }
     ]
 }

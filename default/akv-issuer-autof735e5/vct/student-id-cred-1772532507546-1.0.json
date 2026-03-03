@@ -1,1 +1,13 @@
-{"id":"https://Northern-Block.github.io/northern-block/default/akv-issuer-autof735e5/vct/student-id-cred-1772532507546-1.0.json","type":"VerifiableCredentialTypeDefinition","name":"student_id_cred","description":"student id issued by Northern Block","supportRevocation":false,"revocationRegistrySize":100,"schema":{"jsonSchema":"https://Northern-Block.github.io/northern-block/default/akv-issuer-autof735e5/schema/driving-license-1.0.json"},"jsonLdContext":{},"propertyBindings":{}}
+{
+    "id": "https://Northern-Block.github.io/northern-block/default/akv-issuer-autof735e5/vct/student-id-cred-1772532507546-1.0.json",
+    "type": "VerifiableCredentialTypeDefinition",
+    "name": "student_id_cred",
+    "description": "student id issued by Northern Block",
+    "supportRevocation": false,
+    "revocationRegistrySize": 100,
+    "schema": {
+        "jsonSchema": "https://Northern-Block.github.io/northern-block/default/akv-issuer-autof735e5/schema/driving-license-1.0.json"
+    },
+    "jsonLdContext": {},
+    "propertyBindings": {}
+}

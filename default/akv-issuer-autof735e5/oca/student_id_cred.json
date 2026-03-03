@@ -1,0 +1,172 @@
+{
+    "id": "https://Northern-Block.github.io/northern-block/default/akv-issuer-autof735e5/oca/student_id_cred.json",
+    "capture_base": {
+        "type": "spec/capture_base/1.0",
+        "attributes": {
+            "name": "Text",
+            "gender": "Text",
+            "address.country": "Text",
+            "address.locality": "Text",
+            "address.religion": "Text",
+            "birth_date": "DateTime"
+        },
+        "flagged_attributes": [
+            "name",
+            "birth_date"
+        ]
+    },
+    "overlays": [
+        {
+            "type": "spec/overlays/character_encoding/1.0",
+            "attribute_character_encoding": {
+                "name": "utf-8",
+                "gender": "utf-8",
+                "address.country": "utf-8",
+                "address.locality": "utf-8",
+                "address.religion": "utf-8",
+                "birth_date": "utf-8"
+            }
+        },
+        {
+            "type": "spec/overlays/attribute_order/1.0",
+            "order": [
+                "name",
+                "gender",
+                "address.country",
+                "address.locality",
+                "address.religion",
+                "birth_date"
+            ]
+        },
+        {
+            "type": "spec/overlays/visibility/1.0",
+            "summary": [
+                "name",
+                "gender"
+            ],
+            "details": [
+                "address.country",
+                "address.locality",
+                "address.religion",
+                "birth_date"
+            ]
+        },
+        {
+            "type": "spec/overlays/label/1.0",
+            "language": "en",
+            "attribute_labels": {
+                "name": "Name",
+                "gender": "Gender",
+                "address.country": "Country",
+                "address.locality": "Locality",
+                "address.religion": "Religion",
+                "birth_date": "Date Of Birth"
+            }
+        },
+        {
+            "type": "spec/overlays/label/1.0",
+            "language": "fr",
+            "attribute_labels": {
+                "name": "Name",
+                "gender": "Gender",
+                "address.country": "Country",
+                "address.locality": "Locality",
+                "address.religion": "Religion",
+                "birth_date": "Date Of Birth"
+            }
+        },
+        {
+            "type": "spec/overlays/category/1.0",
+            "language": "en",
+            "category_labels": {
+                "person": "Personal Information",
+                "address": "Address"
+            },
+            "attribute_categories": {
+                "name": "person",
+                "gender": "person",
+                "address.country": "address",
+                "address.locality": "address",
+                "address.religion": "address",
+                "birth_date": "person"
+            }
+        },
+        {
+            "type": "spec/overlays/information/1.0",
+            "language": "en",
+            "attribute_information": {
+                "name": "person",
+                "gender": "person",
+                "address.country": "address",
+                "address.locality": "address",
+                "address.religion": "address",
+                "birth_date": "person"
+            }
+        },
+        {
+            "type": "spec/overlays/information/1.0",
+            "language": "fr",
+            "attribute_information": {
+                "name": "person",
+                "gender": "person",
+                "address.country": "address",
+                "address.locality": "address",
+                "address.religion": "address",
+                "birth_date": "person"
+            }
+        },
+        {
+            "type": "spec/overlays/format/1.0",
+            "attribute_formats": {
+                "birth_date": "YYYY-MM-DD"
+            }
+        },
+        {
+            "type": "spec/overlays/standard/1.0",
+            "attribute_standards": {
+                "birth_date": "urn:iso:std:iso:8601"
+            }
+        },
+        {
+            "type": "spec/overlays/meta/1.0",
+            "language": "en",
+            "name": "Student ID Card Credential",
+            "description": "A verifiable credential representing a person’s core legal identity attributes.",
+            "issuer": "Example Identity Authority",
+            "issuer_url": "https://example.org",
+            "credential_support_url": "https://example.org/support"
+        },
+        {
+            "type": "spec/overlays/branding/1.0",
+            "primary_background_color": "#003366",
+            "secondary_background_color": "#E6F0FA",
+            "logo": "https://example.org/logo/person-identity.png",
+            "primary_attribute": "name",
+            "secondary_attribute": "gender"
+        },
+        {
+            "type": "spec/overlays/card/1.0",
+            "language": "en",
+            "title": "Person Identity",
+            "subtitle": "Verifiable Credential",
+            "layout": {
+                "front": {
+                    "fields": [
+                        "name",
+                        "gender"
+                    ]
+                },
+                "back": {
+                    "fields": [
+                        "birth_date"
+                    ]
+                }
+            },
+            "style": {
+                "primary_color": "#003366",
+                "secondary_color": "#E6F0FA",
+                "accent_color": "#0066CC"
+            }
+        }
+    ]
+}

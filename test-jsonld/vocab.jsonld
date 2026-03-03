@@ -29,6 +29,10 @@
     "id": "ext:phoneNumber",
     "label": "Telephone number in international format"
   },
+  "religion": {
+    "id": "ext:religion",
+    "label": "religion in international format"
+  },
   "isOver18": {
     "id": "ext:isOver18",
     "label": "True if the subject is over 18 years old",

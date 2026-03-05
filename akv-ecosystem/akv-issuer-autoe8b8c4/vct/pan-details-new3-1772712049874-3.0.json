@@ -1,0 +1,17 @@
+{
+  "id": "https://Northern-Block.github.io/northern-block/akv-ecosystem/akv-issuer-autoe8b8c4/vct/pan-details-new3-1772712049874-3.0.json",
+  "type": "VerifiableCredentialTypeDefinition",
+  "name": "Pan_details_new3",
+  "description": "Driving license issued by Northern Block",
+  "supportRevocation": false,
+  "revocationRegistrySize": 100,
+  "schema": {
+    "jsonSchema": "https://Northern-Block.github.io/northern-block/akv-ecosystem/akv-issuer-autoe8b8c4/schema/pan-details-2.0.json"
+  },
+  "jsonLdContext": {
+
+  },
+  "propertyBindings": {
+
+  }
+}

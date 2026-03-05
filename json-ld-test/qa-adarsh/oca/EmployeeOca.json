@@ -82,9 +82,8 @@
       "secondary_background_color": "#4b8516",
       "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
       "digest": "EBQbQEV6qSEGDzGLj1CqT4e6yzESjPimF-Swmyltw5jU",
-      "expiry_date_attribute": "licence_expiry_dateint",
-      "primary_attribute": "licence_summary",
-      "secondary_attribute": "short_address",
+      "primary_attribute": "Emp_id",
+      "secondary_attribute": "Emp_name",
       "type": "spec/overlays/branding/1.0"
     }
   ]

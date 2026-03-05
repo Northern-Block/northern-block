@@ -7,6 +7,7 @@
       "familyName": "Text",
       "gender": "Text",
       "birthDate": "DateTime",
+      "profileImage": "Text",
       "address.streetAddress": "Text",
       "address.locality": "Text",
       "address.region": "Text",
@@ -28,6 +29,7 @@
         "familyName": "utf-8",
         "birthDate": "utf-8",
         "gender": "utf-8",
+        "profileImage": "utf-8",
         "address.streetAddress": "utf-8",
         "address.locality": "utf-8",
         "address.region": "utf-8",
@@ -43,6 +45,7 @@
         "familyName",
         "birthDate",
         "gender",
+        "profileImage",
         "address.streetAddress",
         "address.locality",
         "address.region",
@@ -57,7 +60,8 @@
         "givenName",
         "familyName",
         "birthDate",
-        "gender"
+        "gender",
+        "profileImage"
       ],
       "details": [
         "address.streetAddress",
@@ -76,6 +80,7 @@
         "familyName": "Family Name",
         "birthDate": "Date of Birth",
         "gender": "Gender",
+        "profileImage": "Profile Image",
         "address.streetAddress": "Street Address",
         "address.locality": "City",
         "address.region": "State / Region",
@@ -92,6 +97,7 @@
         "familyName": "Nom de famille",
         "birthDate": "Date de naissance",
         "gender": "gender",
+        "profileImage": "Profile Image",
         "address.streetAddress": "Adresse",
         "address.locality": "Ville",
         "address.region": "Région",
@@ -112,6 +118,7 @@
         "familyName": "personal",
         "birthDate": "personal",
         "gender": "personal",
+        "profileImage": "personal",
         "address.streetAddress": "address",
         "address.locality": "address",
         "address.region": "address",
@@ -128,6 +135,7 @@
         "familyName": "The person’s family name as recorded in government registries.",
         "birthDate": "The individual’s date of birth.",
         "gender": "The person's gender",
+        "profileImage": "The profile image",
         "address.streetAddress": "Street name and number of residence.",
         "address.locality": "City or locality of residence.",
         "address.region": "Administrative region or state.",
@@ -144,6 +152,7 @@
         "familyName": "Nom de famille enregistré.",
         "birthDate": "Date de naissance officielle.",
         "gender": "Gender",
+        "profileImage": "Profile image",
         "address.streetAddress": "Nom et numéro de la rue.",
         "address.locality": "Ville de résidence.",
         "address.region": "Région administrative.",
@@ -194,7 +203,8 @@
             "givenName",
             "familyName",
             "birthDate",
-            "gender"
+            "gender",
+            "profileImage"
           ]
         },
         "back": {

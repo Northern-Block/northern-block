@@ -1,0 +1,95 @@
+{
+  "capture_base": {
+    "attributes": {
+      "dl_number": "Text",
+      "first_name": "Text",
+      "last_name": "Text",
+      "address": "Text",
+      "dob_dateint": "Text"
+    },
+    "classification": "",
+    "digest": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+    "flagged_attributes": [],
+    "type": "spec/capture_base/1.0"
+  },
+  "overlays": [
+    {
+      "attribute_character_encoding": {
+        "dl_number": "utf-8",
+        "first_name": "utf-8",
+        "last_name": "utf-8",
+        "address": "utf-8",
+        "dob_dateint": "utf-8"
+      },
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "default_character_encoding": "utf-8",
+      "digest": "EggyBX7giHwyps3AX9ubYZnjfVspL0KqxFV4eFOPm5gE",
+      "type": "spec/overlays/character_encoding/1.0"
+    },
+    {
+      "attribute_categories": [],
+      "attribute_labels": {
+        "dl_number": "Driving License Number",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "address": "Residential Address",
+        "dob_dateint": "Date of Birth"
+      },
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "category_labels": {},
+      "digest": "ESJNm1_sybFWaY263eHkyeOVp79aKd2v7LgVcBfF-_OY",
+      "language": "en",
+      "type": "spec/overlays/label/1.0"
+    },
+    {
+      "attribute_information": {
+        "dl_number": "The unique driving license number issued by the transport authority.",
+        "first_name": "The given name of the driving license holder.",
+        "last_name": "The family name of the driving license holder.",
+        "address": "The residential address of the license holder.",
+        "dob_dateint": "The date of birth of the license holder."
+      },
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "digest": "Eybxa0t_Z04GnHkWyYNqjBV5zuRkmLTrfgRtAnHsDP0g",
+      "language": "en",
+      "type": "spec/overlays/information/1.0"
+    },
+    {
+      "attribute_formats": {},
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "digest": "EEfZ7EXB9VIVO2rmHU2TEg-12SMiM2RH5o-ADePYDJvI",
+      "type": "spec/overlays/format/1.0"
+    },
+    {
+      "attribute_standards": {},
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "digest": "EKDaCg0RiGNDfigqAvpeoYbug6doKrmS1M-a0eWVkh4M",
+      "type": "spec/overlays/standard/1.0"
+    },
+    {
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "credential_support_url": "https://transport.gov/",
+      "description": "A digital credential representing a valid driving license issued by the transport authority.",
+      "digest": "EH-csJIS8NWowtDx-AH9R8wANPIIT9doKGdF1cikm9VE",
+      "issuer": "Transport Authority (DEV)",
+      "issuer_description": "Government Transport Department",
+      "issuer_url": "https://transport.gov/",
+      "language": "en",
+      "name": "Driving License Credential",
+      "type": "spec/overlays/meta/1.0",
+      "watermark": "DEMONSTRATION"
+    },
+    {
+      "logo": "https://example.com/logo.jpg",
+      "background_image_slice": "https://example.com/background-slice.jpg",
+      "background_image": "https://example.com/background.jpg",
+      "primary_background_color": "#015982",
+      "secondary_background_color": "#4b8516",
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "digest": "EBQbQEV6qSEGDzGLj1CqT4e6yzESjPimF-Swmyltw5jU",
+      "primary_attribute": "dl_number",
+      "secondary_attribute": "first_name",
+      "type": "spec/overlays/branding/1.0"
+    }
+  ]
+}

@@ -7,10 +7,7 @@
         },
         "classification": "",
         "digest": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
-        "flagged_attributes": [
-            "licence_holder_given_name",
-            "licence_holder_family_name"
-        ],
+        "flagged_attributes": [],
         "type": "spec/capture_base/1.0"
     },
     "overlays": [

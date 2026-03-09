@@ -25,8 +25,8 @@
       "evidence_governance.evidence.source": "Text",
       "evidence_governance.evidence.verifier": "Text",
       "evidence_governance.evidence.timestamp": "Text",
-      "homeowner.property_id": "Text",
-      "homeowner.mortgage_flag": "Text",
+      "homeowner.property_id": "Numeric",
+      "homeowner.mortgage_flag": "Boolean",
       "homeowner.ownership_type": "Text",
       "homeowner.occupancy_status": "Text",
       "homeowner.property_address": "Text"

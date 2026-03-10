@@ -1,5 +1,5 @@
 {
-  "id": "https://northern-block.github.io/northern-block/cornerstone-dev/cornerstone_id.json",
+  "id": "https://northern-block.github.io/northern-block/cornerstone-dev/professional.json",
   "capture_base": {
     "type": "spec/capture_base/1.0",
     "attributes": {
@@ -7,12 +7,15 @@
       "family_name": "Text",
       "email": "Text",
       "mobile": "Text",
-      "identity_check": "Text"
+      "identity_check": "Text",
+      "designation": "text",
+      "professional_details": "text"
     },
     "flagged_attributes": [
       "given_names",
       "family_name",
-      "mobile"
+      "mobile",
+      "professional_details"
     ]
   },
   "overlays": [
@@ -23,7 +26,9 @@
         "family_name": "utf-8",
         "email": "utf-8",
         "mobile": "utf-8",
-        "identity_check": "utf-8"
+        "identity_check": "utf-8",
+        "designation": "utf-8",
+        "professional_details": "utf-8"
       }
     },
     {
@@ -33,7 +38,9 @@
         "family_name",
         "email",
         "mobile",
-        "identity_check"
+        "identity_check",
+        "designation",
+        "professional_details"
       ]
     },
     {
@@ -45,7 +52,9 @@
         "mobile"
       ],
       "details": [
-        "identity_check"
+        "identity_check",
+        "designation",
+        "professional_details"
       ]
     },
     {
@@ -56,7 +65,9 @@
         "family_name": "Family Name",
         "email": "Verified Email",
         "mobile": "Mobile Number",
-        "identity_check": "Identifier"        
+        "identity_check": "Identifier",
+        "designation": "Professional Designation",
+        "professional_details": "Professional License No."     
       }
     },
     {
@@ -65,15 +76,16 @@
       "category_labels": {
         "personal": "Personal Information",
         "profession": "Profession Details",
-        "evidence": "Evidence Governance",
-        "homeowner": "Homeowner Information"
+        "evidence": "Evidence Governance"
       },
       "attribute_categories": {
         "given_names": "personal",
         "family_name": "personal",
         "email": "personal",
         "mobile": "personal",
-        "identity_check": "profession"
+        "identity_check": "profession",
+        "designation": "profession",
+        "professional_details": "profession" 
       }
     },
     {
@@ -84,7 +96,9 @@
         "family_name": "The person’s family name.",
         "email": "The person’s verified email address.",
         "mobile": "The person’s mobile number.",
-        "identity_check": "Verification method used."
+        "identity_check": "Verification method used.",
+        "designation": "The person’s Professional Designation.",
+        "professional_details": "The person’s Professional License No." 
       }
     },
     {
@@ -117,7 +131,7 @@
     {
       "type": "spec/overlays/card/1.0",
       "language": "en",
-      "title": "Cornerstone Id",
+      "title": "Professional",
       "subtitle": "Verifiable Credential",
       "layout": {
         "front": {
@@ -130,7 +144,9 @@
         },
         "back": {
           "fields": [
-            "identity_check"
+            "identity_check",
+            "designation",
+            "professional_details"
           ]
         }
       },

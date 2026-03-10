@@ -87,12 +87,21 @@
     "label": "Expiry date of the identity document",
     "type": "xsd:date"
   },
-   "designaation": {
+   "designation": {
     "id": "ext:designation",
     "label": "Professional Designation"
   },
-   "professional_details": {
-    "id": "ext:professional_details",
+   "professionalDetails": {
+    "id": "ext:professionalDetails",
     "label": "Professional details/ license no"
+  },
+  "year": {
+    "id": "ext:year",
+    "label": "Effective year"
+  },
+  "identityEvidence": {
+    "id": "ext:identityEvidence",
+    "label": "Identity Evidence"
   }
+
 }

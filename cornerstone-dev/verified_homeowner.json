@@ -1,0 +1,216 @@
+{
+  "id": "https://northern-block.github.io/northern-block/cornerstone-dev/verified_homeowner.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "given_names": "text",
+      "family_name": "text",
+      "birthdate_dateint": "text",
+      "verified_email": "text",
+      "pid": "text",
+      "property_address": "text",
+      "jurisdiction": "text",
+      "purchase_price": "text",
+      "purchase_date": "text",
+      "year_built": "text",
+      "effective_year": "text",
+      "neighbourhood": "text",
+      "identity_evidence": "text",
+      "title_evidence": "text"
+    },
+    "flagged_attributes": [
+      "given_names",
+      "family_name",
+      "pid",
+      "birthdate_dateint"
+    ]
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {        
+        "given_names": "utf-8",
+        "family_name": "utf-8",
+        "birthdate_dateint": "utf-8",
+        "verified_email": "utf-8",
+        "pid": "utf-8",
+        "property_address": "utf-8",
+        "jurisdiction": "utf-8",
+        "purchase_price": "utf-8",
+        "purchase_date": "utf-8",
+        "year_built": "utf-8",
+        "effective_year": "utf-8",
+        "neighbourhood": "utf-8",
+        "identity_evidence": "utf-8",
+        "title_evidence": "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "given_names",
+        "family_name",
+        "birthdate_dateint",
+        "verified_email",
+        "pid",
+        "property_address",
+        "jurisdiction",
+        "purchase_price",
+        "purchase_date",
+        "year_built",
+        "effective_year",
+        "neighbourhood",
+        "identity_evidence",
+        "title_evidence"
+      ]
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "given_names",
+        "family_name",
+        "verified_email",
+        "property_address"
+      ],
+      "details": [
+        "birthdate_dateint",
+        "pid",
+        "jurisdiction",
+        "purchase_price",
+        "purchase_date",
+        "year_built",
+        "effective_year",
+        "neighbourhood",
+        "identity_evidence",
+        "title_evidence"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "given_names": "Given Names",
+        "family_name": "Family Name",
+        "birthdate_dateint": "Birthdate",
+        "verified_email": "Verified Email",
+        "pid": "Property ID",
+        "property_address": "Property Address",
+        "jurisdiction": "Jurisdiction",
+        "purchase_price": "Purchase Price",
+        "purchase_date": "Purchase Date",
+        "year_built": "Year Built",
+        "effective_year": "Effective Year",
+        "neighbourhood": "Neighbourhood",
+        "identity_evidence": "Identity Evidence",
+        "title_evidence": "Title Evidence"
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        "personal": "Personal Information",
+        "profession": "Profession Details",
+        "evidence": "Evidence Governance"
+      },
+      "attribute_categories": {
+        "given_names": "personal",
+        "family_name": "personal",
+        "verified_email": "personal",
+        "birthdate_dateint": "personal",
+        "pid": "evidence",
+        "property_address": "personal",
+        "jurisdiction": "personal",
+        "purchase_price": "personal",
+        "purchase_date": "personal",
+        "year_built": "personal",
+        "effective_year": "personal",
+        "neighbourhood": "personal",
+        "identity_evidence": "evidence",
+        "title_evidence": "evidence"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "given_names": "The person’s given names.",
+        "family_name": "The person’s family name.",
+        "verified_email": "The person’s verified email address.",
+        "birthdate_dateint": "The person’s birthdate.",
+        "pid": "The person’s property ID.",
+        "property_address": "The address of the property.",
+        "jurisdiction": "The jurisdiction of the property.",
+        "purchase_price": "The purchase price of the property.",
+        "purchase_date": "The purchase date of the property.",
+        "year_built": "The year the property was built.",
+        "effective_year": "The effective year of the property.",
+        "neighbourhood": "The neighbourhood of the property.",
+        "identity_evidence": "Evidence of the person’s identity.",
+        "title_evidence": "Evidence of the property title."
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {
+      }
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {
+      }
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Cornerstone ID",
+      "description": "A verifiable credential representing a cornerstone user.",
+      "issuer": "Cornerstone",
+      "issuer_url": "https://example.org",
+      "credential_support_url": "https://example.org/support"
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#003366",
+      "secondary_background_color": "#E6F0FA",
+      "logo": "https://example.org/logo/person-identity.png",
+      "primary_attribute": "given_names",
+      "secondary_attribute": "family_name"
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Professional",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": [
+            "given_names",
+            "family_name",
+            "verified_email",
+            "property_address",
+            "purchase_date"
+          ]
+        },
+        "back": {
+          "fields": [
+            "birthdate_dateint",
+            "pid",
+            "jurisdiction",
+            "purchase_price",
+            "year_built",
+            "effective_year",
+            "neighbourhood",
+            "identity_evidence",
+            "title_evidence"
+          ]
+        }
+      },
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
+    }
+  ]
+}

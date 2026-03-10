@@ -5,7 +5,7 @@
     "attributes": {
       "given_names": "text",
       "family_name": "text",
-      "birthdate_dateint": "text",
+      "birthdate_dateint": "DateTime",
       "verified_email": "text",
       "pid": "text",
       "property_address": "text",
@@ -153,11 +153,13 @@
     {
       "type": "spec/overlays/format/1.0",
       "attribute_formats": {
+        "birthdate_dateint": "YYYYMMDD"
       }
     },
     {
       "type": "spec/overlays/standard/1.0",
       "attribute_standards": {
+        "birthdate_dateint": "urn:iso:std:iso:1989"
       }
     },
     {

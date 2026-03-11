@@ -102,6 +102,10 @@
   "identityEvidence": {
     "id": "ext:identityEvidence",
     "label": "Identity Evidence"
+  },
+  "relation": {
+    "id": "ext:relation",
+    "label": "Relation to you"
   }
 
 }

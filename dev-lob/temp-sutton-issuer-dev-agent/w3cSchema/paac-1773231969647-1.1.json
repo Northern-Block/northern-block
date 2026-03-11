@@ -65,7 +65,7 @@
             "title": "Identifier",
             "description": "Verification method used.",
             "minLength": 5,
-            "maxLength": 20
+            "maxLength": 100
         }
     },
     "required": [

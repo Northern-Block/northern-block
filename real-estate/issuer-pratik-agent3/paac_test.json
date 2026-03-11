@@ -1,0 +1,176 @@
+{
+  "id": "https://northern-block.github.io/northern-block/real-estate/issuer-pratik-agent3/paac_test.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "given_names": "Text",
+      "family_name": "Text",
+      "email": "Text",
+      "relation": "Text",
+      "identity_check": "Text",
+      "pid_data": "Text",
+      "property_address": "Text",
+      "share_coo_equity": "Text",
+      "np_name": "Text"
+    },
+    "flagged_attributes": [
+      "given_names",
+      "family_name",
+      "relation",
+      "property_address"
+    ]
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {
+        "given_names": "utf-8",
+        "family_name": "utf-8",
+        "email": "utf-8",
+        "relation": "utf-8",
+        "identity_check": "utf-8",
+        "pid_data": "utf-8",
+        "property_address": "utf-8",
+        "np_name": "utf-8",
+        "share_coo_equity": "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "given_names",
+        "family_name",
+        "email",
+        "relation",
+        "pid_data",
+        "property_address",
+        "share_coo_equity",
+        "identity_check",
+        "np_name"
+      ]
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "given_names",
+        "family_name",
+        "email",
+        "relation"
+      ],
+      "details": [
+        "identity_check",
+        "pid_data",
+        "property_address",
+        "share_coo_equity",
+        "np_name"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "given_names": "Given Names",
+        "family_name": "Family Name",
+        "email": "Verified Email",
+        "relation": "Relation To You",
+        "identity_check": "Identifier",
+        "pid_data": "Property ID",
+        "property_address": "Professional License No.",
+        "share_coo_equity": "Share COO and Equity data?",
+        "np_name": "Network Partner"
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        "personal": "Personal Information",
+        "profession": "Profession Details",
+        "evidence": "Evidence Governance"
+      },
+      "attribute_categories": {
+        "given_names": "personal",
+        "family_name": "personal",
+        "email": "personal",
+        "relation": "personal",
+        "identity_check": "profession",
+        "pid_data": "profession",
+        "property_address": "profession",
+        "np_name": "profession",
+        "share_coo_equity": "profession"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "given_names": "The person’s given names.",
+        "family_name": "The person’s family name.",
+        "email": "The person’s verified email address.",
+        "relation": "The person’s relation.",
+        "identity_check": "Verification method used.",
+        "pid_data": "The person’s Property ID.",
+        "property_address": "The person’s Professional License No.",
+        "np_name": "The person’s Network Partner.",
+        "share_coo_equity": "The person’s will to share COO & Equity data."
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {
+      }
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {
+      }
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Cornerstone ID",
+      "description": "A verifiable credential representing a cornerstone user.",
+      "issuer": "Cornerstone",
+      "issuer_url": "https://example.org",
+      "credential_support_url": "https://example.org/support"
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#003366",
+      "secondary_background_color": "#E6F0FA",
+      "logo": "https://example.org/logo/person-identity.png",
+      "primary_attribute": "given_names",
+      "secondary_attribute": "family_name"
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Professional",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": [
+            "given_names",
+            "family_name",
+            "email",
+            "relation"
+          ]
+        },
+        "back": {
+          "fields": [
+            "identity_check",
+            "pid_data",
+            "property_address",
+            "share_coo_equity",
+            "np_name"
+          ]
+        }
+      },
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
+    }
+  ]
+}

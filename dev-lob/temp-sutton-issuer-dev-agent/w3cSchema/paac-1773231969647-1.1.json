@@ -1,1 +1,85 @@
-{"$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://Northern-Block.github.io/northern-block/dev-lob/temp-sutton-issuer-dev-agent/w3cSchema/paac-1773231969647-1.1.json","title":"paac","type":"object","properties":{"given_names":{"type":"string","title":"Given Names","description":"The person’s given names.","minLength":1,"maxLength":50},"family_name":{"type":"string","title":"Family Name","description":"The person’s family name.","minLength":1,"maxLength":50},"email":{"type":"string","title":"Verified Email","description":"The person’s verified email address.","minLength":5,"maxLength":100},"relation":{"type":"string","title":"Relation To You","description":"The person’s relation.","minLength":1,"maxLength":50},"pid":{"type":"string","title":"Property ID","description":"The person’s Property ID.","minLength":5,"maxLength":100},"property_address":{"type":"string","title":"Professional License No.","description":"The person’s Professional License No.","minLength":5,"maxLength":100},"share_coo_equity":{"type":"string","title":"Share COO and Equity data?","description":"The person’s will to share COO & Equity data.","minLength":5,"maxLength":20},"np_name":{"type":"string","title":"Network Partner","description":"The person’s Network Partner.","minLength":5,"maxLength":20},"identity_check":{"type":"string","title":"Identifier","description":"Verification method used.","minLength":5,"maxLength":20}},"required":["id","given_names","family_name","email","relation","pid","property_address","share_coo_equity","np_name","identity_check"],"additionalProperties":false,"$defs":{}}
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://Northern-Block.github.io/northern-block/dev-lob/temp-sutton-issuer-dev-agent/w3cSchema/paac-1773231969647-1.1.json",
+    "title": "paac",
+    "type": "object",
+    "properties": {
+        "given_names": {
+            "type": "string",
+            "title": "Given Names",
+            "description": "The person’s given names.",
+            "minLength": 1,
+            "maxLength": 50
+        },
+        "family_name": {
+            "type": "string",
+            "title": "Family Name",
+            "description": "The person’s family name.",
+            "minLength": 1,
+            "maxLength": 50
+        },
+        "email": {
+            "type": "string",
+            "title": "Verified Email",
+            "description": "The person’s verified email address.",
+            "minLength": 5,
+            "maxLength": 100
+        },
+        "relation": {
+            "type": "string",
+            "title": "Relation To You",
+            "description": "The person’s relation.",
+            "minLength": 1,
+            "maxLength": 50
+        },
+        "pid": {
+            "type": "string",
+            "title": "Property ID",
+            "description": "The person’s Property ID.",
+            "minLength": 5,
+            "maxLength": 100
+        },
+        "property_address": {
+            "type": "string",
+            "title": "Professional License No.",
+            "description": "The person’s Professional License No.",
+            "minLength": 3,
+            "maxLength": 100
+        },
+        "share_coo_equity": {
+            "type": "string",
+            "title": "Share COO and Equity data?",
+            "description": "The person’s will to share COO & Equity data.",
+            "minLength": 1,
+            "maxLength": 10
+        },
+        "np_name": {
+            "type": "string",
+            "title": "Network Partner",
+            "description": "The person’s Network Partner.",
+            "minLength": 3,
+            "maxLength": 20
+        },
+        "identity_check": {
+            "type": "string",
+            "title": "Identifier",
+            "description": "Verification method used.",
+            "minLength": 5,
+            "maxLength": 20
+        }
+    },
+    "required": [
+        "id",
+        "given_names",
+        "family_name",
+        "email",
+        "relation",
+        "pid",
+        "property_address",
+        "share_coo_equity",
+        "np_name",
+        "identity_check"
+    ],
+    "additionalProperties": false,
+    "$defs": {}
+}

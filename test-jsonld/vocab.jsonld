@@ -106,6 +106,9 @@
   "relation": {
     "id": "ext:relation",
     "label": "Relation to you"
+  },
+  "pid": {
+    "id": "ext:pid",
+    "label": "Property Id"
   }
-
 }

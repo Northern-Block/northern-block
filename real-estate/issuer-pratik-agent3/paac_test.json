@@ -8,7 +8,6 @@
       "email": "Text",
       "relation": "Text",
       "identity_check": "Text",
-      "pid_data": "Text",
       "property_address": "Text",
       "share_coo_equity": "Text",
       "np_name": "Text"
@@ -29,7 +28,6 @@
         "email": "utf-8",
         "relation": "utf-8",
         "identity_check": "utf-8",
-        "pid_data": "utf-8",
         "property_address": "utf-8",
         "np_name": "utf-8",
         "share_coo_equity": "utf-8"
@@ -42,7 +40,6 @@
         "family_name",
         "email",
         "relation",
-        "pid_data",
         "property_address",
         "share_coo_equity",
         "identity_check",
@@ -59,7 +56,6 @@
       ],
       "details": [
         "identity_check",
-        "pid_data",
         "property_address",
         "share_coo_equity",
         "np_name"
@@ -74,7 +70,6 @@
         "email": "Verified Email",
         "relation": "Relation To You",
         "identity_check": "Identifier",
-        "pid_data": "Property ID",
         "property_address": "Professional License No.",
         "share_coo_equity": "Share COO and Equity data?",
         "np_name": "Network Partner"
@@ -94,7 +89,6 @@
         "email": "personal",
         "relation": "personal",
         "identity_check": "profession",
-        "pid_data": "profession",
         "property_address": "profession",
         "np_name": "profession",
         "share_coo_equity": "profession"
@@ -109,7 +103,6 @@
         "email": "The person’s verified email address.",
         "relation": "The person’s relation.",
         "identity_check": "Verification method used.",
-        "pid_data": "The person’s Property ID.",
         "property_address": "The person’s Professional License No.",
         "np_name": "The person’s Network Partner.",
         "share_coo_equity": "The person’s will to share COO & Equity data."
@@ -159,7 +152,6 @@
         "back": {
           "fields": [
             "identity_check",
-            "pid_data",
             "property_address",
             "share_coo_equity",
             "np_name"

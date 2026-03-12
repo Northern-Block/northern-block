@@ -1,1 +1,66 @@
-{"id":"https://Northern-Block.github.io/northern-block/dev-lob/temp-sutton-issuer-dev-agent/vct/paac-1773230859309-1.1.json","type":"VerifiableCredentialTypeDefinition","name":"paac","description":"PAAC VC issued by Cornerstone.","supportRevocation":true,"revocationRegistrySize":100,"schema":{"id":"https://Northern-Block.github.io/northern-block/dev-lob/temp-sutton-issuer-dev-agent/w3cSchema/paac-1773231969647-1.1.json","jsonSchema":"https://Northern-Block.github.io/northern-block/dev-lob/temp-sutton-issuer-dev-agent/schema/paac-1.1.json"},"jsonLdContext":{"id":"https://Northern-Block.github.io/northern-block/dev-lob/temp-sutton-issuer-dev-agent/context/paac-1773231969647-1.1.jsonld"},"propertyBindings":{"given_names":{"schemaPointer":"#/properties/given_names","jsonLdTerm":"given_names","iri":"https://schema.org/givenName"},"family_name":{"schemaPointer":"#/properties/family_name","jsonLdTerm":"family_name","iri":"https://schema.org/familyName"},"email":{"schemaPointer":"#/properties/email","jsonLdTerm":"email","iri":"https://schema.org/email"},"relation":{"schemaPointer":"#/properties/relation","jsonLdTerm":"relation","iri":"https://northern-block.github.io/northern-block/test-jsonld/vocab.jsonld#relation"},"pid":{"schemaPointer":"#/properties/pid","jsonLdTerm":"pid","iri":"https://schema.org/identifier"},"property_address":{"schemaPointer":"#/properties/property_address","jsonLdTerm":"property_address","iri":"https://schema.org/address"},"share_coo_equity":{"schemaPointer":"#/properties/share_coo_equity","jsonLdTerm":"share_coo_equity","iri":"https://schema.org/Boolean"},"np_name":{"schemaPointer":"#/properties/np_name","jsonLdTerm":"np_name","iri":"https://schema.org/name"},"identity_check":{"schemaPointer":"#/properties/identity_check","jsonLdTerm":"identity_check","iri":"https://schema.org/identifier"}},"credentialTypes":["VerifiableCredential","paac"]}
+{
+    "id": "https://Northern-Block.github.io/northern-block/dev-lob/temp-sutton-issuer-dev-agent/vct/paac-1773230859309-1.1.json",
+    "type": "VerifiableCredentialTypeDefinition",
+    "name": "paac",
+    "description": "PAAC VC issued by Cornerstone.",
+    "supportRevocation": true,
+    "revocationRegistrySize": 100,
+    "schema": {
+        "id": "https://Northern-Block.github.io/northern-block/dev-lob/temp-sutton-issuer-dev-agent/w3cSchema/paac-1773231969647-1.1.json",
+        "jsonSchema": "https://Northern-Block.github.io/northern-block/dev-lob/temp-sutton-issuer-dev-agent/schema/paac-1.1.json"
+    },
+    "jsonLdContext": {
+        "id": "https://Northern-Block.github.io/northern-block/dev-lob/temp-sutton-issuer-dev-agent/context/paac-1773231969647-1.1.jsonld"
+    },
+    "propertyBindings": {
+        "given_names": {
+            "schemaPointer": "#/properties/given_names",
+            "jsonLdTerm": "given_names",
+            "iri": "https://schema.org/givenName"
+        },
+        "family_name": {
+            "schemaPointer": "#/properties/family_name",
+            "jsonLdTerm": "family_name",
+            "iri": "https://schema.org/familyName"
+        },
+        "email": {
+            "schemaPointer": "#/properties/email",
+            "jsonLdTerm": "email",
+            "iri": "https://schema.org/email"
+        },
+        "relation": {
+            "schemaPointer": "#/properties/relation",
+            "jsonLdTerm": "relation",
+            "iri": "https://northern-block.github.io/northern-block/test-jsonld/vocab.jsonld#relation"
+        },
+        "pid": {
+            "schemaPointer": "#/properties/pid",
+            "jsonLdTerm": "pid",
+            "iri": "https://northern-block.github.io/northern-block/test-jsonld/vocab.jsonld#pid"
+        },
+        "property_address": {
+            "schemaPointer": "#/properties/property_address",
+            "jsonLdTerm": "property_address",
+            "iri": "https://schema.org/address"
+        },
+        "share_coo_equity": {
+            "schemaPointer": "#/properties/share_coo_equity",
+            "jsonLdTerm": "share_coo_equity",
+            "iri": "https://schema.org/Boolean"
+        },
+        "np_name": {
+            "schemaPointer": "#/properties/np_name",
+            "jsonLdTerm": "np_name",
+            "iri": "https://schema.org/name"
+        },
+        "identity_check": {
+            "schemaPointer": "#/properties/identity_check",
+            "jsonLdTerm": "identity_check",
+            "iri": "https://schema.org/identifier"
+        }
+    },
+    "credentialTypes": [
+        "VerifiableCredential",
+        "paac"
+    ]
+}

@@ -110,5 +110,9 @@
   "pid": {
     "id": "ext:pid",
     "label": "Property Id"
+  },
+  "cornerstone_user_id": {
+    "id": "ext:cornerstone_user_id",
+    "label": "Cornerstone User Id"
   }
 }

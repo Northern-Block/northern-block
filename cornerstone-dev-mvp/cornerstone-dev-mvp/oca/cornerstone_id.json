@@ -1,0 +1,170 @@
+{
+  "id": "https://northern-block.github.io/northern-block/cornerstone-dev-mvp/cornerstone_id.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "given_names": "text",
+      "family_name": "text",
+      "birthdate": "DateTime",
+      "verified_email": "text",
+      "verified_phone": "text",
+      "postal_address": "text",
+      "cornerstone_user_id": "text",
+      "identity_evidence": "text"
+    },
+    "flagged_attributes": [
+      "given_names",
+      "family_name",
+      "verified_phone",
+      "verified_email"
+    ]
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {
+        "given_names": "utf-8",
+        "family_name": "utf-8",
+        "birthdate": "utf-8",
+        "verified_email": "utf-8",
+        "verified_phone": "utf-8",
+        "postal_address": "text",
+        "cornerstone_user_id": "text",
+        "identity_evidence": "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "given_names",
+        "family_name",
+        "birthdate",
+        "verified_email",
+        "verified_phone",
+        "postal_address",
+        "cornerstone_user_id",
+        "identity_evidence"
+      ]
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "given_names",
+        "family_name",
+        "verified_email",
+        "verified_phone",
+        "cornerstone_user_id"
+      ],
+      "details": [
+        "identity_evidence",
+        "birthdate",
+        "postal_address"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "given_names": "Given Names",
+        "family_name": "Family Name",
+        "birthdate": "Date of Birth",
+        "verified_email": "Verified Email",
+        "verified_phone": "Mobile Number",
+        "postal_address": "Postal Address",
+        "cornerstone_user_id": "Cornerstone User ID",
+        "identity_evidence": "Identity Evidence"
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        "personal": "Personal Information",
+        "profession": "Profession Details",
+        "evidence": "Evidence Governance"
+      },
+      "attribute_categories": {
+        "given_names": "personal",
+        "family_name": "personal",
+        "birthdate": "personal",
+        "verified_email": "personal",
+        "verified_phone": "personal",
+        "postal_address": "personal",
+        "cornerstone_user_id": "profession",
+        "identity_evidence": "profession"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "given_names": "The person’s given names.",
+        "family_name": "The person’s family name.",
+        "birthdate": "The person’s birth date.",
+        "verified_email": "The person’s verified email address.",
+        "verified_phone": "The person’s mobile number.",
+        "postal_address": "The person’s postal address.",
+        "cornerstone_user_id": "The person’s cornerstone user id.",
+        "identity_evidence": "Verification method used."
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {
+         "birthdate": "YYYYMMDD"
+      }
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {
+        "birthdate": "urn:iso:std:iso:1989"
+      }
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Cornerstone ID",
+      "description": "A verifiable credential representing a cornerstone user.",
+      "issuer": "Cornerstone",
+      "issuer_url": "https://example.org",
+      "credential_support_url": "https://example.org/support"
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#003366",
+      "secondary_background_color": "#E6F0FA",
+      "logo": "https://example.org/logo/person-identity.png",
+      "primary_attribute": "given_names",
+      "secondary_attribute": "family_name"
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Cornerstone Id",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": [
+            "given_names",
+            "family_name",
+            "verified_email",
+            "verified_phone",
+            "cornerstone_user_id"
+          ]
+        },
+        "back": {
+          "fields": [
+            "birthdate",
+            "postal_address",
+            "identity_evidence"
+          ]
+        }
+      },
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
+    }
+  ]
+}

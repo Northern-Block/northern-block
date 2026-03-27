@@ -109,10 +109,14 @@
   },
   "pid": {
     "id": "ext:pid",
-    "label": "Property Id"
+    "label": "Parcel Identifier"
   },
   "cornerstone_user_id": {
     "id": "ext:cornerstone_user_id",
     "label": "Cornerstone User Id"
+  },
+  "cornerstone_id": {
+    "id": "ext:cornerstone_id",
+    "label": "Cornerstone Id"
   }
 }

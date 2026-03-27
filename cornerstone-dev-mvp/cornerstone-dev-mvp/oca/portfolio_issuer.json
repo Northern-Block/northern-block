@@ -1,0 +1,158 @@
+{
+  "id": "https://northern-block.github.io/northern-block/cornerstone-dev-mvp/cornerstone-dev-mvp/oca/portfolio_issuer.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "cornerstone_id": "text",
+      "portfolio_issuer_id": "text",
+      "network_partner_id": "text",
+      "network_partner_name": "text",
+      "granted_date": "text",
+      "granting_authority": "text",
+      "scope": "text"
+    },
+    "flagged_attributes": [
+      "cornerstone_id",
+      "portfolio_issuer_id",
+      "network_partner_id",
+      "network_partner_name"
+    ]
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {
+        "cornerstone_id": "utf-8",
+        "portfolio_issuer_id": "utf-8",
+        "network_partner_id": "utf-8",
+        "network_partner_name": "utf-8",
+        "granted_date": "utf-8",
+        "granting_authority": "utf-8",
+        "scope": "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "cornerstone_id",
+        "portfolio_issuer_id",
+        "network_partner_id",
+        "network_partner_name",
+        "granted_date",
+        "granting_authority",
+        "scope"
+      ]
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "cornerstone_id",
+        "portfolio_issuer_id",
+        "network_partner_id",
+        "network_partner_name"
+      ],
+      "details": [
+        "granted_date",
+        "granting_authority",
+        "scope"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "cornerstone_id": "Given Names",
+        "portfolio_issuer_id": "Family Name",
+        "network_partner_id": "Verified Email",
+        "network_partner_name": "Mobile Number",
+        "granted_date": "Identifier",
+        "granting_authority": "Professional Designation",
+        "scope": "Professional License No."
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        "personal": "Personal Information",
+        "profession": "Profession Details",
+        "evidence": "Evidence Governance"
+      },
+      "attribute_categories": {
+        "cornerstone_id": "personal",
+        "portfolio_issuer_id": "personal",
+        "network_partner_id": "personal",
+        "network_partner_name": "personal",
+        "granted_date": "profession",
+        "granting_authority": "profession",
+        "scope": "profession"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "cornerstone_id": "The person’s given names.",
+        "portfolio_issuer_id": "The person’s family name.",
+        "network_partner_id": "The person’s verified email address.",
+        "network_partner_name": "The person’s mobile number.",
+        "granted_date": "Verification method used.",
+        "granting_authority": "The person’s Professional Designation.",
+        "scope": "The person’s Professional License No."
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {}
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {}
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Portfolio Issuer",
+      "description": "A verifiable credential representing a cornerstone user.",
+      "issuer": "Cornerstone",
+      "issuer_url": "https://example.org",
+      "credential_support_url": "https://example.org/support"
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#003366",
+      "secondary_background_color": "#E6F0FA",
+      "logo": "https://example.org/logo/person-identity.png",
+      "primary_attribute": "portfolio_issuer_id",
+      "secondary_attribute": "network_partner_name"
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Professional",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": [
+            "portfolio_issuer_id",
+            "network_partner_name",
+            "cornerstone_id",
+            "granted_date",
+            "granting_authority"
+          ]
+        },
+        "back": {
+          "fields": [
+            "scope",
+            "network_partner_id"
+          ]
+        }
+      },
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
+    }
+  ]
+}

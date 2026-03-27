@@ -118,5 +118,9 @@
   "cornerstone_id": {
     "id": "ext:cornerstone_id",
     "label": "Cornerstone Id"
+  },
+  "network_partner_id": {
+    "id": "ext:network_partner_id",
+    "label": "Network Partner Id"
   }
 }

@@ -7,7 +7,7 @@
       "portfolio_issuer_id": "text",
       "network_partner_id": "text",
       "network_partner_name": "text",
-      "granted_date": "text",
+      "granted_date": "DateTime",
       "granting_authority": "text",
       "scope": "text"
     },
@@ -103,11 +103,15 @@
     },
     {
       "type": "spec/overlays/format/1.0",
-      "attribute_formats": {}
+      "attribute_formats": {
+        "granted_date": "YYYYMMDD"
+      }
     },
     {
       "type": "spec/overlays/standard/1.0",
-      "attribute_standards": {}
+      "attribute_standards": {
+        "granted_date": "urn:iso:std:iso:1989"
+      }
     },
     {
       "type": "spec/overlays/meta/1.0",

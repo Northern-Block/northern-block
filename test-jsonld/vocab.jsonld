@@ -122,5 +122,41 @@
   "network_partner_id": {
     "id": "ext:network_partner_id",
     "label": "Network Partner Id"
+  },
+  "granted_date": {
+    "id": "ext:granted_date",
+    "label": "Granted Date"
+  },
+  "granting_authority": {
+    "id": "ext:granting_authority",
+    "label": "Granting Authority"
+  },
+  "scope": {
+    "id": "ext:scope",
+    "label": "Scope"
+  },
+  "authorization_id": {
+    "id": "ext:authorization_id",
+    "label": "Authorization Id"
+  },
+  "homeowner_id": {
+    "id": "ext:homeowner_id",
+    "label": "Homeowner Id"
+  },
+  "authorization_purpose": {
+    "id": "ext:authorization_purpose",
+    "label": "Authorization Purpose"
+  },
+  "access_level": {
+    "id": "ext:access_level",
+    "label": "Access Level"
+  },
+  "authorization_evidence": {
+    "id": "ext:authorization_evidence",
+    "label": "Authorization Evidence"
+  },
+  "relationship_category": {
+    "id": "ext:relationship_category",
+    "label": "Relationship Category"
   }
 }

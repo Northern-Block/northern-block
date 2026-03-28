@@ -1,0 +1,188 @@
+{
+  "id": "https://northern-block.github.io/northern-block/cornerstone-dev-mvp/cornerstone-dev-mvp/oca/property_access_authorization.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "authorization_id": "text",
+      "homeowner_id": "text",
+      "pid": "text",
+      "data_scope": "text",
+      "authorization_purpose": "text",
+      "access_level": "text",
+      "start_date": "text",
+      "expiration_date": "text",
+      "authorization_evidence": "text",
+      "relationship_category": "text"
+    },
+    "flagged_attributes": [
+      "cornerstone_id",
+      "property_address",
+      "purchase_price",
+      "homeowner_evidence"
+    ]
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {
+        "authorization_id": "utf-8",
+        "homeowner_id": "utf-8",
+        "pid": "utf-8",
+        "data_scope": "utf-8",
+        "authorization_purpose": "utf-8",
+        "access_level": "utf-8",
+        "start_date": "utf-8",
+        "expiration_date": "utf-8",
+        "authorization_evidence": "utf-8",
+        "relationship_category": "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "authorization_id",
+        "homeowner_id",
+        "pid",
+        "data_scope",
+        "authorization_purpose",
+        "access_level",
+        "start_date",
+        "expiration_date",
+        "authorization_evidence",
+        "relationship_category"
+      ]
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "authorization_id",
+        "homeowner_id",
+        "pid",
+        "data_scope",
+        "authorization_purpose",
+        "access_level"
+      ],
+      "details": [
+        "start_date",
+        "expiration_date",
+        "authorization_evidence",
+        "relationship_category"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "authorization_id": "Authorization ID",
+        "homeowner_id": "Homeowner ID",
+        "pid": "PID",
+        "data_scope": "Data Scope",
+        "authorization_purpose": "Authorization Purpose",
+        "access_level": "Access Level",
+        "start_date": "Start Date",
+        "expiration_date": "Expiration Date",
+        "authorization_evidence": "Authorization Evidence",
+        "relationship_category": "Relationship Category"
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        "personal": "Personal Information",
+        "profession": "Profession Details",
+        "evidence": "Evidence Governance"
+      },
+      "attribute_categories": {
+        "authorization_id": "profession",
+        "homeowner_id": "profession",
+        "pid": "profession",
+        "data_scope": "profession",
+        "authorization_purpose": "profession",
+        "access_level": "profession",
+        "start_date": "profession",
+        "expiration_date": "profession",
+        "authorization_evidence": "profession",
+        "relationship_category": "profession"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "authorization_id": "Platform-generated unique identifier for this authorization.",
+        "homeowner_id": "Cornerstone ID (DID/URI) of the homeowner granting access to their property portfolio data.",
+        "pid": "Provincial land title Parcel Identifier for the property this authorization applies to. Resolves to the specific property without duplicating address data.",
+        "data_scope": "Array of data category identifiers the recipient is authorized to access. See Enumerated Values for valid options.",
+        "authorization_purpose": "Human-readable statement of the intent behind the data sharing authorization.",
+        "access_level": "Permission tier defining what the recipient can do with the accessed data.",
+        "start_date": "Date from which the authorization is valid, in ISO 8601 format.",
+        "expiration_date": "Optional end date for the authorization. Null means the authorization remains valid until explicitly revoked.",
+        "authorization_evidence": "URI reference to the homeowner action log entry documenting consent.",
+        "relationship_category": "The trust network member's relationship type to the homeowner."
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {
+        "start_date": "YYYYMMDD",
+        "expiration_date": "YYYYMMDD"
+      }
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {
+        "start_date": "urn:iso:std:iso:1989",
+        "expiration_date": "urn:iso:std:iso:1989"
+      }
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Property Access Authorization v1.0",
+      "description": "A verifiable credential rauthorizes a trust network member to access a homeowner's property portfolio data",
+      "issuer": "Cornerstone",
+      "issuer_url": "https://example.org",
+      "credential_support_url": "https://example.org/support"
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#003366",
+      "secondary_background_color": "#E6F0FA",
+      "logo": "https://example.org/logo/person-identity.png",
+      "primary_attribute": "data_scope",
+      "secondary_attribute": "pid"
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Home Credential",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": [
+            "authorization_id",
+            "pid",
+            "homeowner_id",
+            "data_scope",
+            "access_level"
+          ]
+        },
+        "back": {
+          "fields": [
+            "authorization_purpose",
+            "start_date",
+            "expiration_date",
+            "authorization_evidence",
+            "relationship_category"
+          ]
+        }
+      },
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
+    }
+  ]
+}

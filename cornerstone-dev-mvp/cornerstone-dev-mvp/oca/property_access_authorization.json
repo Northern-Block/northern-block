@@ -15,10 +15,10 @@
       "relationship_category": "text"
     },
     "flagged_attributes": [
-      "cornerstone_id",
-      "property_address",
-      "purchase_price",
-      "homeowner_evidence"
+      "authorization_id",
+      "homeowner_id",
+      "data_scope",
+      "authorization_purpose"
     ]
   },
   "overlays": [

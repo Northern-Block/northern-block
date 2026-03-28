@@ -158,5 +158,9 @@
   "relationship_category": {
     "id": "ext:relationship_category",
     "label": "Relationship Category"
+  },
+  "portfolio_issuer_id": {
+    "id": "ext:portfolio_issuer_id",
+    "label": "Portfolio Issuer ID"
   }
 }

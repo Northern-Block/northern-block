@@ -174,17 +174,17 @@
     {
       "type": "spec/overlays/format/1.0",
       "attribute_formats": {
-        "license_effective_date": "YYYY-MM-DD",
-        "license_expiry_date": "YYYY-MM-DD",
-        "affiliation_start_year": "YYYY"
+        "professional_license.license_effective_date": "YYYY-MM-DD",
+        "professional_license.license_expiry_date": "YYYY-MM-DD",
+        "office_affiliation.affiliation_start_year": "YYYY"
       }
     },
     {
       "type": "spec/overlays/standard/1.0",
       "attribute_standards": {
-        "license_effective_date": "urn:iso:std:iso:1989",
-        "license_expiry_date": "urn:iso:std:iso:1989",
-        "affiliation_start_year": "urn:iso:std:iso:1989"
+        "professional_license.license_effective_date": "urn:iso:std:iso:1989",
+        "professional_license.license_expiry_date": "urn:iso:std:iso:1989",
+        "office_affiliation.affiliation_start_year": "urn:iso:std:iso:1989"
       }
     },
     {
@@ -201,8 +201,8 @@
       "primary_background_color": "#003366",
       "secondary_background_color": "#E6F0FA",
       "logo": "https://example.org/logo/person-identity.png",
-      "primary_attribute": "first_name",
-      "secondary_attribute": "licensed_as"
+      "primary_attribute": "agent_details.first_name",
+      "secondary_attribute": "professional_license.licensed_as"
     },
     {
       "type": "spec/overlays/card/1.0",

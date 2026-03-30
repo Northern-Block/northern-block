@@ -48,7 +48,6 @@
     "label": "True if the subject is over 65 years old",
     "type": "xsd:boolean"
   },
-
   "streetAddress": {
     "id": "ext:streetAddress",
     "label": "Street address"
@@ -69,7 +68,6 @@
     "id": "ext:country",
     "label": "ISO 3166-1 alpha-2 country code"
   },
-
   "documentType": {
     "id": "ext:documentType",
     "label": "Type of identity document (PASSPORT, DRIVER_LICENSE, NATIONAL_ID)"
@@ -87,11 +85,11 @@
     "label": "Expiry date of the identity document",
     "type": "xsd:date"
   },
-   "designation": {
+  "designation": {
     "id": "ext:designation",
     "label": "Professional Designation"
   },
-   "professionalDetails": {
+  "professionalDetails": {
     "id": "ext:professionalDetails",
     "label": "Professional details/ license no"
   },
@@ -162,5 +160,25 @@
   "portfolio_issuer_id": {
     "id": "ext:portfolio_issuer_id",
     "label": "Portfolio Issuer ID"
+  },
+  "franchise": {
+    "id": "ext:franchise",
+    "label": "Franchise"
+  },
+  "licensed_as": {
+    "id": "ext:licensed_as",
+    "label": "License As"
+  },
+  "licensed_for": {
+    "id": "ext:licensed_for",
+    "label": "License For"
+  },
+  "prec": {
+    "id": "ext:prec",
+    "label": "Prec"
+  },
+  "operating_office": {
+    "id": "ext:operating_office",
+    "label": "Operating Office"
   }
 }

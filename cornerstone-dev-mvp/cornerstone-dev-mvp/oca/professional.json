@@ -1,0 +1,247 @@
+{
+  "id": "https://northern-block.github.io/northern-block/cornerstone-dev-mvp/cornerstone-dev-mvp/oca/professional.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "agent_details.first_name": "text",
+      "agent_details.last_name": "text",
+      "agent_details.phone": "text",
+      "agent_details.email": "text",
+      "office_affiliation.franchise": "text",
+      "office_affiliation.operating_office": "text",
+      "office_affiliation.operating_address": "text",
+      "office_affiliation.title": "text",
+      "office_affiliation.affiliation_start_year": "text",
+      "professional_license.license_number": "text",
+      "professional_license.license_effective_date": "text",
+      "professional_license.license_expiry_date": "text",
+      "professional_license.licensed_as": "text",
+      "professional_license.licensed_for": "text",
+      "professional_license.prec": "text",
+      "professional_license.business_name": "text",
+      "professional_license.issuing_authority": "text"
+    },
+    "flagged_attributes": [
+      "agent_details.first_name",
+      "agent_details.last_name",
+      "agent_details.phone",
+      "agent_details.email"
+    ]
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {
+        "agent_details.first_name": "utf-8",
+        "agent_details.last_name": "utf-8",
+        "agent_details.phone": "utf-8",
+        "agent_details.email": "utf-8",
+        "office_affiliation.franchise": "utf-8",
+        "office_affiliation.operating_office": "utf-8",
+        "office_affiliation.operating_address": "utf-8",
+        "office_affiliation.title": "utf-8",
+        "office_affiliation.affiliation_start_year": "utf-8",
+        "professional_license.license_number": "utf-8",
+        "professional_license.license_effective_date": "utf-8",
+        "professional_license.license_expiry_date": "utf-8",
+        "professional_license.licensed_as": "utf-8",
+        "professional_license.licensed_for": "utf-8",
+        "professional_license.prec": "utf-8",
+        "professional_license.business_name": "utf-8",
+        "professional_license.issuing_authority": "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "agent_details.first_name",
+        "agent_details.last_name",
+        "agent_details.phone",
+        "agent_details.email",
+        "office_affiliation.franchise",
+        "office_affiliation.operating_office",
+        "office_affiliation.operating_address",
+        "office_affiliation.title",
+        "office_affiliation.affiliation_start_year",
+        "professional_license.license_number",
+        "professional_license.license_effective_date",
+        "professional_license.license_expiry_date",
+        "professional_license.licensed_as",
+        "professional_license.licensed_for",
+        "professional_license.prec",
+        "professional_license.business_name",
+        "professional_license.issuing_authority"
+      ]
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "agent_details.first_name",
+        "agent_details.last_name",
+        "office_affiliation.title",
+        "professional_license.license_number",
+        "professional_license.licensed_as",
+        "professional_license.licensed_for"
+      ],
+      "details": [
+        "agent_details.phone",
+        "agent_details.email",
+        "office_affiliation.franchise",
+        "office_affiliation.operating_office",
+        "office_affiliation.operating_address",
+        "office_affiliation.affiliation_start_year",
+        "professional_license.license_effective_date",
+        "professional_license.license_expiry_date",
+        "professional_license.prec",
+        "professional_license.business_name",
+        "professional_license.issuing_authority"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "agent_details.first_name": "First Name",
+        "agent_details.last_name": "Last Name",
+        "agent_details.phone": "Phone",
+        "agent_details.email": "Email Address",
+        "office_affiliation.franchise": "Franchise",
+        "office_affiliation.operating_office": "Operating Office",
+        "office_affiliation.operating_address": "Operating Address",
+        "office_affiliation.title": "Title",
+        "office_affiliation.affiliation_start_year": "Affiliation Start Year",
+        "professional_license.license_number": "License Number",
+        "professional_license.license_effective_date": "License Effective Date",
+        "professional_license.license_expiry_date": "License Expiry Date",
+        "professional_license.licensed_as": "Licensed As",
+        "professional_license.licensed_for": "Licensed For",
+        "professional_license.prec": "PREC",
+        "professional_license.business_name": "Business Name",
+        "professional_license.issuing_authority": "Issuing Authority"
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        "personal": "Personal Information",
+        "profession": "Profession Details",
+        "evidence": "Evidence Governance"
+      },
+      "attribute_categories": {
+        "agent_details.first_name": "personal",
+        "agent_details.last_name": "personal",
+        "agent_details.phone": "profession",
+        "agent_details.email": "profession",
+        "office_affiliation.franchise": "profession",
+        "office_affiliation.operating_office": "profession",
+        "office_affiliation.operating_address": "profession",
+        "office_affiliation.title": "profession",
+        "office_affiliation.affiliation_start_year": "profession",
+        "professional_license.license_number": "profession",
+        "professional_license.license_effective_date": "profession",
+        "professional_license.license_expiry_date": "profession",
+        "professional_license.licensed_as": "profession",
+        "professional_license.licensed_for": "profession",
+        "professional_license.prec": "profession",
+        "professional_license.business_name": "profession",
+        "professional_license.issuing_authority": "profession"
+      }
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "agent_details.first_name": "The professional's given name.",
+        "agent_details.last_name": "The professional's family name.",
+        "agent_details.phone": "The professional's contact telephone number.",
+        "agent_details.email": "The professional's contact email address.",
+        "office_affiliation.franchise": "The real estate franchise or brand the professional is affiliated with.",
+        "office_affiliation.operating_office": "The specific office or branch where the professional operates.",
+        "office_affiliation.operating_address": "The physical address of the operating office.",
+        "office_affiliation.title": "The professional's title or role within the office.",
+        "office_affiliation.affiliation_start_year": "The year the professional began their affiliation with the office.",
+        "professional_license.license_number": "The professional's BC real estate license number, issued by the regulatory authority.",
+        "professional_license.license_effective_date": "The date the professional's license became effective.",
+        "professional_license.license_expiry_date": "The date the professional's license expires and must be renewed.",
+        "professional_license.licensed_as": "The category of license held by the professional.",
+        "professional_license.licensed_for": "The service categories the professional is licensed to perform. A professional may hold licenses for multiple service categories.",
+        "professional_license.prec": "Indicates whether the professional operates through a Personal Real Estate Corporation (PREC).",
+        "professional_license.business_name": "The name of the Personal Real Estate Corporation or business entity, if applicable. Required when PREC = 'Y'.",
+        "professional_license.issuing_authority": "The regulatory body that issued the professional license."
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {
+        "license_effective_date": "YYYY-MM-DD",
+        "license_expiry_date": "YYYY-MM-DD",
+        "affiliation_start_year": "YYYY"
+      }
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {
+        "license_effective_date": "urn:iso:std:iso:1989",
+        "license_expiry_date": "urn:iso:std:iso:1989",
+        "affiliation_start_year": "urn:iso:std:iso:1989"
+      }
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Professional Credential v1.0",
+      "description": "A verifiable credential representing relation of individual user to a specific property.",
+      "issuer": "Cornerstone",
+      "issuer_url": "https://example.org",
+      "credential_support_url": "https://example.org/support"
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#003366",
+      "secondary_background_color": "#E6F0FA",
+      "logo": "https://example.org/logo/person-identity.png",
+      "primary_attribute": "first_name",
+      "secondary_attribute": "licensed_as"
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Home Credential",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": [
+            "agent_details.first_name",
+            "agent_details.last_name",
+            "agent_details.phone",
+            "agent_details.email",
+            "office_affiliation.franchise",
+            "office_affiliation.title",
+            "office_affiliation.affiliation_start_year",
+            "professional_license.licensed_as",
+            "professional_license.license_number",
+            "professional_license.prec"
+          ]
+        },
+        "back": {
+          "fields": [
+            "office_affiliation.operating_office",
+            "office_affiliation.operating_address",
+            "professional_license.license_effective_date",
+            "professional_license.license_expiry_date",
+            "professional_license.licensed_for",
+            "professional_license.business_name",
+            "professional_license.issuing_authority"
+            
+          ]
+        }
+      },
+      "style": {
+        "primary_color": "#003366",
+        "secondary_color": "#E6F0FA",
+        "accent_color": "#0066CC"
+      }
+    }
+  ]
+}

@@ -111,7 +111,7 @@
     {
       "type": "spec/overlays/format/1.0",
       "attribute_formats": {
-         "birthdate": "YYYYMMDD"
+         "birthdate": "YYYY-MM-DD"
       }
     },
     {

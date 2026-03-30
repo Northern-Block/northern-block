@@ -17,10 +17,7 @@
                     "@id": "vocab:address",
                     "@type": "https://Northern-Block.github.io/northern-block/local-lob/issuer-lobs/context/student-identity-1773823695490-1.0.jsonld#Address"
                 },
-                "gender": {
-                    "@id": "https://schema.org/gender",
-                    "@container": "@set"
-                },
+                "gender": "https://schema.org/gender",
                 "birthDate": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#birthDate"
             }
         },

@@ -1,1 +1,77 @@
-{"$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://Northern-Block.github.io/northern-block/cornerstone-dev-mvp/cornerstone-dev-mvp/w3cSchema/cornerstone-id-1774630205085-1.0.json","title":"cornerstone_id","type":"object","properties":{"given_names":{"type":"string","title":"Given Names","description":"The person’s given names.","minLength":1,"maxLength":50},"family_name":{"type":"string","title":"Family Name","description":"The person’s family name.","minLength":1,"maxLength":50},"birthdate":{"type":"string","format":"date","title":"Date of Birth","description":"The person’s birth date.","pattern":"YYYYMMDD"},"verified_email":{"type":"string","title":"Verified Email","description":"The person’s verified email address.","minLength":3,"maxLength":255},"verified_phone":{"type":"string","title":"Mobile Number","description":"The person’s mobile number.","minLength":1,"maxLength":15},"postal_address":{"type":"string","title":"Postal Address","description":"The person’s postal address.","minLength":3,"maxLength":300},"cornerstone_user_id":{"type":"string","title":"Cornerstone User ID","description":"The person’s cornerstone user id.","minLength":5,"maxLength":150},"identity_evidence":{"type":"string","title":"Identity Evidence","description":"Verification method used.","minLength":5,"maxLength":255}},"required":["id","given_names","family_name","birthdate","verified_email","verified_phone","postal_address","cornerstone_user_id","identity_evidence"],"additionalProperties":false,"$defs":{}}
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://Northern-Block.github.io/northern-block/cornerstone-dev-mvp/cornerstone-dev-mvp/w3cSchema/cornerstone-id-1774630205085-1.0.json",
+    "title": "cornerstone_id",
+    "type": "object",
+    "properties": {
+        "given_names": {
+            "type": "string",
+            "title": "Given Names",
+            "description": "The person’s given names.",
+            "minLength": 1,
+            "maxLength": 50
+        },
+        "family_name": {
+            "type": "string",
+            "title": "Family Name",
+            "description": "The person’s family name.",
+            "minLength": 1,
+            "maxLength": 50
+        },
+        "birthdate": {
+            "type": "string",
+            "format": "date",
+            "title": "Date of Birth",
+            "description": "The person’s birth date.",
+            "pattern": "YYYY-MM-DD"
+        },
+        "verified_email": {
+            "type": "string",
+            "title": "Verified Email",
+            "description": "The person’s verified email address.",
+            "minLength": 3,
+            "maxLength": 255
+        },
+        "verified_phone": {
+            "type": "string",
+            "title": "Mobile Number",
+            "description": "The person’s mobile number.",
+            "minLength": 1,
+            "maxLength": 15
+        },
+        "postal_address": {
+            "type": "string",
+            "title": "Postal Address",
+            "description": "The person’s postal address.",
+            "minLength": 3,
+            "maxLength": 300
+        },
+        "cornerstone_user_id": {
+            "type": "string",
+            "title": "Cornerstone User ID",
+            "description": "The person’s cornerstone user id.",
+            "minLength": 5,
+            "maxLength": 150
+        },
+        "identity_evidence": {
+            "type": "string",
+            "title": "Identity Evidence",
+            "description": "Verification method used.",
+            "minLength": 5,
+            "maxLength": 255
+        }
+    },
+    "required": [
+        "id",
+        "given_names",
+        "family_name",
+        "birthdate",
+        "verified_email",
+        "verified_phone",
+        "postal_address",
+        "cornerstone_user_id",
+        "identity_evidence"
+    ],
+    "additionalProperties": false,
+    "$defs": {}
+}

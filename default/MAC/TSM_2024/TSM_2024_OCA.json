@@ -317,13 +317,6 @@
             }
         },
         {
-            "type": "spec/overlays/format/1.0",
-            "attribute_formats": {
-                "birthDate": "YYYY-MM-DD",
-                "address.postalCode": "^[A-Za-z][0-9][A-Za-z][0-9][A-Za-z][0-9]$"
-            }
-        },
-        {
             "type": "spec/overlays/meta/1.0",
             "language": "en",
             "name": "Towards Sustainable Mining <b>2024</b>",
@@ -361,4 +354,3 @@
         }
     ]
 }
- 

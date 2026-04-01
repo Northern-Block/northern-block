@@ -57,7 +57,6 @@
         {
             "type": "spec/overlays/character_encoding/1.0",
             "attribute_character_encoding": {
-                "givenName": "utf-8",
                 "company_name": "utf-8",
                 "facility_name": "utf-8",
                 "country_operation": "utf-8",

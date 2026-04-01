@@ -1,0 +1,481 @@
+[
+  {
+    "capture_base": {
+      "name": "Towards Sustainable Mining <b>2024</b>",
+      "attributes": {
+        "company_name": "text",
+        "facility_name": "text",
+        "country_operation": "text",
+        "operation_type": "text",
+        "products_name": "text",
+        "verification_activities_summary": "URL",
+        "biodiversity_conservation_q1": "text",
+        "biodiversity_conservation_q2": "text",
+        "biodiversity_conservation_q3": "text",
+        "corp_climate_q1": "text",
+        "site_climate_q1": "text",
+        "site_climate_q2": "text",
+        "corp_crisis_preparedness": "text",
+        "corp_crisis_review": "text",
+        "corp_crisis_training": "text",
+        "site_crisis_and_communication_preparedness": "text",
+        "site_crisis_and_communication_review": "text",
+        "site_crisis_and_communication_training": "text",
+        "corp_edi_q1": "text",
+        "edi_q2": "text",
+        "edi_q3": "text",
+        "indigenous_q1": "text",
+        "indigenous_q2": "text",
+        "indigenous_q3": "text",
+        "indigenous_q4": "text",
+        "indigenous_q5": "text",
+        "labour_child_q2": "text",
+        "labour_forced_q1": "text",
+        "shr_work_q1": "text",
+        "shr_work_q2": "text",
+        "shr_work_q3": "text",
+        "shr_work_q4": "text",
+        "shr_work_q5": "text",
+        "shr_work_q6": "text",
+        "tailings_management_q1": "text",
+        "tailings_management_q2": "text",
+        "tailings_management_q3": "text",
+        "tailings_management_q4": "text",
+        "tailings_management_q5": "text",
+        "water_stewardship_q1": "text",
+        "water_stewardship_q2": "text",
+        "water_stewardship_q3": "text",
+        "water_stewardship_q4": "text",
+        "safety_q1": "text",
+        "safety_q2": "text",
+        "safety_q3": "text",
+        "safety_q4": "text",
+        "safety_q5": "text"
+      },
+      "classification": "",
+      "flagged_attributes": [],
+      "type": "spec/capture_base/1.0",
+      "digest": "msDltH_UK4VeCMO_vYYnxq_s9gCHD_PZFjcOM743X2o"
+    },
+    "overlays": [
+      {
+        "properties": {
+          "company_name": {
+            "type": "string",
+            "title": "Company Name",
+            "description": "",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": []
+          },
+          "facility_name": {
+            "type": "string",
+            "title": "Facility Name",
+            "description": "",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": []
+          },
+          "country_operation": {
+            "type": "string",
+            "title": "Country of Operation",
+            "description": "",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": []
+          },
+          "operation_type": {
+            "type": "string",
+            "title": "Type of Operation",
+            "description": "",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": []
+          },
+          "products_name": {
+            "type": "string",
+            "title": "Commodities Produced",
+            "description": "",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": []
+          },
+          "verification_activities_summary": {
+            "type": "URL",
+            "title": "Link to Verification Report",
+            "description": "View the full external verification report at the link provided",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": []
+          },
+          "biodiversity_conservation_q1": {
+            "type": "string",
+            "title": "Biodiversity Conservation Management - Indicator 1",
+            "description": "Facility performance rating on Indicator 1 of the TSM Biodiversity Conservation Management Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "biodiversity_conservation_q2": {
+            "type": "string",
+            "title": "Biodiversity Conservation Management - Indicator 2",
+            "description": "Facility performance rating on Indicator 2 of the TSM Biodiversity Conservation Management Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "biodiversity_conservation_q3": {
+            "type": "string",
+            "title": "Biodiversity Conservation Management - Indicator 3",
+            "description": "Facility performance rating on Indicator 3 of the TSM Biodiversity Conservation Management Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "corp_climate_q1": {
+            "type": "string",
+            "title": "Climate Change - Indicator 1",
+            "description": "Corporate performance rating on Indicator 1 of the TSM Climate Change Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "site_climate_q1": {
+            "type": "string",
+            "title": "Climate Change - Indicator 2",
+            "description": "Facility performance rating on Indicator 2 of the TSM Climate Change Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "site_climate_q2": {
+            "type": "string",
+            "title": "Climate Change - Indicator 3",
+            "description": "Facility performance rating on Indicator 3 of the TSM Climate Change Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "corp_crisis_preparedness": {
+            "type": "string",
+            "title": "Corporate Crisis Management - Indicator 1",
+            "description": "Corporate performance rating on Indicator 1 of the TSM Crisis Management and Communications Planning Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["YES", "NO"]
+          },
+          "corp_crisis_review": {
+            "type": "string",
+            "title": "Corporate Crisis Management - Indicator 2",
+            "description": "Corporate performance rating on Indicator 2 of the TSM Crisis Management and Communications Planning Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["YES", "NO"]
+          },
+          "corp_crisis_training": {
+            "type": "string",
+            "title": "Corporate Crisis Management - Indicator 3",
+            "description": "Corporate performance rating on Indicator 3 of the TSM Crisis Management and Communications Planning Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["YES", "NO"]
+          },
+          "site_crisis_and_communication_preparedness": {
+            "type": "string",
+            "title": "Facility Crisis Management - Indicator 1",
+            "description": "Facility performance rating on Indicator 1 of the TSM Crisis Management and Communications Planning Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["YES", "NO"]
+          },
+          "site_crisis_and_communication_review": {
+            "type": "string",
+            "title": "Facility Crisis Management - Indicator 2",
+            "description": "Facility performance rating on Indicator 2 of the TSM Crisis Management and Communications Planning Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["YES", "NO"]
+          },
+          "site_crisis_and_communication_training": {
+            "type": "string",
+            "title": "Facility Crisis Management - Indicator 3",
+            "description": "Facility performance rating on Indicator 3 of the TSM Crisis Management and Communications Planning Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["YES", "NO"]
+          },
+          "corp_edi_q1": {
+            "type": "string",
+            "title": "Equity, Diversity, Inclusion - Indicator 1",
+            "description": "Corporate performance rating on Indicator 1 of the TSM Equitable, Diverse, and Inclusive Workplaces Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "edi_q2": {
+            "type": "string",
+            "title": "Equity, Diversity, Inclusion - Indicator 2",
+            "description": "Facility performance rating on Indicator 2 of the TSM Equitable, Diverse, and Inclusive Workplaces Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "edi_q3": {
+            "type": "string",
+            "title": "Equity, Diversity, Inclusion - Indicator 3",
+            "description": "Facility performance rating on Indicator 3 of the TSM Equitable, Diverse, and Inclusive Workplaces Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "indigenous_q1": {
+            "type": "string",
+            "title": "Indigenous & Community Relationships - Indicator 1",
+            "description": "Facility performance rating on Indicator 1 of the TSM Indigenous and Community Relationships Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "indigenous_q2": {
+            "type": "string",
+            "title": "Indigenous & Community Relationships - Indicator 2",
+            "description": "Facility performance rating on Indicator 2 of the TSM Indigenous and Community Relationships Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "indigenous_q3": {
+            "type": "string",
+            "title": "Indigenous & Community Relationships - Indicator 3",
+            "description": "Facility performance rating on Indicator 3 of the TSM Indigenous and Community Relationships Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "indigenous_q4": {
+            "type": "string",
+            "title": "Indigenous & Community Relationships - Indicator 4",
+            "description": "Facility performance rating on Indicator 4 of the TSM Indigenous and Community Relationships Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "indigenous_q5": {
+            "type": "string",
+            "title": "Indigenous & Community Relationships - Indicator 5",
+            "description": "Facility performance rating on Indicator 5 of the TSM Indigenous and Community Relationships Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "labour_child_q2": {
+            "type": "string",
+            "title": "Child and Forced Labour - Indicator 1",
+            "description": "Facility performance rating on Indicator 1 of the TSM Preventing Child and Forced Labour Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["YES", "NO"]
+          },
+          "labour_forced_q1": {
+            "type": "string",
+            "title": "Child and Forced Labour - Indicator 2",
+            "description": "Facility performance rating on Indicator 2 of the TSM Preventing Child and Forced Labour Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["YES", "NO"]
+          },
+          "shr_work_q1": {
+            "type": "string",
+            "title": "Safety, Health, Respect - Indicator 1",
+            "description": "Facility performance rating on Indicator 1 of the TSM Safe, Healthy, and Respectful Workplaces Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "shr_work_q2": {
+            "type": "string",
+            "title": "Safety, Health, Respect - Indicator 2",
+            "description": "Facility performance rating on Indicator 2 of the TSM Safe, Healthy, and Respectful Workplaces Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "shr_work_q3": {
+            "type": "string",
+            "title": "Safety, Health, Respect - Indicator 3",
+            "description": "Facility performance rating on Indicator 3 of the TSM Safe, Healthy, and Respectful Workplaces Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "shr_work_q4": {
+            "type": "string",
+            "title": "Safety, Health, Respect - Indicator 4",
+            "description": "Facility performance rating on Indicator 4 of the TSM Safe, Healthy, and Respectful Workplaces Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "shr_work_q5": {
+            "type": "string",
+            "title": "Safety, Health, Respect - Indicator 5",
+            "description": "Facility performance rating on Indicator 5 of the TSM Safe, Healthy, and Respectful Workplaces Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "shr_work_q6": {
+            "type": "string",
+            "title": "Safety, Health, Respect - Indicator 6",
+            "description": "Facility performance rating on Indicator 6 of the TSM Safe, Healthy, and Respectful Workplaces Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "tailings_management_q1": {
+            "type": "string",
+            "title": "Tailings Management - Indicator 1",
+            "description": "Facility performance rating on Indicator 1 of the TSM Tailings Management Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "tailings_management_q2": {
+            "type": "string",
+            "title": "Tailings Management - Indicator 2",
+            "description": "Facility performance rating on Indicator 2 of the TSM Tailings Management Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "tailings_management_q3": {
+            "type": "string",
+            "title": "Tailings Management - Indicator 3",
+            "description": "Facility performance rating on Indicator 3 of the TSM Tailings Management Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "tailings_management_q4": {
+            "type": "string",
+            "title": "Tailings Management - Indicator 4",
+            "description": "Facility performance rating on Indicator 4 of the TSM Tailings Management Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "tailings_management_q5": {
+            "type": "string",
+            "title": "Tailings Management - Indicator 5",
+            "description": "Facility performance rating on Indicator 5 of the TSM Tailings Management Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "water_stewardship_q1": {
+            "type": "string",
+            "title": "Water Stewardship - Indicator 1",
+            "description": "Facility performance rating on Indicator 1 of the TSM Water Stewardship Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "water_stewardship_q2": {
+            "type": "string",
+            "title": "Water Stewardship - Indicator 2",
+            "description": "Facility performance rating on Indicator 2 of the TSM Water Stewardship Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "water_stewardship_q3": {
+            "type": "string",
+            "title": "Water Stewardship - Indicator 3",
+            "description": "Facility performance rating on Indicator 3 of the TSM Water Stewardship Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+          "water_stewardship_q4": {
+            "type": "string",
+            "title": "Water Stewardship - Indicator 4",
+            "description": "Facility performance rating on Indicator 4 of the TSM Water Stewardship Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+            "safety_q1": {
+            "type": "string",
+            "title": "Safety and Health - Indicator 1",
+            "description": "Facility performance rating on Indicator 1 of the TSM Safety and Health Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+            "safety_q2": {
+            "type": "string",
+            "title": "Safety and Health - Indicator 2",
+            "description": "Facility performance rating on Indicator 2 of the TSM Safety and Health Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+            "safety_q3": {
+            "type": "string",
+            "title": "Safety and Health - Indicator 3",
+            "description": "Facility performance rating on Indicator 3 of the TSM Safety and Health Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+            "safety_q4": {
+            "type": "string",
+            "title": "Safety and Health - Indicator 4",
+            "description": "Facility performance rating on Indicator 4 of the TSM Safety and Health Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          },
+            "safety_q5": {
+            "type": "string",
+            "title": "Safety and Health - Indicator 5",
+            "description": "Facility performance rating on Indicator 5 of the TSM Safety and Health Protocol",
+            "minLength": 0,
+            "maxLength": 50,
+            "values": ["C", "B", "A", "AA", "AAA"]
+          }
+        },
+        "capture_base": "msDltH_UK4VeCMO_vYYnxq_s9gCHD_PZFjcOM743X2o",
+        "default_character_encoding": "utf-8",
+        "type": "spec/overlays/character_encoding/1.0",
+        "digest": "1dgk9uYTAGCbzBcr_mAEbFNLapYTLg31UpEsNoK5KH0"
+      },
+      {
+        "capture_base": "msDltH_UK4VeCMO_vYYnxq_s9gCHD_PZFjcOM743X2o",
+        "credential_support_url": "https://northernblock.io/",
+        "description": "A verifiable credential schema for reporting on mining and metallurgical facilities’ performance on the Towards Sustainable Mining protocols",
+        "issuer": "Mining Association of Canada",
+        "issuer_description": "",
+        "issuer_url": "https://northernblock.io/",
+        "language": "en",
+        "name": "Towards Sustainable Mining <b>2024</b>",
+        "type": "spec/overlays/meta/1.0",
+        "watermark": "DEMO",
+        "digest": "vp1u5w6mxRhY46Qc_0XGCQIoksK8aVsdgbLoN5z5n7Q"
+      },
+      {
+        "logo": "https://raw.githubusercontent.com/Northern-Block/credential-governance-docs/main/mining-association-of-canada/OCABundles/Towards_Sustainable_Mining_2024/tsm-logo.png",
+        "background_image_slice": "https://raw.githubusercontent.com/Northern-Block/credential-governance-docs/main/mining-association-of-canada/OCABundles/Towards-Sustainable-Mining-2023/TSM-background-slice.png",
+        "background_image": "https://raw.githubusercontent.com/Northern-Block/credential-governance-docs/main/mining-association-of-canada/OCABundles/Towards-Sustainable-Mining-2023/TSM-background-image.png",
+        "primary_background_color": "#2174B7",
+        "secondary_background_color": "#27BF84",
+        "capture_base": "msDltH_UK4VeCMO_vYYnxq_s9gCHD_PZFjcOM743X2o",
+        "expiry_date_attribute": "",
+        "primary_attribute": "company_name",
+        "secondary_attribute": "facility_name",
+        "type": "aries/overlays/branding/1.0",
+        "digest": "gyEsOkxFUxFzpo25IBxtjJPLghTkehD5aebCRE8GGqc"
+      }
+    ]
+  }
+]

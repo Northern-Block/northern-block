@@ -68,9 +68,6 @@
                 "site_crisis_and_communication_preparedness": "utf-8",
                 "site_crisis_and_communication_review": "utf-8",
                 "site_crisis_and_communication_training": "utf-8",
-                "corp_edi_q1": "utf-8",
-                "edi_q2": "utf-8",
-                "edi_q3": "utf-8",
                 "indigenous_q1": "utf-8",
                 "indigenous_q2": "utf-8",
                 "indigenous_q3": "utf-8",
@@ -168,9 +165,6 @@
                 "site_crisis_and_communication_preparedness": "Facility performance rating on Indicator 1 of the TSM Crisis Management and Communications Planning Protocol",
                 "site_crisis_and_communication_review": "Facility performance rating on Indicator 2 of the TSM Crisis Management and Communications Planning Protocol",
                 "site_crisis_and_communication_training": "Facility performance rating on Indicator 3 of the TSM Crisis Management and Communications Planning Protocol",
-                "corp_edi_q1": "Corporate performance rating on Indicator 1 of the TSM Equitable, Diverse, and Inclusive Workplaces Protocol",
-                "edi_q2": "Facility performance rating on Indicator 2 of the TSM Equitable, Diverse, and Inclusive Workplaces Protocol",
-                "edi_q3": "Facility performance rating on Indicator 3 of the TSM Equitable, Diverse, and Inclusive Workplaces Protocol",
                 "indigenous_q1": "Facility performance rating on Indicator 1 of the TSM Indigenous and Community Relationships Protocol",
                 "indigenous_q2": "Facility performance rating on Indicator 2 of the TSM Indigenous and Community Relationships Protocol",
                 "indigenous_q3": "Facility performance rating on Indicator 3 of the TSM Indigenous and Community Relationships Protocol",
@@ -232,17 +226,10 @@
             "subtitle": "Verifiable Credential",
             "layout": {
                 "front": {
-                    "fields": [
-                        "company_name",
-                        "facility_name"
-                    ]
+                    "fields": ["company_name", "facility_name"]
                 },
                 "back": {
-                    "fields": [
-                        "country_operation",
-                        "operation_type",
-                        "products_name"
-                    ]
+                    "fields": ["country_operation", "operation_type", "products_name"]
                 }
             },
             "style": {

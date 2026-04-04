@@ -104,7 +104,7 @@
     {
       "type": "spec/overlays/format/1.0",
       "attribute_formats": {
-        "granted_date": "YYYYMMDD"
+        "granted_date": "YYYY-MM-DD"
       }
     },
     {

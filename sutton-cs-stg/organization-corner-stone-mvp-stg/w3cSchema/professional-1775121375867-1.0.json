@@ -1,1 +1,189 @@
-{"$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://Northern-Block.github.io/northern-block/sutton-cs-stg/organization-corner-stone-mvp-stg/w3cSchema/professional-1775121375867-1.0.json","title":"professional","type":"object","properties":{"agent_details":{"$ref":"#/$defs/AgentDetails"},"office_affiliation":{"$ref":"#/$defs/OfficeAffiliation"},"professional_license":{"$ref":"#/$defs/ProfessionalLicense"}},"required":["id","agent_details","office_affiliation","professional_license"],"additionalProperties":false,"$defs":{"AgentDetails":{"type":"object","properties":{"first_name":{"type":"string","title":"First Name","description":"The professional's given name.","minLength":1,"maxLength":50},"last_name":{"type":"string","title":"Last Name","description":"The professional's family name.","minLength":1,"maxLength":50},"phone":{"type":"string","title":"Phone","description":"The professional's contact telephone number.","minLength":10,"maxLength":12},"email":{"type":"string","title":"Email Address","description":"The professional's contact email address.","minLength":1,"maxLength":150}},"required":["first_name","last_name","phone","email"],"additionalProperties":false},"OfficeAffiliation":{"type":"object","properties":{"franchise":{"type":"string","title":"Franchise","description":"The real estate franchise or brand the professional is affiliated with.","minLength":1,"maxLength":100},"operating_office":{"type":"string","title":"Operating Office","description":"The specific office or branch where the professional operates.","minLength":1,"maxLength":100},"operating_address":{"type":"string","title":"Operating Address","description":"The physical address of the operating office.","minLength":1,"maxLength":300},"title":{"type":"string","title":"Title","description":"The professional's title or role within the office.","minLength":1,"maxLength":100},"affiliation_start_year":{"type":"string","title":"Affiliation Start Year","description":"The year the professional began their affiliation with the office.","pattern":"YYYY"}},"required":["franchise","operating_office","operating_address","title","affiliation_start_year"],"additionalProperties":false},"ProfessionalLicense":{"type":"object","properties":{"license_number":{"type":"string","title":"License Number","description":"The professional's BC real estate license number, issued by the regulatory authority.","minLength":6,"maxLength":6},"license_effective_date":{"type":"string","title":"License Effective Date","description":"The date the professional's license became effective.","pattern":"YYYY-MM-DD"},"license_expiry_date":{"type":"string","title":"License Expiry Date","description":"The date the professional's license expires and must be renewed.","pattern":"YYYY-MM-DD"},"licensed_as":{"type":"string","title":"Licensed As","description":"The category of license held by the professional.","values":["Representative","Associate Broker","Managing Broker"]},"licensed_for":{"type":"string","title":"Licensed For","description":"The service categories the professional is licensed to perform. A professional may hold licenses for multiple service categories.","values":["Trading Services","Rental Property Management Services","Strata Managing Services"]},"prec":{"type":"string","title":"Personal Real Estate Corporation","description":"Indicates whether the professional operates through a Personal Real Estate Corporation (PREC).","values":["Y","N"]},"business_name":{"type":"string","title":"Business Name","description":"The name of the Personal Real Estate Corporation or business entity, if applicable. Required when PREC = 'Y'.","minLength":1,"maxLength":150},"issuing_authority":{"type":"string","title":"Issuing Authority","description":"The regulatory body that issued the professional license.","minLength":1,"maxLength":150}},"required":["license_number","license_effective_date","license_expiry_date","licensed_as","licensed_for","prec","issuing_authority"],"additionalProperties":false}}}
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://Northern-Block.github.io/northern-block/sutton-cs-stg/organization-corner-stone-mvp-stg/w3cSchema/professional-1775121375867-1.0.json",
+    "title": "professional",
+    "type": "object",
+    "properties": {
+        "agent_details": {
+            "$ref": "#/$defs/AgentDetails"
+        },
+        "office_affiliation": {
+            "$ref": "#/$defs/OfficeAffiliation"
+        },
+        "professional_license": {
+            "$ref": "#/$defs/ProfessionalLicense"
+        }
+    },
+    "required": [
+        "id",
+        "agent_details",
+        "office_affiliation",
+        "professional_license"
+    ],
+    "additionalProperties": false,
+    "$defs": {
+        "AgentDetails": {
+            "type": "object",
+            "properties": {
+                "first_name": {
+                    "type": "string",
+                    "title": "First Name",
+                    "description": "The professional's given name.",
+                    "minLength": 1,
+                    "maxLength": 50
+                },
+                "last_name": {
+                    "type": "string",
+                    "title": "Last Name",
+                    "description": "The professional's family name.",
+                    "minLength": 1,
+                    "maxLength": 50
+                },
+                "phone": {
+                    "type": "string",
+                    "title": "Phone",
+                    "description": "The professional's contact telephone number.",
+                    "minLength": 10,
+                    "maxLength": 12
+                },
+                "email": {
+                    "type": "string",
+                    "title": "Email Address",
+                    "description": "The professional's contact email address.",
+                    "minLength": 1,
+                    "maxLength": 150
+                }
+            },
+            "required": [
+                "first_name",
+                "last_name",
+                "phone",
+                "email"
+            ],
+            "additionalProperties": false
+        },
+        "OfficeAffiliation": {
+            "type": "object",
+            "properties": {
+                "franchise": {
+                    "type": "string",
+                    "title": "Franchise",
+                    "description": "The real estate franchise or brand the professional is affiliated with.",
+                    "minLength": 1,
+                    "maxLength": 100
+                },
+                "operating_office": {
+                    "type": "string",
+                    "title": "Operating Office",
+                    "description": "The specific office or branch where the professional operates.",
+                    "minLength": 1,
+                    "maxLength": 100
+                },
+                "operating_address": {
+                    "type": "string",
+                    "title": "Operating Address",
+                    "description": "The physical address of the operating office.",
+                    "minLength": 1,
+                    "maxLength": 300
+                },
+                "title": {
+                    "type": "string",
+                    "title": "Title",
+                    "description": "The professional's title or role within the office.",
+                    "minLength": 1,
+                    "maxLength": 100
+                },
+                "affiliation_start_year": {
+                    "type": "string",
+                    "title": "Affiliation Start Year",
+                    "description": "The year the professional began their affiliation with the office.",
+                    "pattern": "YYYY"
+                }
+            },
+            "required": [
+                "franchise",
+                "operating_office",
+                "operating_address",
+                "title",
+                "affiliation_start_year"
+            ],
+            "additionalProperties": false
+        },
+        "ProfessionalLicense": {
+            "type": "object",
+            "properties": {
+                "license_number": {
+                    "type": "string",
+                    "title": "License Number",
+                    "description": "The professional's BC real estate license number, issued by the regulatory authority.",
+                    "minLength": 6,
+                    "maxLength": 6
+                },
+                "license_effective_date": {
+                    "type": "string",
+                    "title": "License Effective Date",
+                    "description": "The date the professional's license became effective.",
+                    "pattern": "YYYY-MM-DD"
+                },
+                "license_expiry_date": {
+                    "type": "string",
+                    "title": "License Expiry Date",
+                    "description": "The date the professional's license expires and must be renewed.",
+                    "pattern": "YYYY-MM-DD"
+                },
+                "licensed_as": {
+                    "type": "string",
+                    "title": "Licensed As",
+                    "description": "The category of license held by the professional.",
+                    "values": [
+                        "Representative",
+                        "Associate Broker",
+                        "Managing Broker"
+                    ]
+                },
+                "licensed_for": {
+                    "type": "string",
+                    "title": "Licensed For",
+                    "description": "The service categories the professional is licensed to perform. A professional may hold licenses for multiple service categories.",
+                    "values": [
+                        "Trading Services",
+                        "Rental Property Management Services",
+                        "Strata Managing Services"
+                    ]
+                },
+                "prec": {
+                    "type": "string",
+                    "title": "Personal Real Estate Corporation",
+                    "description": "Indicates whether the professional operates through a Personal Real Estate Corporation (PREC).",
+                    "values": [
+                        "Y",
+                        "N"
+                    ]
+                },
+                "business_name": {
+                    "type": "string",
+                    "title": "Business Name",
+                    "description": "The name of the Personal Real Estate Corporation or business entity, if applicable. Required when PREC = 'Y'.",
+                    "minLength": 1,
+                    "maxLength": 150
+                },
+                "issuing_authority": {
+                    "type": "string",
+                    "title": "Issuing Authority",
+                    "description": "The regulatory body that issued the professional license.",
+                    "minLength": 1,
+                    "maxLength": 150
+                }
+            },
+            "required": [
+                "license_number",
+                "license_effective_date",
+                "licensed_as",
+                "licensed_for",
+                "prec",
+                "issuing_authority"
+            ],
+            "additionalProperties": false
+        }
+    }
+}

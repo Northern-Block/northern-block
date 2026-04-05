@@ -178,7 +178,6 @@
             "required": [
                 "license_number",
                 "license_effective_date",
-                "license_expiry_date",
                 "licensed_as",
                 "licensed_for",
                 "prec",

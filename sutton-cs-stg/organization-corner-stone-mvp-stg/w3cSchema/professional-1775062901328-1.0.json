@@ -145,11 +145,8 @@
                     "type": "string",
                     "title": "Licensed For",
                     "description": "The service categories the professional is licensed to perform. A professional may hold licenses for multiple service categories.",
-                    "values": [
-                        "Trading Services",
-                        "Rental Property Management Services",
-                        "Strata Managing Services"
-                    ]
+                    "minLength": 4,
+                    "maxLength": 200
                 },
                 "prec": {
                     "type": "string",

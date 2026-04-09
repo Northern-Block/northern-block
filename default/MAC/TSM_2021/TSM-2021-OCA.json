@@ -1,6 +1,7 @@
 {
     "capture_base": {
         "attributes": {
+            "company_name":"Text",
             "facility_name": "Text",
             "country_operation": "Text",
             "operation_type": "Text",

@@ -102,10 +102,7 @@
             },
             "required": [
                 "franchise",
-                "operating_office",
-                "operating_address",
-                "title",
-                "affiliation_start_year"
+                "operating_address"
             ],
             "additionalProperties": false
         },

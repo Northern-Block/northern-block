@@ -6,7 +6,6 @@
       "first_name":    "Text",
       "last_name":     "Text",
       "email_address": "Text",
-      "license_details.type": "Text",
       "license_details.OntarioLicense.registration_number": "Text",
       "license_details.OntarioLicense.licensed_as":         "Text",
       "license_details.OntarioLicense.expiry_date":         "DateTime",
@@ -29,7 +28,6 @@
         "first_name":    "utf-8",
         "last_name":     "utf-8",
         "email_address": "utf-8",
-        "license_details.type": "utf-8",
         "license_details.OntarioLicense.registration_number": "utf-8",
         "license_details.OntarioLicense.licensed_as":         "utf-8",
         "license_details.OntarioLicense.expiry_date":         "utf-8",
@@ -50,7 +48,6 @@
         "first_name",
         "last_name",
         "email_address",
-        "license_details.type",
         "license_details.OntarioLicense.registration_number",
         "license_details.OntarioLicense.licensed_as",
         "license_details.OntarioLicense.expiry_date",
@@ -72,7 +69,6 @@
         "first_name":    "First Name",
         "last_name":     "Last Name",
         "email_address": "Email Address",
-        "license_details.type": "License Type",
         "license_details.OntarioLicense.registration_number": "Registration Number",
         "license_details.OntarioLicense.licensed_as":         "Licensed As",
         "license_details.OntarioLicense.expiry_date":         "Expiry Date",
@@ -101,7 +97,6 @@
         "first_name":    "personal",
         "last_name":     "personal",
         "email_address": "personal",
-        "license_details.type": "personal",
         "license_details.OntarioLicense.registration_number": "ontario",
         "license_details.OntarioLicense.licensed_as":         "ontario",
         "license_details.OntarioLicense.expiry_date":         "ontario",
@@ -120,8 +115,7 @@
       "type": "spec/overlays/visibility/1.0",
       "summary": [
         "first_name",
-        "last_name",
-        "license_details.type"
+        "last_name"
       ],
       "details": [
         "email_address",
@@ -146,7 +140,6 @@
         "first_name":    "The person's first name",
         "last_name":     "The person's last name",
         "email_address": "The person's email address",
-        "license_details.type": "Identifies which license variant is present (OntarioLicense, QuebecLicense, or ManitobaLicense)",
         "license_details.OntarioLicense.registration_number": "The person's license registration number issued by RECO",
         "license_details.OntarioLicense.licensed_as":         "The person's licensed role (e.g. Salesperson, Broker)",
         "license_details.OntarioLicense.expiry_date":         "The date the Ontario license expires",
@@ -184,7 +177,7 @@
       "subtitle": "Verifiable Credential",
       "layout": {
         "front": {
-          "fields": ["first_name", "last_name", "license_details.type"]
+          "fields": ["first_name", "last_name"]
         },
         "back": {
           "fields": [

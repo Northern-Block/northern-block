@@ -1,0 +1,226 @@
+{
+  "id": "https://Northern-Block.github.io/northern-block/local/april-issuer/oca/real-estate-license-1.0.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "first_name":    "Text",
+      "last_name":     "Text",
+      "email_address": "Text",
+      "license_details.type": "Text",
+      "license_details.OntarioLicense.registration_number": "Text",
+      "license_details.OntarioLicense.licensed_as":         "Text",
+      "license_details.OntarioLicense.expiry_date":         "DateTime",
+      "license_details.QuebecLicense.license_no":           "Text",
+      "license_details.QuebecLicense.licensed_as":          "Text",
+      "license_details.QuebecLicense.expiry_date":          "DateTime",
+      "license_details.QuebecLicense.issuing_authority":    "Text",
+      "license_details.ManitobaLicense.license_id":                          "Text",
+      "license_details.ManitobaLicense.licensed_as":                         "Text",
+      "license_details.ManitobaLicense.expiry_date":                         "DateTime",
+      "license_details.ManitobaLicense.broker_details.broker_name":          "Text",
+      "license_details.ManitobaLicense.broker_details.broker_license_id":    "Text"
+    },
+    "flagged_attributes": []
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {
+        "first_name":    "utf-8",
+        "last_name":     "utf-8",
+        "email_address": "utf-8",
+        "license_details.type": "utf-8",
+        "license_details.OntarioLicense.registration_number": "utf-8",
+        "license_details.OntarioLicense.licensed_as":         "utf-8",
+        "license_details.OntarioLicense.expiry_date":         "utf-8",
+        "license_details.QuebecLicense.license_no":           "utf-8",
+        "license_details.QuebecLicense.licensed_as":          "utf-8",
+        "license_details.QuebecLicense.expiry_date":          "utf-8",
+        "license_details.QuebecLicense.issuing_authority":    "utf-8",
+        "license_details.ManitobaLicense.license_id":                          "utf-8",
+        "license_details.ManitobaLicense.licensed_as":                         "utf-8",
+        "license_details.ManitobaLicense.expiry_date":                         "utf-8",
+        "license_details.ManitobaLicense.broker_details.broker_name":          "utf-8",
+        "license_details.ManitobaLicense.broker_details.broker_license_id":    "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "first_name",
+        "last_name",
+        "email_address",
+        "license_details.type",
+        "license_details.OntarioLicense.registration_number",
+        "license_details.OntarioLicense.licensed_as",
+        "license_details.OntarioLicense.expiry_date",
+        "license_details.QuebecLicense.license_no",
+        "license_details.QuebecLicense.licensed_as",
+        "license_details.QuebecLicense.expiry_date",
+        "license_details.QuebecLicense.issuing_authority",
+        "license_details.ManitobaLicense.license_id",
+        "license_details.ManitobaLicense.licensed_as",
+        "license_details.ManitobaLicense.expiry_date",
+        "license_details.ManitobaLicense.broker_details.broker_name",
+        "license_details.ManitobaLicense.broker_details.broker_license_id"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "first_name":    "First Name",
+        "last_name":     "Last Name",
+        "email_address": "Email Address",
+        "license_details.type": "License Type",
+        "license_details.OntarioLicense.registration_number": "Registration Number",
+        "license_details.OntarioLicense.licensed_as":         "Licensed As",
+        "license_details.OntarioLicense.expiry_date":         "Expiry Date",
+        "license_details.QuebecLicense.license_no":           "License Number",
+        "license_details.QuebecLicense.licensed_as":          "Licensed As",
+        "license_details.QuebecLicense.expiry_date":          "Expiry Date",
+        "license_details.QuebecLicense.issuing_authority":    "Issuing Authority",
+        "license_details.ManitobaLicense.license_id":                          "License ID",
+        "license_details.ManitobaLicense.licensed_as":                         "Licensed As",
+        "license_details.ManitobaLicense.expiry_date":                         "Expiry Date",
+        "license_details.ManitobaLicense.broker_details.broker_name":          "Broker Name",
+        "license_details.ManitobaLicense.broker_details.broker_license_id":    "Broker License ID"
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        "personal":  "Personal Information",
+        "ontario":   "Ontario License Details",
+        "quebec":    "Quebec License Details",
+        "manitoba":  "Manitoba License Details",
+        "broker":    "Broker Details"
+      },
+      "attribute_categories": {
+        "first_name":    "personal",
+        "last_name":     "personal",
+        "email_address": "personal",
+        "license_details.type": "personal",
+        "license_details.OntarioLicense.registration_number": "ontario",
+        "license_details.OntarioLicense.licensed_as":         "ontario",
+        "license_details.OntarioLicense.expiry_date":         "ontario",
+        "license_details.QuebecLicense.license_no":           "quebec",
+        "license_details.QuebecLicense.licensed_as":          "quebec",
+        "license_details.QuebecLicense.expiry_date":          "quebec",
+        "license_details.QuebecLicense.issuing_authority":    "quebec",
+        "license_details.ManitobaLicense.license_id":                          "manitoba",
+        "license_details.ManitobaLicense.licensed_as":                         "manitoba",
+        "license_details.ManitobaLicense.expiry_date":                         "manitoba",
+        "license_details.ManitobaLicense.broker_details.broker_name":          "broker",
+        "license_details.ManitobaLicense.broker_details.broker_license_id":    "broker"
+      }
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "first_name",
+        "last_name",
+        "license_details.type"
+      ],
+      "details": [
+        "email_address",
+        "license_details.OntarioLicense.registration_number",
+        "license_details.OntarioLicense.licensed_as",
+        "license_details.OntarioLicense.expiry_date",
+        "license_details.QuebecLicense.license_no",
+        "license_details.QuebecLicense.licensed_as",
+        "license_details.QuebecLicense.expiry_date",
+        "license_details.QuebecLicense.issuing_authority",
+        "license_details.ManitobaLicense.license_id",
+        "license_details.ManitobaLicense.licensed_as",
+        "license_details.ManitobaLicense.expiry_date",
+        "license_details.ManitobaLicense.broker_details.broker_name",
+        "license_details.ManitobaLicense.broker_details.broker_license_id"
+      ]
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "first_name":    "The person's first name",
+        "last_name":     "The person's last name",
+        "email_address": "The person's email address",
+        "license_details.type": "Identifies which license variant is present (OntarioLicense, QuebecLicense, or ManitobaLicense)",
+        "license_details.OntarioLicense.registration_number": "The person's license registration number issued by RECO",
+        "license_details.OntarioLicense.licensed_as":         "The person's licensed role (e.g. Salesperson, Broker)",
+        "license_details.OntarioLicense.expiry_date":         "The date the Ontario license expires",
+        "license_details.QuebecLicense.license_no":           "The person's license number issued by OACIQ",
+        "license_details.QuebecLicense.licensed_as":          "The person's licensed role in Quebec",
+        "license_details.QuebecLicense.expiry_date":          "The date the Quebec license expires",
+        "license_details.QuebecLicense.issuing_authority":    "The authority that issued the Quebec license",
+        "license_details.ManitobaLicense.license_id":                          "The person's license ID issued by the Manitoba Securities Commission",
+        "license_details.ManitobaLicense.licensed_as":                         "The person's licensed role in Manitoba",
+        "license_details.ManitobaLicense.expiry_date":                         "The date the Manitoba license expires",
+        "license_details.ManitobaLicense.broker_details.broker_name":          "The name of the broker under whom this licensee operates",
+        "license_details.ManitobaLicense.broker_details.broker_license_id":    "The broker's license identifier"
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {
+        "license_details.OntarioLicense.expiry_date":      "YYYY-MM-DD",
+        "license_details.QuebecLicense.expiry_date":       "YYYY-MM-DD",
+        "license_details.ManitobaLicense.expiry_date":     "YYYY-MM-DD"
+      }
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {
+        "license_details.OntarioLicense.expiry_date":      "urn:iso:std:iso:8601",
+        "license_details.QuebecLicense.expiry_date":       "urn:iso:std:iso:8601",
+        "license_details.ManitobaLicense.expiry_date":     "urn:iso:std:iso:8601"
+      }
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Real Estate License",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": ["first_name", "last_name", "license_details.type"]
+        },
+        "back": {
+          "fields": [
+            "email_address",
+            "license_details.OntarioLicense.registration_number",
+            "license_details.OntarioLicense.licensed_as",
+            "license_details.OntarioLicense.expiry_date",
+            "license_details.QuebecLicense.license_no",
+            "license_details.QuebecLicense.licensed_as",
+            "license_details.QuebecLicense.expiry_date",
+            "license_details.QuebecLicense.issuing_authority",
+            "license_details.ManitobaLicense.license_id",
+            "license_details.ManitobaLicense.licensed_as",
+            "license_details.ManitobaLicense.expiry_date",
+            "license_details.ManitobaLicense.broker_details.broker_name",
+            "license_details.ManitobaLicense.broker_details.broker_license_id"
+          ]
+        }
+      }
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#1A3C5E",
+      "secondary_background_color": "#E8F0F8",
+      "logo": "https://example.org/logo/real-estate-license.png",
+      "primary_attribute": "first_name",
+      "secondary_attribute": "last_name"
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Real Estate License",
+      "description": "A verifiable credential representing a real estate professional's license details.",
+      "issuer": "Northern Block",
+      "issuer_url": "https://northernblock.io",
+      "credential_support_url": "https://northernblock.io/support"
+    }
+  ]
+}

@@ -212,5 +212,376 @@
   "brokerLicenseId": {
     "id": "ext:brokerLicenseId",
     "label": "Broker License Id"
+  },
+  "policy_number": {
+    "id": "ext:policy_number",
+    "label": "Unique policy identifier"
+  },
+  "policy_holder_name": {
+    "id": "ext:policy_holder_name",
+    "label": "Full legal name of the policy holder"
+  },
+  "policy_start_date": {
+    "id": "ext:policy_start_date",
+    "label": "Date on which policy coverage begins",
+    "type": "xsd:date"
+  },
+  "policy_end_date": {
+    "id": "ext:policy_end_date",
+    "label": "Date on which policy coverage expires",
+    "type": "xsd:date"
+  },
+  "premium_amount": {
+    "id": "ext:premium_amount",
+    "label": "Amount payable per premium period"
+  },
+  "currency": {
+    "id": "ext:currency",
+    "label": "ISO 4217 currency code for premium and benefits"
+  },
+  "coverage": {
+    "id": "ext:coverage",
+    "label": "Insurance coverage type and details"
+  },
+  "sum_assured": {
+    "id": "ext:sum_assured",
+    "label": "Total amount guaranteed on death or maturity"
+  },
+  "policy_term_years": {
+    "id": "ext:policy_term_years",
+    "label": "Duration of the life insurance policy in years"
+  },
+  "premium_frequency": {
+    "id": "ext:premium_frequency",
+    "label": "Frequency of premium payment (monthly, quarterly, annually)"
+  },
+  "death_benefit": {
+    "id": "ext:death_benefit",
+    "label": "Lump-sum amount paid to the beneficiary on death"
+  },
+  "maturity_benefit": {
+    "id": "ext:maturity_benefit",
+    "label": "Amount paid to the policy holder at end of policy term"
+  },
+  "surrender_value": {
+    "id": "ext:surrender_value",
+    "label": "Cash value received on early policy termination"
+  },
+  "beneficiary_details": {
+    "id": "ext:beneficiary_details",
+    "label": "Details of the designated policy beneficiary"
+  },
+  "sum_insured": {
+    "id": "ext:sum_insured",
+    "label": "Maximum medical expenses covered per policy year"
+  },
+  "deductible_amount": {
+    "id": "ext:deductible_amount",
+    "label": "Amount the insured pays before coverage begins"
+  },
+  "copay_percentage": {
+    "id": "ext:copay_percentage",
+    "label": "Percentage of each medical bill paid by the insured"
+  },
+  "network_type": {
+    "id": "ext:network_type",
+    "label": "Healthcare provider network type (HMO, PPO, EPO, POS)"
+  },
+  "waiting_period_days": {
+    "id": "ext:waiting_period_days",
+    "label": "Number of days before certain coverages take effect"
+  },
+  "pre_existing_conditions_covered": {
+    "id": "ext:pre_existing_conditions_covered",
+    "label": "Indicates whether pre-existing medical conditions are covered",
+    "type": "xsd:boolean"
+  },
+  "property_address": {
+    "id": "ext:property_address",
+    "label": "Full address of the insured property"
+  },
+  "property_type": {
+    "id": "ext:property_type",
+    "label": "Type of property (residential, commercial, industrial)"
+  },
+  "building_value": {
+    "id": "ext:building_value",
+    "label": "Replacement value of the building structure"
+  },
+  "contents_value": {
+    "id": "ext:contents_value",
+    "label": "Value of contents and personal belongings covered"
+  },
+  "location_risk_grade": {
+    "id": "ext:location_risk_grade",
+    "label": "Risk classification of the property location"
+  },
+  "flood_zone": {
+    "id": "ext:flood_zone",
+    "label": "Official flood zone designation for the property location"
+  },
+  "vehicle_registration": {
+    "id": "ext:vehicle_registration",
+    "label": "Official registration number of the insured vehicle"
+  },
+  "vehicle_make": {
+    "id": "ext:vehicle_make",
+    "label": "Manufacturer of the insured vehicle"
+  },
+  "vehicle_model": {
+    "id": "ext:vehicle_model",
+    "label": "Model name of the insured vehicle"
+  },
+  "vehicle_year": {
+    "id": "ext:vehicle_year",
+    "label": "Year of manufacture of the insured vehicle"
+  },
+  "liability_limit": {
+    "id": "ext:liability_limit",
+    "label": "Maximum amount covered for third-party liability claims"
+  },
+  "collision_deductible": {
+    "id": "ext:collision_deductible",
+    "label": "Out-of-pocket amount paid for collision claims"
+  },
+  "full_name": {
+    "id": "ext:full_name",
+    "label": "Full legal name of the individual"
+  },
+  "date_of_birth": {
+    "id": "ext:date_of_birth",
+    "label": "Date of birth of the individual",
+    "type": "xsd:date"
+  },
+  "relationship_to_insured": {
+    "id": "ext:relationship_to_insured",
+    "label": "Beneficiary relationship to the policy holder"
+  },
+  "percentage_share": {
+    "id": "ext:percentage_share",
+    "label": "Percentage of benefit amount assigned to this beneficiary"
+  },
+  "contact_phone": {
+    "id": "ext:contact_phone",
+    "label": "Contact phone number"
+  },
+  "contact_email": {
+    "id": "ext:contact_email",
+    "label": "Contact email address"
+  },
+  "identification": {
+    "id": "ext:identification",
+    "label": "Government-issued identity verification documents"
+  },
+  "trust_name": {
+    "id": "ext:trust_name",
+    "label": "Registered name of the trust"
+  },
+  "trust_registration_number": {
+    "id": "ext:trust_registration_number",
+    "label": "Official registration number of the trust"
+  },
+  "trustee_name": {
+    "id": "ext:trustee_name",
+    "label": "Full name of the trustee"
+  },
+  "trust_jurisdiction": {
+    "id": "ext:trust_jurisdiction",
+    "label": "Legal jurisdiction under which the trust is registered"
+  },
+  "trust_type": {
+    "id": "ext:trust_type",
+    "label": "Type of trust (revocable, irrevocable, charitable, etc.)"
+  },
+  "established_date": {
+    "id": "ext:established_date",
+    "label": "Date on which the trust was established",
+    "type": "xsd:date"
+  },
+  "charity_name": {
+    "id": "ext:charity_name",
+    "label": "Registered name of the charity"
+  },
+  "charity_registration_number": {
+    "id": "ext:charity_registration_number",
+    "label": "Official registration number of the charity"
+  },
+  "country_of_operation": {
+    "id": "ext:country_of_operation",
+    "label": "Primary country in which the charity operates"
+  },
+  "charity_category": {
+    "id": "ext:charity_category",
+    "label": "Category or sector of the charity"
+  },
+  "contact_representative": {
+    "id": "ext:contact_representative",
+    "label": "Name of the designated contact representative"
+  },
+  "bank_account_number": {
+    "id": "ext:bank_account_number",
+    "label": "Bank account number for benefit disbursement"
+  },
+  "first_name": {
+    "id": "ext:first_name",
+    "label": "First (given) name of the individual"
+  },
+  "last_name": {
+    "id": "ext:last_name",
+    "label": "Last (family) name of the individual"
+  },
+  "gender": {
+    "id": "ext:gender",
+    "label": "Gender of the individual"
+  },
+  "nationality": {
+    "id": "ext:nationality",
+    "label": "Nationality of the individual"
+  },
+  "place_of_birth": {
+    "id": "ext:place_of_birth",
+    "label": "City and country where the individual was born"
+  },
+  "street_address": {
+    "id": "ext:street_address",
+    "label": "Street address line"
+  },
+  "city": {
+    "id": "ext:city",
+    "label": "City or municipality"
+  },
+  "state_province": {
+    "id": "ext:state_province",
+    "label": "State or province"
+  },
+  "postal_code": {
+    "id": "ext:postal_code",
+    "label": "Postal or ZIP code"
+  },
+  "document_type_category": {
+    "id": "ext:document_type_category",
+    "label": "Broad category of government-issued document (travel, driving, identity, civil)"
+  },
+  "issuing_country": {
+    "id": "ext:issuing_country",
+    "label": "Country that issued the document"
+  },
+  "issue_date": {
+    "id": "ext:issue_date",
+    "label": "Date on which the document was issued",
+    "type": "xsd:date"
+  },
+  "expiry_date": {
+    "id": "ext:expiry_date",
+    "label": "Date on which the document expires",
+    "type": "xsd:date"
+  },
+  "verification_status": {
+    "id": "ext:verification_status",
+    "label": "Current verification status of the document (verified, pending, expired)"
+  },
+  "primary_document": {
+    "id": "ext:primary_document",
+    "label": "Primary government-issued identity document"
+  },
+  "passport_number": {
+    "id": "ext:passport_number",
+    "label": "Passport number"
+  },
+  "passport_series": {
+    "id": "ext:passport_series",
+    "label": "Passport series or book number"
+  },
+  "machine_readable_zone": {
+    "id": "ext:machine_readable_zone",
+    "label": "Machine-readable zone (MRZ) string on the passport data page"
+  },
+  "biometric_chip_present": {
+    "id": "ext:biometric_chip_present",
+    "label": "Indicates whether the passport contains a biometric chip",
+    "type": "xsd:boolean"
+  },
+  "issuing_authority": {
+    "id": "ext:issuing_authority",
+    "label": "Authority that issued the document"
+  },
+  "visa_pages_remaining": {
+    "id": "ext:visa_pages_remaining",
+    "label": "Number of blank visa pages remaining in the passport"
+  },
+  "license_number": {
+    "id": "ext:license_number",
+    "label": "Driver's license number"
+  },
+  "license_class": {
+    "id": "ext:license_class",
+    "label": "Class or category of the driver's license"
+  },
+  "restrictions_code": {
+    "id": "ext:restrictions_code",
+    "label": "Coded driving restrictions (e.g. corrective lenses required)"
+  },
+  "endorsements": {
+    "id": "ext:endorsements",
+    "label": "Additional driving endorsements on the license"
+  },
+  "issuing_state": {
+    "id": "ext:issuing_state",
+    "label": "State or province that issued the driver's license"
+  },
+  "renewal_date": {
+    "id": "ext:renewal_date",
+    "label": "Date by which the license must be renewed",
+    "type": "xsd:date"
+  },
+  "national_id_number": {
+    "id": "ext:national_id_number",
+    "label": "National identity card number"
+  },
+  "card_series": {
+    "id": "ext:card_series",
+    "label": "Series or batch identifier of the identity card"
+  },
+  "issuing_office": {
+    "id": "ext:issuing_office",
+    "label": "Government office that issued the identity card"
+  },
+  "smart_chip_present": {
+    "id": "ext:smart_chip_present",
+    "label": "Indicates whether the identity card contains a smart chip",
+    "type": "xsd:boolean"
+  },
+  "address_on_card": {
+    "id": "ext:address_on_card",
+    "label": "Residential address printed on the identity card"
+  },
+  "validity_duration_years": {
+    "id": "ext:validity_duration_years",
+    "label": "Number of years the identity card is valid from issue date"
+  },
+  "certificate_number": {
+    "id": "ext:certificate_number",
+    "label": "Birth certificate number"
+  },
+  "registration_district": {
+    "id": "ext:registration_district",
+    "label": "Administrative district where the birth was registered"
+  },
+  "registrar_name": {
+    "id": "ext:registrar_name",
+    "label": "Name of the registrar who recorded the birth"
+  },
+  "registration_date": {
+    "id": "ext:registration_date",
+    "label": "Date on which the birth was officially registered",
+    "type": "xsd:date"
+  },
+  "place_of_registration": {
+    "id": "ext:place_of_registration",
+    "label": "Place where the birth was officially registered"
+  },
+  "mother_name": {
+    "id": "ext:mother_name",
+    "label": "Full legal name of the mother as recorded on the birth certificate"
   }
 }

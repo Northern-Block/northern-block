@@ -482,7 +482,7 @@
         "coverage.LifeCoverage.beneficiary_details.TrustBeneficiary.established_date": "urn:iso:std:iso:8601",
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.GovernmentDocument.issue_date": "urn:iso:std:iso:8601",
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.GovernmentDocument.expiry_date": "urn:iso:std:iso:8601",
-        "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.GovernmentDocument.country": "urn:iso:std:iso:3166"
+        "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.GovernmentDocument.issuing_country": "urn:iso:std:iso:3166"
       }
     },
     {
@@ -574,7 +574,7 @@
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.GovernmentDocument.primary_document.BirthCertificateDoc.registrar_name",
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.GovernmentDocument.primary_document.BirthCertificateDoc.registration_date",
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.GovernmentDocument.primary_document.BirthCertificateDoc.place_of_registration",
-        "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.GovernmentDocument.primary_document.BirthCertificateDoc.mother_nam "
+        "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.GovernmentDocument.primary_document.BirthCertificateDoc.mother_name"
       ]
     },
     {
@@ -605,13 +605,13 @@
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.PersonalIdentity.gender",
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.PersonalIdentity.nationality",
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.PersonalIdentity.place_of_birth",
-        "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.PersonalIdentity.street_address",
+        "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.ContactAddress.street_address",
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.ContactAddress.city",
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.ContactAddress.state_province",
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.ContactAddress.postal_code",
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.ContactAddress.country",
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.GovernmentDocument.document_type_category",
-        "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.issuing_country",
+        "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.GovernmentDocument.issuing_country",
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.GovernmentDocument.issue_date",
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.GovernmentDocument.expiry_date",
         "coverage.LifeCoverage.beneficiary_details.IndividualBeneficiary.identification.GovernmentDocument.verification_status",

@@ -1,5 +1,5 @@
 {
-  "id": "https://Northern-Block.github.io/northern-block/local-lob/issuer-lobs/schema/insurance-policy-oca.json",
+  "id": "https://Northern-Block.github.io/northern-block/local-lob/issuer-lobs/oca/insurance-policy-oca.json",
   "capture_base": {
     "type": "spec/capture_base/1.0",
     "flagged_attributes": [

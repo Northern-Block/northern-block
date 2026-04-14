@@ -583,5 +583,73 @@
   "mother_name": {
     "id": "ext:mother_name",
     "label": "Full legal name of the mother as recorded on the birth certificate"
+  },
+  "document_issuing_country": {
+    "id": "ext:document_issuing_country",
+    "label": "document_issuing_country"
+  },
+  "document_issue_date": {
+    "id": "ext:document_issue_date",
+    "label": "document_issue_date"
+  },
+  "passport_expiry": {
+    "id": "ext:passport_expiry",
+    "label": "passport_expiry"
+  },
+  "document_issue_date": {
+    "id": "ext:document_issue_date",
+    "label": "document_issue_date"
+  },
+  "passport_expiry": {
+    "id": "ext:passport_expiry",
+    "label": "passport_expiry"
+  },
+  "license_expiry": {
+    "id": "ext:license_expiry",
+    "label": "license_expiry"
+  },
+  "issuing_state_province": {
+    "id": "ext:issuing_state_province",
+    "label": "issuing_state_province"
+  },
+  "national_id_expiry": {
+    "id": "ext:national_id_expiry",
+    "label": "national_id_expiry"
+  },
+  "charity_country": {
+    "id": "ext:charity_country",
+    "label": "charity_country"
+  },
+  "contact_person": {
+    "id": "ext:contact_person",
+    "label": "contact_person"
+  },
+  "coverageLimit": {
+    "id": "ext:coverageLimit",
+    "label": "coverageLimit"
+  },
+  "copay_amount": {
+    "id": "ext:copay_amount",
+    "label": "copay_amount"
+  },
+  "property_value": {
+    "id": "ext:property_value",
+    "label": "property_value"
+  },
+  "coverage_type": {
+    "id": "ext:coverage_type",
+    "label": "coverage_type"
+  },
+  "rebuild_cost": {
+    "id": "ext:rebuild_cost",
+    "label": "rebuild_cost"
+  },
+  "vin_number": {
+    "id": "ext:vin_number",
+    "label": "vin_number"
+  },
+  "coverage_tier": {
+    "id": "ext:coverage_tier",
+    "label": "coverage_tier"
   }
 }

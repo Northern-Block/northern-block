@@ -180,5 +180,37 @@
   "operating_office": {
     "id": "ext:operating_office",
     "label": "Operating Office"
+  },
+  "licenseDetails": {
+    "id": "ext:licenseDetails",
+    "label": "License Details"
+  },
+  "registrationNumber": {
+    "id": "ext:registrationNumber",
+    "label": "Registration Number"
+  },
+  "licensedAs": {
+    "id": "ext:licensedAs",
+    "label": "Licensed As"
+  },
+  "licenseNo": {
+    "id": "ext:licenseNo",
+    "label": "Licensed No"
+  },
+  "issuingAuthority": {
+    "id": "ext:issuingAuthority",
+    "label": "Issuing Authority"
+  },
+  "licenseId": {
+    "id": "ext:licenseId",
+    "label": "License Id"
+  },
+  "brokerName": {
+    "id": "ext:brokerName",
+    "label": "Broker Name"
+  },
+  "brokerLicenseId": {
+    "id": "ext:brokerLicenseId",
+    "label": "Broker License Id"
   }
 }

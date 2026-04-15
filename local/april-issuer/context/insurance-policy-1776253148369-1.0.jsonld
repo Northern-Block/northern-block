@@ -1,1 +1,182 @@
-{"@context":{"@version":1.1,"@protected":true,"id":"@id","type":"@type","InsurancePolicy":{"@id":"https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#InsurancePolicy","@context":{"@version":1.1,"@protected":true,"id":"@id","type":"@type","policy_start_date":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#policy_start_date","policy_holder_name":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#policy_holder_name","currency":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#currency","policy_number":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#policy_number","premium_amount":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#premium_amount","policy_end_date":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#policy_end_date","coverage":{"@id":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#coverage","@context":{"@version":1.1,"@protected":true,"id":"@id","type":"@type","LifeCoverage":{"@id":"https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#LifeCoverage"},"HealthCoverage":{"@id":"https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#HealthCoverage"},"PropertyCoverage":{"@id":"https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#PropertyCoverage"},"AutoCoverage":{"@id":"https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#AutoCoverage"},"sum_assured":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#sum_assured","policy_term_years":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#policy_term_years","death_benefit":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#death_benefit","surrender_value":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#surrender_value","maturity_benefit":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#maturity_benefit","premium_frequency":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#premium_frequency","beneficiary_details":{"@id":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#beneficiary_details","@context":{"@version":1.1,"@protected":true,"id":"@id","type":"@type","IndividualBeneficiary":{"@id":"https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#IndividualBeneficiary"},"TrustBeneficiary":{"@id":"https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#TrustBeneficiary"},"CharityBeneficiary":{"@id":"https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#CharityBeneficiary"},"full_name":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#full_name","relationship_to_insured":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#relationship_to_insured","percentage_share":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#percentage_share","contact_email":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#contact_email","contact_phone":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#contact_phone","date_of_birth":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#date_of_birth","identification":{"@id":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#identification","@context":{"@version":1.1,"@protected":true,"id":"@id","type":"@type","PersonalIdentity":{"@id":"https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#PersonalIdentity"},"ContactAddress":{"@id":"https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#ContactAddress"},"GovernmentDocument":{"@id":"https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#GovernmentDocument"},"place_of_birth":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#place_of_birth","last_name":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#last_name","first_name":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#first_name","gender":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#gender","nationality":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#nationality","street_address":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#street_address","city":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#city","postal_code":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#postal_code","state_province":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#state_province","country":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#country","issuing_country":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#issuing_country","expiry_date":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#expiry_date","issue_date":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#issue_date","verification_status":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#verification_status","document_type_category":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#document_type_category","primary_document":{"@id":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#primary_document","@context":{"@version":1.1,"@protected":true,"id":"@id","type":"@type","PassportDoc":{"@id":"https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#PassportDoc"},"DriversLicenseDoc":{"@id":"https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#DriversLicenseDoc"},"NationalIdDoc":{"@id":"https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#NationalIdDoc"},"BirthCertificateDoc":{"@id":"https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#BirthCertificateDoc"},"passport_number":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#passport_number","passport_series":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#passport_series","issuing_authority":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#issuing_authority","visa_pages_remaining":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#visa_pages_remaining","machine_readable_zone":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#machine_readable_zone","biometric_chip_present":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#machine_readable_zone","license_number":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#license_number","renewal_date":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#renewal_date","issuing_state":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#issuing_state","license_class":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#license_class","endorsements":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#endorsements","restrictions_code":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#restrictions_code","national_id_number":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#national_id_number","card_series":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#card_series","issuing_office":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#issuing_office","address_on_card":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#address_on_card","smart_chip_present":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#smart_chip_present","validity_duration_years":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#validity_duration_years","certificate_number":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#certificate_number","registration_district":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#registration_district","place_of_registration":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#place_of_registration","mother_name":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#mother_name","registrar_name":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#registrar_name","registration_date":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#registration_date"}}}},"trust_name":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#trust_name","trust_registration_number":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#trust_registration_number","trust_type":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#trust_type","established_date":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#established_date","trustee_name":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#trustee_name","trust_jurisdiction":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#trust_jurisdiction","charity_name":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#charity_name","charity_registration_number":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#charity_registration_number","charity_category":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#charity_category","bank_account_number":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#bank_account_number","country_of_operation":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#country_of_operation","contact_representative":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#contact_representative"}},"network_type":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#network_type","sum_insured":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#sum_insured","deductible_amount":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#deductible_amount","pre_existing_conditions_covered":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#pre_existing_conditions_covered","copay_percentage":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#copay_percentage","waiting_period_days":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#waiting_period_days","property_address":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#property_address","property_type":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#property_type","building_value":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#building_value","contents_value":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#contents_value","flood_zone":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#flood_zone","location_risk_grade":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#location_risk_grade","vehicle_make":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#vehicle_make","vehicle_model":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#vehicle_model","vehicle_year":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#vehicle_year","liability_limit":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#liability_limit","collision_deductible":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#collision_deductible","vehicle_registration":"https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#vehicle_registration"}}}}}}
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "InsurancePolicy": {
+            "@id": "https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#InsurancePolicy",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "policy_start_date": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#policy_start_date",
+                "policy_holder_name": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#policy_holder_name",
+                "currency": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#currency",
+                "policy_number": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#policy_number",
+                "premium_amount": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#premium_amount",
+                "policy_end_date": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#policy_end_date",
+                "coverage": {
+                    "@id": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#coverage",
+                    "@context": {
+                        "@version": 1.1,
+                        "@protected": true,
+                        "id": "@id",
+                        "type": "@type",
+                        "LifeCoverage": {
+                            "@id": "https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#LifeCoverage"
+                        },
+                        "HealthCoverage": {
+                            "@id": "https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#HealthCoverage"
+                        },
+                        "PropertyCoverage": {
+                            "@id": "https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#PropertyCoverage"
+                        },
+                        "AutoCoverage": {
+                            "@id": "https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#AutoCoverage"
+                        },
+                        "sum_assured": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#sum_assured",
+                        "policy_term_years": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#policy_term_years",
+                        "death_benefit": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#death_benefit",
+                        "surrender_value": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#surrender_value",
+                        "maturity_benefit": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#maturity_benefit",
+                        "premium_frequency": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#premium_frequency",
+                        "beneficiary_details": {
+                            "@id": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#beneficiary_details",
+                            "@context": {
+                                "@version": 1.1,
+                                "@protected": true,
+                                "id": "@id",
+                                "type": "@type",
+                                "IndividualBeneficiary": {
+                                    "@id": "https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#IndividualBeneficiary"
+                                },
+                                "TrustBeneficiary": {
+                                    "@id": "https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#TrustBeneficiary"
+                                },
+                                "CharityBeneficiary": {
+                                    "@id": "https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#CharityBeneficiary"
+                                },
+                                "full_name": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#full_name",
+                                "relationship_to_insured": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#relationship_to_insured",
+                                "percentage_share": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#percentage_share",
+                                "contact_email": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#contact_email",
+                                "contact_phone": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#contact_phone",
+                                "date_of_birth": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#date_of_birth",
+                                "identification": {
+                                    "@id": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#identification",
+                                    "@context": {
+                                        "@version": 1.1,
+                                        "@protected": true,
+                                        "id": "@id",
+                                        "type": "@type",
+                                        "PersonalIdentity": {
+                                            "@id": "https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#PersonalIdentity"
+                                        },
+                                        "ContactAddress": {
+                                            "@id": "https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#ContactAddress"
+                                        },
+                                        "GovernmentDocument": {
+                                            "@id": "https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#GovernmentDocument"
+                                        },
+                                        "place_of_birth": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#place_of_birth",
+                                        "last_name": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#last_name",
+                                        "first_name": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#first_name",
+                                        "gender": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#gender",
+                                        "nationality": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#nationality",
+                                        "street_address": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#street_address",
+                                        "city": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#city",
+                                        "postal_code": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#postal_code",
+                                        "state_province": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#state_province",
+                                        "country": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#country",
+                                        "issuing_country": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#issuing_country",
+                                        "expiry_date": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#expiry_date",
+                                        "issue_date": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#issue_date",
+                                        "verification_status": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#verification_status",
+                                        "document_type_category": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#document_type_category",
+                                        "primary_document": {
+                                            "@id": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#primary_document",
+                                            "@context": {
+                                                "@version": 1.1,
+                                                "@protected": true,
+                                                "id": "@id",
+                                                "type": "@type",
+                                                "PassportDoc": {
+                                                    "@id": "https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#PassportDoc"
+                                                },
+                                                "DriversLicenseDoc": {
+                                                    "@id": "https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#DriversLicenseDoc"
+                                                },
+                                                "NationalIdDoc": {
+                                                    "@id": "https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#NationalIdDoc"
+                                                },
+                                                "BirthCertificateDoc": {
+                                                    "@id": "https://Northern-Block.github.io/northern-block/local/april-issuer/context/insurance-policy-1776253148369-1.0.jsonld#BirthCertificateDoc"
+                                                },
+                                                "passport_number": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#passport_number",
+                                                "passport_series": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#passport_series",
+                                                "issuing_authority": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#issuing_authority",
+                                                "visa_pages_remaining": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#visa_pages_remaining",
+                                                "machine_readable_zone": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#machine_readable_zone",
+                                                "biometric_chip_present": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#biometric_chip_present",
+                                                "license_number": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#license_number",
+                                                "renewal_date": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#renewal_date",
+                                                "issuing_state": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#issuing_state",
+                                                "license_class": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#license_class",
+                                                "endorsements": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#endorsements",
+                                                "restrictions_code": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#restrictions_code",
+                                                "national_id_number": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#national_id_number",
+                                                "card_series": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#card_series",
+                                                "issuing_office": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#issuing_office",
+                                                "address_on_card": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#address_on_card",
+                                                "smart_chip_present": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#smart_chip_present",
+                                                "validity_duration_years": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#validity_duration_years",
+                                                "certificate_number": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#certificate_number",
+                                                "registration_district": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#registration_district",
+                                                "place_of_registration": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#place_of_registration",
+                                                "mother_name": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#mother_name",
+                                                "registrar_name": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#registrar_name",
+                                                "registration_date": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#registration_date"
+                                            }
+                                        }
+                                    }
+                                },
+                                "trust_name": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#trust_name",
+                                "trust_registration_number": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#trust_registration_number",
+                                "trust_type": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#trust_type",
+                                "established_date": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#established_date",
+                                "trustee_name": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#trustee_name",
+                                "trust_jurisdiction": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#trust_jurisdiction",
+                                "charity_name": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#charity_name",
+                                "charity_registration_number": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#charity_registration_number",
+                                "charity_category": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#charity_category",
+                                "bank_account_number": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#bank_account_number",
+                                "country_of_operation": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#country_of_operation",
+                                "contact_representative": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#contact_representative"
+                            }
+                        },
+                        "network_type": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#network_type",
+                        "sum_insured": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#sum_insured",
+                        "deductible_amount": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#deductible_amount",
+                        "pre_existing_conditions_covered": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#pre_existing_conditions_covered",
+                        "copay_percentage": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#copay_percentage",
+                        "waiting_period_days": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#waiting_period_days",
+                        "property_address": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#property_address",
+                        "property_type": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#property_type",
+                        "building_value": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#building_value",
+                        "contents_value": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#contents_value",
+                        "flood_zone": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#flood_zone",
+                        "location_risk_grade": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#location_risk_grade",
+                        "vehicle_make": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#vehicle_make",
+                        "vehicle_model": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#vehicle_model",
+                        "vehicle_year": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#vehicle_year",
+                        "liability_limit": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#liability_limit",
+                        "collision_deductible": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#collision_deductible",
+                        "vehicle_registration": "https://Northern-Block.github.io/northern-block/test-jsonld/vocab.jsonld#vehicle_registration"
+                    }
+                }
+            }
+        }
+    }
+}

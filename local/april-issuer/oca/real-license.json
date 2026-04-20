@@ -1,0 +1,129 @@
+{
+  "id": "https://Northern-Block.github.io/northern-block/local/april-issuer/oca/real-license.json",
+  "capture_base": {
+    "type": "spec/capture_base/1.0",
+    "attributes": {
+      "first_name":    "Text",
+      "last_name":     "Text",
+      "email_address": "Text",
+      "registration_number": "Text",
+      "licensed_as": "Text"
+    },
+    "flagged_attributes": []
+  },
+  "overlays": [
+    {
+      "type": "spec/overlays/character_encoding/1.0",
+      "attribute_character_encoding": {
+        "first_name":    "utf-8",
+        "last_name":     "utf-8",
+        "email_address": "utf-8",
+        "registration_number": "utf-8",
+        "licensed_as":         "utf-8"
+      }
+    },
+    {
+      "type": "spec/overlays/attribute_order/1.0",
+      "order": [
+        "first_name",
+        "last_name",
+        "email_address",
+        "registration_number",
+        "licensed_as"
+      ]
+    },
+    {
+      "type": "spec/overlays/label/1.0",
+      "language": "en",
+      "attribute_labels": {
+        "first_name":    "First Name",
+        "last_name":     "Last Name",
+        "email_address": "Email Address",
+        "registration_number": "Registration Number",
+        "licensed_as":         "Licensed As"
+      }
+    },
+    {
+      "type": "spec/overlays/category/1.0",
+      "language": "en",
+      "category_labels": {
+        "personal":  "Personal Information"
+      },
+      "attribute_categories": {
+        "first_name":    "personal",
+        "last_name":     "personal",
+        "email_address": "personal",
+        "registration_number": "personal",
+        "licensed_as":         "personal"
+      }
+    },
+    {
+      "type": "spec/overlays/visibility/1.0",
+      "summary": [
+        "first_name",
+        "last_name"
+      ],
+      "details": [
+        "email_address",
+        "registration_number",
+        "licensed_as"
+      ]
+    },
+    {
+      "type": "spec/overlays/information/1.0",
+      "language": "en",
+      "attribute_information": {
+        "first_name":    "The person's first name",
+        "last_name":     "The person's last name",
+        "email_address": "The person's email address",
+        "registration_number": "The person's license registration number issued by RECO",
+        "licensed_as":         "The person's licensed role (e.g. Salesperson, Broker)"
+      }
+    },
+    {
+      "type": "spec/overlays/format/1.0",
+      "attribute_formats": {
+      }
+    },
+    {
+      "type": "spec/overlays/standard/1.0",
+      "attribute_standards": {
+      }
+    },
+    {
+      "type": "spec/overlays/card/1.0",
+      "language": "en",
+      "title": "Real Estate License",
+      "subtitle": "Verifiable Credential",
+      "layout": {
+        "front": {
+          "fields": ["first_name", "last_name"]
+        },
+        "back": {
+          "fields": [
+            "email_address",
+            "registration_number",
+            "licensed_as"
+          ]
+        }
+      }
+    },
+    {
+      "type": "spec/overlays/branding/1.0",
+      "primary_background_color": "#1A3C5E",
+      "secondary_background_color": "#E8F0F8",
+      "logo": "https://example.org/logo/real-estate-license.png",
+      "primary_attribute": "first_name",
+      "secondary_attribute": "last_name"
+    },
+    {
+      "type": "spec/overlays/meta/1.0",
+      "language": "en",
+      "name": "Real Estate License",
+      "description": "A verifiable credential representing a real estate professional's license details.",
+      "issuer": "Northern Block",
+      "issuer_url": "https://northernblock.io",
+      "credential_support_url": "https://northernblock.io/support"
+    }
+  ]
+}

@@ -651,5 +651,9 @@
   "coverage_tier": {
     "id": "ext:coverage_tier",
     "label": "coverage_tier"
+  },
+  "registration_number": {
+    "id": "ext:registration_number",
+    "label": "registration_number"
   }
 }

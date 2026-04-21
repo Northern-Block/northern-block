@@ -1,1 +1,90 @@
-{"$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://Northern-Block.github.io/northern-block/cornerstone-mvp/cornerstone-mvp/w3cSchema/property-access-authorization-1774969615963-1.0.json","title":"property_access_authorization","type":"object","properties":{"authorization_id":{"type":"string","title":"Authorization ID","description":"Platform-generated unique identifier for this authorization.","minLength":1,"maxLength":50},"homeowner_id":{"type":"string","title":"Homeowner ID","description":"Cornerstone ID (DID/URI) of the homeowner granting access to their property portfolio data.","minLength":1,"maxLength":50},"pid":{"type":"string","title":"PID","description":"Provincial land title Parcel Identifier for the property this authorization applies to. Resolves to the specific property without duplicating address data.","minLength":5,"maxLength":300},"data_scope":{"type":"string","title":"Data Scope","description":"Array of data category identifiers the recipient is authorized to access. See Enumerated Values for valid options.","minLength":1,"maxLength":255},"authorization_purpose":{"type":"string","title":"Authorization Purpose","description":"Human-readable statement of the intent behind the data sharing authorization.","minLength":5,"maxLength":150},"access_level":{"type":"string","title":"Access Level","description":"Permission tier defining what the recipient can do with the accessed data.","minLength":4,"maxLength":50},"start_date":{"type":"string","title":"Start Date","description":"Date from which the authorization is valid, in ISO 8601 format.","pattern":"YYYYMMDD"},"expiration_date":{"type":"string","title":"Expiration Date","description":"Optional end date for the authorization. Null means the authorization remains valid until explicitly revoked.","pattern":"YYYYMMDD"},"authorization_evidence":{"type":"string","title":"Authorization Evidence","description":"URI reference to the homeowner action log entry documenting consent.","minLength":5,"maxLength":150},"relationship_category":{"type":"string","title":"Relationship Category","description":"The trust network member's relationship type to the homeowner.","minLength":5,"maxLength":150}},"required":["id","authorization_id","homeowner_id","pid","data_scope","authorization_purpose","access_level","start_date","authorization_evidence","relationship_category"],"additionalProperties":false,"$defs":{}}
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://Northern-Block.github.io/northern-block/cornerstone-mvp/cornerstone-mvp/w3cSchema/property-access-authorization-1774969615963-1.0.json",
+    "title": "property_access_authorization",
+    "type": "object",
+    "properties": {
+        "authorization_id": {
+            "type": "string",
+            "title": "Authorization ID",
+            "description": "Platform-generated unique identifier for this authorization.",
+            "minLength": 1,
+            "maxLength": 50
+        },
+        "homeowner_id": {
+            "type": "string",
+            "title": "Homeowner ID",
+            "description": "Cornerstone ID (DID/URI) of the homeowner granting access to their property portfolio data.",
+            "minLength": 1,
+            "maxLength": 50
+        },
+        "pid": {
+            "type": "string",
+            "title": "PID",
+            "description": "Provincial land title Parcel Identifier for the property this authorization applies to. Resolves to the specific property without duplicating address data.",
+            "minLength": 5,
+            "maxLength": 300
+        },
+        "data_scope": {
+            "type": "string",
+            "title": "Data Scope",
+            "description": "Array of data category identifiers the recipient is authorized to access. See Enumerated Values for valid options.",
+            "minLength": 1,
+            "maxLength": 255
+        },
+        "authorization_purpose": {
+            "type": "string",
+            "title": "Authorization Purpose",
+            "description": "Human-readable statement of the intent behind the data sharing authorization.",
+            "minLength": 5,
+            "maxLength": 150
+        },
+        "access_level": {
+            "type": "string",
+            "title": "Access Level",
+            "description": "Permission tier defining what the recipient can do with the accessed data.",
+            "minLength": 4,
+            "maxLength": 50
+        },
+        "start_date": {
+            "type": "string",
+            "title": "Start Date",
+            "description": "Date from which the authorization is valid, in ISO 8601 format.",
+            "pattern": "YYYY-MM-DD"
+        },
+        "expiration_date": {
+            "type": "string",
+            "title": "Expiration Date",
+            "description": "Optional end date for the authorization. Null means the authorization remains valid until explicitly revoked.",
+            "pattern": "YYYY-MM-DD"
+        },
+        "authorization_evidence": {
+            "type": "string",
+            "title": "Authorization Evidence",
+            "description": "URI reference to the homeowner action log entry documenting consent.",
+            "minLength": 5,
+            "maxLength": 150
+        },
+        "relationship_category": {
+            "type": "string",
+            "title": "Relationship Category",
+            "description": "The trust network member's relationship type to the homeowner.",
+            "minLength": 5,
+            "maxLength": 150
+        }
+    },
+    "required": [
+        "id",
+        "authorization_id",
+        "homeowner_id",
+        "pid",
+        "data_scope",
+        "authorization_purpose",
+        "access_level",
+        "start_date",
+        "authorization_evidence",
+        "relationship_category"
+    ],
+    "additionalProperties": false,
+    "$defs": {}
+}

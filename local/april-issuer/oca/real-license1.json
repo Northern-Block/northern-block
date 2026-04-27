@@ -5,7 +5,7 @@
     "attributes": {
       "first_name":    "Text",
       "last_name":     "Text",
-      "email_address": "Text",
+      "dob_dateint": "Text",
       "registration_number": "Text"
     },
     "flagged_attributes": []
@@ -16,7 +16,7 @@
       "attribute_character_encoding": {
         "first_name":    "utf-8",
         "last_name":     "utf-8",
-        "email_address": "utf-8",
+        "dob_dateint": "utf-8",
         "registration_number": "utf-8"
       }
     },
@@ -25,7 +25,7 @@
       "order": [
         "first_name",
         "last_name",
-        "email_address",
+        "dob_dateint",
         "registration_number"
       ]
     },
@@ -35,7 +35,7 @@
       "attribute_labels": {
         "first_name":    "First Name",
         "last_name":     "Last Name",
-        "email_address": "Email Address",
+        "dob_dateint": "Email Address",
         "registration_number": "Registration Number"
       }
     },
@@ -48,7 +48,7 @@
       "attribute_categories": {
         "first_name":    "personal",
         "last_name":     "personal",
-        "email_address": "personal",
+        "dob_dateint": "personal",
         "registration_number": "personal"
       }
     },
@@ -59,7 +59,7 @@
         "last_name"
       ],
       "details": [
-        "email_address",
+        "dob_dateint",
         "registration_number"
       ]
     },
@@ -69,7 +69,7 @@
       "attribute_information": {
         "first_name":    "The person's first name",
         "last_name":     "The person's last name",
-        "email_address": "The person's email address",
+        "dob_dateint": "The person's email address",
         "registration_number": "The person's license registration number issued by RECO"
       }
     },
@@ -94,7 +94,7 @@
         },
         "back": {
           "fields": [
-            "email_address",
+            "dob_dateint",
             "registration_number"
           ]
         }

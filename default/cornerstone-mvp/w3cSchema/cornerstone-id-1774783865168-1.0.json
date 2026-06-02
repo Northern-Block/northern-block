@@ -65,12 +65,8 @@
         "id",
         "given_names",
         "family_name",
-        "birthdate",
         "verified_email",
-        "verified_phone",
-        "postal_address",
-        "cornerstone_user_id",
-        "identity_evidence"
+        "cornerstone_user_id"
     ],
     "additionalProperties": false,
     "$defs": {}

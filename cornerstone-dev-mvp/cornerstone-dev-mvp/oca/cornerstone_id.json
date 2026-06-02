@@ -111,13 +111,11 @@
     {
       "type": "spec/overlays/format/1.0",
       "attribute_formats": {
-         "birthdate": "YYYY-MM-DD"
       }
     },
     {
       "type": "spec/overlays/standard/1.0",
       "attribute_standards": {
-        "birthdate": "urn:iso:std:iso:1989"
       }
     },
     {

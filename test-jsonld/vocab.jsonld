@@ -655,5 +655,81 @@
   "registration_number": {
     "id": "ext:registration_number",
     "label": "registration_number"
+  },
+  "name": {
+    "id": "ext:name",
+    "label": "name"
+  },
+  "description": {
+    "id": "ext:description",
+    "label": "description"
+  },
+  "imageData": {
+    "id": "ext:imageData",
+    "label": "imageData"
+  },
+  "mediaType": {
+    "id": "ext:mediaType",
+    "label": "mediaType"
+  },
+  "code": {
+    "id": "ext:code",
+    "label": "code"
+  },
+  "rank": {
+    "id": "ext:rank",
+    "label": "rank"
+  },
+  "definition": {
+    "id": "ext:definition",
+    "label": "definition"
+  },
+  "assessorLevel": {
+    "id": "ext:assessorLevel",
+    "label": "assessorLevel"
+  },
+  "registeredId": {
+    "id": "ext:registeredId",
+    "label": "registeredId"
+  },
+  "linkURL": {
+    "id": "ext:linkURL",
+    "label": "linkURL"
+  },
+  "linkName": {
+    "id": "ext:linkName",
+    "label": "linkName"
+  },
+  "linkType": {
+    "id": "ext:linkType",
+    "label": "linkType"
+  },
+  "assessmentLevel": {
+    "id": "ext:assessmentLevel",
+    "label": "assessmentLevel"
+  },
+  "attestationType": {
+    "id": "ext:attestationType",
+    "label": "attestationType"
+  },
+  "conformance": {
+    "id": "ext:conformance",
+    "label": "conformance"
+  },
+  "assessmentDate": {
+    "id": "ext:assessmentDate",
+    "label": "assessmentDate"
+  },
+  "idVerifiedByCAB": {
+    "id": "ext:idVerifiedByCAB",
+    "label": "idVerifiedByCAB"
+  },
+  "unit": {
+    "id": "ext:unit",
+    "label": "unit"
+  },
+  "value": {
+    "id": "ext:value",
+    "label": "value"
   }
 }

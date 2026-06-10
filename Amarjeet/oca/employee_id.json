@@ -8,7 +8,8 @@
       "position": "Text",
       "date_of_joining": "DateTime",
       "email": "Text",
-      "phone_number": "Text"
+      "phone_number": "Text",
+      "manager_name": "Text"
     },
     "classification": "",
     "digest": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
@@ -28,7 +29,8 @@
         "position": "utf-8",
         "date_of_joining": "utf-8",
         "email": "utf-8",
-        "phone_number": "utf-8"
+        "phone_number": "utf-8",
+        "manager_name": "utf-8"
       },
       "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
       "default_character_encoding": "utf-8",
@@ -45,7 +47,8 @@
         "position": "Position",
         "date_of_joining": "Date of Joining",
         "email": "Email Address",
-        "phone_number": "Phone Number"
+        "phone_number": "Phone Number",
+        "manager_name": "Manager Name"
       },
       "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
       "category_labels": {},
@@ -62,7 +65,8 @@
         "position": "Position",
         "date_of_joining": "Date of Joining",
         "email": "Email Address",
-        "phone_number": "Phone Number"
+        "phone_number": "Phone Number",
+        "manager_name": "Manager Name"
       },
       "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
       "digest": "Eybxa0t_Z04GnHkWyYNqjBV5zuRkmLTrfgRtAnHsDP0g",

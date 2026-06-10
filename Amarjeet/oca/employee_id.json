@@ -11,11 +11,10 @@
       "phone_number": "Text"
     },
     "classification": "",
+    "digest": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
     "flagged_attributes": [
       "first_name",
-      "last_name",
-      "email",
-      "phone_number"
+      "last_name"
     ],
     "type": "spec/capture_base/1.0"
   },
@@ -31,7 +30,9 @@
         "email": "utf-8",
         "phone_number": "utf-8"
       },
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
       "default_character_encoding": "utf-8",
+      "digest": "EggyBX7giHwyps3AX9ubYZnjfVspL0KqxFV4eFOPm5gE",
       "type": "spec/overlays/character_encoding/1.0"
     },
     {
@@ -46,21 +47,25 @@
         "email": "Email Address",
         "phone_number": "Phone Number"
       },
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
       "category_labels": {},
+      "digest": "ESJNm1_sybFWaY263eHkyeOVp79aKd2v7LgVcBfF-_OY",
       "language": "en",
       "type": "spec/overlays/label/1.0"
     },
     {
       "attribute_information": {
-        "employee_id": "Unique employee identifier assigned by the organization.",
-        "first_name": "Employee's first name.",
-        "last_name": "Employee's last name.",
-        "department": "Department where the employee works.",
-        "position": "Current job title or designation.",
-        "date_of_joining": "Date when the employee joined the organization.",
-        "email": "Official employee email address.",
-        "phone_number": "Employee contact phone number."
+        "employee_id": "Employee ID",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "department": "Department",
+        "position": "Position",
+        "date_of_joining": "Date of Joining",
+        "email": "Email Address",
+        "phone_number": "Phone Number"
       },
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "digest": "Eybxa0t_Z04GnHkWyYNqjBV5zuRkmLTrfgRtAnHsDP0g",
       "language": "en",
       "type": "spec/overlays/information/1.0"
     },
@@ -68,34 +73,41 @@
       "attribute_formats": {
         "date_of_joining": "YYYYMMDD"
       },
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "digest": "EEfZ7EXB9VIVO2rmHU2TEg-12SMiM2RH5o-ADePYDJvI",
       "type": "spec/overlays/format/1.0"
     },
     {
       "attribute_standards": {
         "date_of_joining": "urn:iso:std:iso:1989"
       },
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "digest": "EKDaCg0RiGNDfigqAvpeoYbug6doKrmS1M-a0eWVkh4M",
       "type": "spec/overlays/standard/1.0"
     },
     {
-      "credential_support_url": "https://example.com/support",
-      "description": "A digital employee identity credential issued by an organization to verify employee affiliation, role, and employment details.",
-      "issuer": "Example Organization",
-      "issuer_description": "Human Resources Department",
-      "issuer_url": "https://example.com",
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "credential_support_url": "https://vancouver.ca/",
+      "description": "A City of Vancouver digital credential that represents a valid municipal business licence for operating a rental property.",
+      "digest": "EH-csJIS8NWowtDx-AH9R8wANPIIT9doKGdF1cikm9VE",
+      "issuer": "City of Vancouver (DEV)",
+      "issuer_description": "City of Vancouver",
+      "issuer_url": "https://vancouver.ca/",
       "language": "en",
-      "name": "Employee ID Credential",
+      "name": "Rental Property Business Licence",
       "type": "spec/overlays/meta/1.0",
       "watermark": "DEMONSTRATION"
     },
     {
-      "logo": "https://example.com/assets/logo.png",
-      "background_image_slice": "https://example.com/assets/background-slice.jpg",
-      "background_image": "https://example.com/assets/background.jpg",
-      "primary_background_color": "#003366",
-      "secondary_background_color": "#0066CC",
+      "logo": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/CityOfVancouver/dev-property-rental-business-licence/cov-logo.jpg",
+      "background_image_slice": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/CityOfVancouver/dev-property-rental-business-licence/cov-background-slice.jpg",
+      "background_image": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/CityOfVancouver/dev-property-rental-business-licence/cov-background-image.jpg",
+      "primary_background_color": "#015982",
+      "secondary_background_color": "#4B8516",
+      "capture_base": "EVgS6SlMfl8pc-flF55tVON6alOpUsFyVgVofIPbK2AE",
+      "digest": "EBQbQEV6qSEGDzGLj1CqT4e6yzESjPimF-Swmyltw5jU",
       "primary_attribute": "first_name",
       "secondary_attribute": "last_name",
-      "expiry_date_attribute": "",
       "type": "spec/overlays/branding/1.0"
     }
   ]

@@ -113,7 +113,7 @@
                     "type": "string",
                     "title": "License Number",
                     "description": "The professional's BC real estate license number, issued by the regulatory authority.",
-                    "minLength": 50,
+                    "minLength": 6,
                     "maxLength": 50
                 },
                 "license_effective_date": {

@@ -101,7 +101,6 @@
                 }
             },
             "required": [
-                "franchise",
                 "operating_address"                
             ],
             "additionalProperties": false
